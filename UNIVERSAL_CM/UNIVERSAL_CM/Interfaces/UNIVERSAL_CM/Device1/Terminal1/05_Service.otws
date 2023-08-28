@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="05_Service" Version="1.0.0">
+  <Mask Name="REF_ServiceMask" Type="Normal" X="0" Y="0" Color="245, 222, 179" Foreground="138, 43, 226">
+    <Fields />
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="DOWN_button" />
+      <KeyBinding Key="PRG" BindOn="PRG_button" />
+      <KeyBinding Key="ENTER" BindOn="ENTER_button" />
+      <KeyBinding Key="UP" BindOn="UP_button" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="AlrmLog_Cleared" Type="Normal" X="2" Y="2" Color="255, 255, 0">
+    <Fields>
+      <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Image" Name="Image_2" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Text" Name="Text_1" Row="7" Column="1" Content="HaÊa·: ¾¿aÆ¼Ça ESC" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="6" Content="­H¦MAH¦E!" />
+      <Field Type="Text" Name="Text_3" Row="3" Column="4" Content="§ÅÃúa¿ aÆaÃ¼É" />
+      <Field Type="Text" Name="Text_4" Row="4" Column="5" Content="  oÂ¼È¸ú!" />
+      <Field Type="Variable" Name="Variable_2" Row="0" Column="20" Content="DTPopUp" Class="DTPopUp_Class" Format="o2" Min="0" Max="99" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="ALARM" BindOn="DoNothing" />
+      <KeyBinding Key="DOWN" BindOn="DoNothing" />
+      <KeyBinding Key="ENTER" BindOn="DoNothing" />
+      <KeyBinding Key="PRG" BindOn="DoNothing" />
+      <KeyBinding Key="UP" BindOn="DoNothing" />
+      <KeyBinding Key="ESC" BindOn="PopUp_ESC" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="IO_DI" Type="Normal" X="0" Y="2" Color="255, 69, 0" Foreground="0, 255, 255" ReferToMask="">
+    <Fields>
+      <Field Type="Variable" Name="Variable_10" Row="2" Column="1" Content="Display.Descr[1]" Class="Wide_DInDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="10" />
+      <Field Type="Variable" Name="Variable_41" Row="1" Column="0" Content="CurRow" Class="Test_CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_43" Row="4" Column="0" Content="CurRow" Class="Test_CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_21" Row="0" Column="20" Content="cnt_Items" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="/" />
+      <Field Type="Variable" Name="Variable_22" Row="0" Column="17" Content="mask_List_pos" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Variable" Name="Variable_2" Row="0" Column="0" Content="Display.MaskHeader" Class="Main_MenuDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="36" />
+      <Field Type="Variable" Name="Variable_4" Row="4" Column="9" Content="Display.Descr[2]" Class="IO_Numbers_Class" Format="o2" Min="0" Max="99" SimulationValue="1" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_5" Row="5" Column="0" Content="CurRow" Class="Test_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable" Row="6" Column="17" Content="Display.value_BOOL[2]" Class="BOOL_CHANGE_2" Format="o3" Min="0" Max="255" SimulationValue="2" />
+      <Field Type="Text" Name="Text_3" Row="6" Column="2" Content="CÄaÄÅc:" />
+      <Field Type="Text" Name="Text_4" Row="4" Column="2" Content="­xo·  :" />
+      <Field Type="Text" Name="Text_5" Row="1" Column="2" Content="C¼ºúa¿:" />
+      <Field Type="Variable" Name="Variable_3" Row="6" Column="0" Content="CurRow" Class="Test_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_6" Row="5" Column="2" Content="P¸½¼À :" />
+      <Field Type="Variable" Name="Variable_8" Row="5" Column="16" Content="Display.value_BOOL[1]" Min="0" Max="9" Class="ManualMode_Class" Format="o1" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_6" Row="6" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_7" Row="5" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_9" Row="5" Column="14" Content="CurRow_modePRG" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_11" Row="6" Column="14" Content="CurRow_modePRG" Class="CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+      <Field Type="Text" Name="Text_7" Row="7" Column="2" Content="¦úÆ¸Ã.:" />
+      <Field Type="Variable" Name="Variable_12" Row="7" Column="0" Content="CurRow" Class="Test_CURROW_5" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_13" Row="7" Column="14" Content="CurRow_modePRG" Class="CURROW_5" Format="o1" Min="0" Max="9" SimulationValue="5" />
+      <Field Type="Variable" Name="Variable_15" Row="7" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_5" Format="o1" Min="0" Max="9" SimulationValue="5" />
+      <Field Type="Variable" Name="Variable_14" Row="7" Column="17" Content="Display.value_BOOL[3]" Min="0" Max="9" Class="YesNo_Class" Format="o1" SimulationValue="0" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="IO_DOWN" />
+      <KeyBinding Key="UP" BindOn="IO_UP" />
+      <KeyBinding Key="ENTER" BindOn="IO_ENTER" />
+      <KeyBinding Key="PRG" BindOn="IO_PRG" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="IO_AI" Type="Normal" X="0" Y="3" Color="255, 69, 0" Foreground="0, 255, 255" ReferToMask="">
+    <Fields>
+      <Field Type="Variable" Name="Variable_10" Row="2" Column="1" Content="Display.Descr[1]" Class="Wide_AInDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_12" Row="4" Column="9" Content="Display.Descr[2]" Class="IO_Numbers_Class" Format="o2" Min="0" Max="99" SimulationValue="54" />
+      <Field Type="Variable" Name="Variable_41" Row="1" Column="0" Content="CurRow" Class="Test_CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_21" Row="0" Column="20" Content="cnt_Items" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="/" />
+      <Field Type="Variable" Name="Variable_2" Row="0" Column="0" Content="Display.MaskHeader" Class="Main_MenuDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="37" />
+      <Field Type="Variable" Name="Variable_3" Row="4" Column="0" Content="CurRow" Class="Test_CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_7" Row="0" Column="17" Content="mask_List_pos" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Variable" Name="Variable_8" Row="6" Column="0" Content="CurRow" Class="Test_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_6" Row="6" Column="2" Content="±úaÂ. :" />
+      <Field Type="Variable" Name="Variable" Row="6" Column="18" Content="Display.UoM[1]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_4" Row="1" Column="2" Content="C¼ºúa¿:" />
+      <Field Type="Text" Name="Text_5" Row="4" Column="2" Content="­xo·  :" />
+      <Field Type="Variable" Name="Variable_5" Row="6" Column="14" Content="Display.value_INT[1]" Class="INT_CHANGE_1" Format="o4" Min="0" Max="9999" />
+      <Field Type="Variable" Name="Variable_6" Row="5" Column="0" Content="CurRow" Class="Test_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_3" Row="5" Column="2" Content="P¸½¼À :" />
+      <Field Type="Variable" Name="Variable_11" Row="5" Column="16" Content="Display.value_BOOL[1]" Min="0" Max="1" Class="ManualMode_Class" Format="o1" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_9" Row="6" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_13" Row="5" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_14" Row="5" Column="14" Content="CurRow_modePRG" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_15" Row="6" Column="12" Content="CurRow_modePRG" Class="CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_16" Row="6" Column="12" Content="Display.value_REAL[1]" Class="REAL_CHANGE_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="IO_DOWN" />
+      <KeyBinding Key="UP" BindOn="IO_UP" />
+      <KeyBinding Key="ENTER" BindOn="IO_ENTER" />
+      <KeyBinding Key="PRG" BindOn="IO_PRG" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="IO_DO" Type="Normal" X="0" Y="4" Color="255, 69, 0" Foreground="0, 255, 255" ReferToMask="">
+    <Fields>
+      <Field Type="Variable" Name="Variable_10" Row="2" Column="1" Content="Display.Descr[1]" Class="Wide_DOutDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_12" Row="4" Column="9" Content="Display.Descr[2]" Class="IO_Numbers_Class" Format="o2" Min="0" Max="99" SimulationValue="25" />
+      <Field Type="Variable" Name="Variable_41" Row="1" Column="0" Content="CurRow" Class="Test_CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_43" Row="4" Column="0" Content="CurRow" Class="Test_CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_21" Row="0" Column="20" Content="cnt_Items" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="/" />
+      <Field Type="Text" Name="Text_4" Row="1" Column="2" Content="C¼ºúa¿:" />
+      <Field Type="Text" Name="Text_5" Row="4" Column="2" Content="­Ëxo· :" />
+      <Field Type="Variable" Name="Variable_2" Row="0" Column="0" Content="Display.MaskHeader" Class="Main_MenuDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="38" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_5" Row="0" Column="17" Content="mask_List_pos" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_3" Row="6" Column="2" Content="CÄaÄÅc:" />
+      <Field Type="Variable" Name="Variable_3" Row="6" Column="17" Content="Display.value_BOOL[2]" Class="BOOL_CHANGE_2" Format="o3" Min="0" Max="255" SimulationValue="2" />
+      <Field Type="Variable" Name="Variable_4" Row="6" Column="0" Content="CurRow" Class="Test_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_7" Row="6" Column="14" Content="CurRow_modePRG" Class="CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_8" Row="5" Column="0" Content="CurRow" Class="Test_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_6" Row="5" Column="2" Content="P¸½¼À :" />
+      <Field Type="Variable" Name="Variable_9" Row="5" Column="14" Content="CurRow_modePRG" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_11" Row="5" Column="16" Content="Display.value_BOOL[1]" Min="0" Max="1" Class="ManualMode_Class" Format="o1" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_13" Row="5" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_6" Row="6" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="IO_DOWN" />
+      <KeyBinding Key="UP" BindOn="IO_UP" />
+      <KeyBinding Key="ENTER" BindOn="IO_ENTER" />
+      <KeyBinding Key="PRG" BindOn="IO_PRG" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="IO_AO" Type="Normal" X="0" Y="5" Color="255, 69, 0" Foreground="0, 255, 255" ReferToMask="">
+    <Fields>
+      <Field Type="Variable" Name="Variable_10" Row="2" Column="1" Content="Display.Descr[1]" Class="Wide_AOutDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_41" Row="1" Column="0" Content="CurRow" Class="Test_CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_21" Row="0" Column="20" Content="cnt_Items" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="/" />
+      <Field Type="Variable" Name="Variable_2" Row="0" Column="0" Content="Display.MaskHeader" Class="Main_MenuDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="39" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_7" Row="0" Column="17" Content="mask_List_pos" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_3" Row="1" Column="2" Content="C¼ºúa¿:" />
+      <Field Type="Variable" Name="Variable_3" Row="4" Column="8" Content="Display.Descr[2]" Class="IO_Numbers_Class" Format="o2" Min="0" Max="99" SimulationValue="19" />
+      <Field Type="Variable" Name="Variable_4" Row="6" Column="18" Content="Display.UoM[1]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" SimulationValue="2" />
+      <Field Type="Text" Name="Text_5" Row="6" Column="2" Content="±úaÂ. :" />
+      <Field Type="Text" Name="Text_6" Row="4" Column="2" Content="­Ëxo·:" />
+      <Field Type="Variable" Name="Variable_8" Row="4" Column="0" Content="CurRow" Class="Test_CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_9" Row="6" Column="0" Content="CurRow" Class="Test_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable" Row="6" Column="13" Content="Display.value_REAL[1]" Class="REAL_CHANGE_1" Format="o+2.1" Min="0.0" Max="10.0" />
+      <Field Type="Variable" Name="Variable_11" Row="5" Column="0" Content="CurRow" Class="Test_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_4" Row="5" Column="2" Content="P¸½¼À:" />
+      <Field Type="Variable" Name="Variable_13" Row="5" Column="16" Content="Display.value_BOOL[1]" Min="0" Max="1" Class="ManualMode_Class" Format="o1" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_5" Row="6" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_6" Row="5" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_12" Row="5" Column="14" Content="CurRow_modePRG" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_14" Row="6" Column="12" Content="CurRow_modePRG" Class="CURROW_4" Format="o1" Min="0" Max="9" SimulationValue="4" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="DOWN" BindOn="IO_DOWN" />
+      <KeyBinding Key="UP" BindOn="IO_UP" />
+      <KeyBinding Key="ENTER" BindOn="IO_ENTER" />
+      <KeyBinding Key="PRG" BindOn="IO_PRG" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="CORR_AI" Type="Normal" X="0" Y="1" Color="255, 69, 0" Foreground="0, 255, 255" ReferToMask="">
+    <Fields>
+      <Field Type="Variable" Name="Variable_10" Row="2" Column="1" Content="Display.Descr[1]" Class="Wide_AInDescription_Class" Format="o2" Min="0" Max="99" SimulationValue="4" />
+      <Field Type="Variable" Name="Variable_12" Row="4" Column="9" Content="Display.Descr[2]" Class="IO_Numbers_Class" Format="o2" Min="0" Max="99" SimulationValue="54" />
+      <Field Type="Variable" Name="Variable_41" Row="1" Column="0" Content="CurRow" Class="Test_CURROW_1" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Variable" Name="Variable_21" Row="0" Column="20" Content="cnt_Items" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="19" Content="/" />
+      <Field Type="Variable" Name="Variable_2" Row="0" Column="0" Content="Display.MaskHeader" Class="Main_MenuDescription_Class" Format="o3" Min="0" Max="255" SimulationValue="22" />
+      <Field Type="Variable" Name="Variable_3" Row="4" Column="0" Content="CurRow" Class="Test_CURROW_2" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_7" Row="0" Column="17" Content="mask_List_pos" Class="CL_DINT" Format="o2" Min="0" Max="99" />
+      <Field Type="Text" Name="Text_6" Row="7" Column="2" Content="T¸¾ÅÈ¸¸:" />
+      <Field Type="Variable" Name="Variable" Row="5" Column="18" Content="Display.UoM[1]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_4" Row="1" Column="2" Content="C¼ºúa¿:" />
+      <Field Type="Text" Name="Text_5" Row="4" Column="2" Content="­xo·  :" />
+      <Field Type="Variable" Name="Variable_6" Row="5" Column="0" Content="CurRow" Class="Test_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_3" Row="5" Column="2" Content="±úaÂ. :" />
+      <Field Type="Variable" Name="Variable_13" Row="5" Column="21" Content="CurRow_modePRG" Class="Inv_CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_14" Row="5" Column="12" Content="CurRow_modePRG" Class="CURROW_3" Format="o1" Min="0" Max="9" SimulationValue="3" />
+      <Field Type="Variable" Name="Variable_16" Row="5" Column="12" Content="Display.value_REAL[1]" Class="REAL_CHANGE_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+      <Field Type="Variable" Name="Variable_4" Row="7" Column="12" Content="Display.value_REAL[2]" Class="REAL_CHANGE_2" Format="o+3.1" Min="-999.9" Max="999.9" />
+      <Field Type="Variable" Name="Variable_17" Row="7" Column="18" Content="Display.UoM[1]" Class="UoM_CHANGE" Format="o2" Min="0" Max="9" SimulationValue="" />
+      <Field Type="Text" Name="Text_7" Row="7" Column="15" Content="---" />
+      <Field Type="Variable" Name="Variable_18" Row="1" Column="11" Content="Display.Descr[3]" Class="All_Types_Class" Format="o2" Min="0" Max="99" SimulationValue="3" />
+      <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_5" Row="5" Column="13" Content="Display.value_INT[1]" Class="INT_CHANGE_1" Format="o+4" Min="-9999" Max="9999" />
+      <Field Type="Variable" Name="Variable_8" Row="7" Column="13" Content="Display.value_INT[2]" Class="INT_CHANGE_2" Format="o+4" Min="-9999" Max="9999" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="CORR_UP" />
+      <KeyBinding Key="ENTER" BindOn="CORR_ENTER" />
+      <KeyBinding Key="PRG" BindOn="CORR_PRG" />
+      <KeyBinding Key="DOWN" BindOn="CORR_DOWN" />
+    </KeyBindings>
+  </Mask>
+  <Loop Name="BMS_SETTINGS" X="1" Y="1">
+    <Mask Name="BMS_Settings" Type="Normal" X="1" Y="2" ZoomCode="" Foreground="0, 0, 0" Color="255, 222, 173" ReferToMask="REF_ServiceMask">
+      <Fields>
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="4" Content="HacÄÃoÉ¾¼ BMS" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="1" Content="ªoÃÄ:" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="Temp_MB_Baudrate" Class="Hide_Baudrate_Class" Format="io6" Min="1200" Max="375000" SimulationValue="" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="15" Content="Temp_MB_Baudrate" Class="NotHide_Baudrate_Class" Format="o6" Min="1200" Max="38400" SimulationValue="1200" />
+        <Field Type="Variable" Name="Variable_4" Row="6" Column="16" Content="Temp_MB_Parity" Class="NotHide_Parity_Class" Format="o1" Min="0" Max="9" SimulationValue="1" />
+        <Field Type="Variable" Name="Variable_5" Row="6" Column="16" Content="Temp_MB_Parity" Class="Hide_Parity_Class" Format="io1" Min="0" Max="9" SimulationValue="0" />
+        <Field Type="Text" Name="Text_4" Row="2" Column="17" Content="BMS" />
+        <Field Type="Variable" Name="Variable_6" Row="5" Column="20" Content="Temp_MB_StopBits" Class="NotHide_StopBits_Class" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_7" Row="5" Column="20" Content="Temp_MB_StopBits" Class="Hide_StopBits_Class" Format="io1" Min="1" Max="2" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="PRG" BindOn="Net_Settings_PRG" />
+        <KeyBinding Key="ESC" BindOn="Net_Settings_ESC" />
+      </KeyBindings>
+    </Mask>
+  </Loop>
+  <Loop Name="UPGRADE" X="3" Y="1">
+    <Mask Name="Upgrade_OS" Type="Normal" X="3" Y="2" ZoomCode="" Foreground="0, 0, 0" Color="255, 222, 173" ReferToMask="REF_ServiceMask">
+      <Fields>
+        <Field Type="Text" Name="Text_2" Row="0" Column="4" Content="OµúoÆ¿¸ú¼¸ ªO" />
+        <Field Type="Image" Name="Image" Row="6" Column="0" Content="Black_rows_132x16.bmp" />
+        <Field Type="Text" Name="Text" Row="6" Column="1" Content="PRG - oµúoÆ¼ÄÎ," />
+        <Field Type="Variable" Name="Variable" Row="3" Column="10" Content="Upgrade.NUM_OS[1]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="5" Content="OS v." />
+        <Field Type="Text" Name="Text_4" Row="3" Column="11" Content="." />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="12" Content="Upgrade.NUM_OS[2]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="13" Content="." />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="14" Content="Upgrade.NUM_OS[3]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="15" Content="Upgrade.NUM_OS[4]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_6" Row="3" Column="16" Content="Upgrade.NUM_OS[5]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="5" Content="OµúoÆ¼ÄÎ OC?" />
+        <Field Type="Text" Name="Text_7" Row="7" Column="1" Content="ESC - oÄÀ¸úa" />
+        <Field Type="Text" Name="Text_8" Row="2" Column="1" Content="£ocÄÅÁúo¸ oµúoÆ¿¸ú¼¸:" />
+        <Field Type="Variable" Name="Variable_7" Row="1" Column="0" Content="Upgrade.UpgradeDrive" Class="UpgradeDrive_text_Class" Format="o1" Min="0" Max="9" SimulationValue="0" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="Black_rows_132x16.bmp" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="20" Content="Upgrade.UpgradeDrive" Class="UpgradeDrive_Class" Format="o1" Min="0" Max="9" SimulationValue="1" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="ESC" BindOn="Upgrade_OS_ESC" />
+        <KeyBinding Key="PRG" BindOn="Upgrade_OS_PRG" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="Upgrade.REQ_OS_upgrade" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="Upgrade_FW" Type="Normal" X="3" Y="3" ZoomCode="" Foreground="0, 0, 0" Color="255, 222, 173" ReferToMask="REF_ServiceMask">
+      <Fields>
+        <Field Type="Text" Name="Text_2" Row="0" Column="4" Content="OµúoÆ¿¸ú¼¸ ªO" />
+        <Field Type="Variable" Name="Variable_10" Row="2" Column="0" Content="Upgrade.Show_Status" Class="UpgradeState_Class" Format="o2" Min="0" Max="99" SimulationValue="20" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="12" Content="Upgrade.NUM_FirmWare[1]" Class="FWNum_Class" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_5" Row="3" Column="14" Content="Upgrade.NUM_FirmWare[2]" Class="FWNum_Class" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_7" Row="3" Column="16" Content="Upgrade.NUM_FirmWare[3]" Class="FWNum_Class" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_8" Row="3" Column="18" Content="Upgrade.NUM_FirmWare[4]" Class="FWNum_Class" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_9" Row="5" Column="0" Content="Upgrade.En_FirmWare" Min="0" Max="1" Class="FWUpgrade_Class" Format="ob" SimulationValue="1" />
+        <Field Type="Image" Name="Image" Row="6" Column="0" Content="Black_rows_132x16.bmp" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="20" Content="Upgrade.UpgradeDrive" Class="UpgradeDrive_Class" Format="o1" Min="0" Max="9" SimulationValue="1" />
+        <Field Type="Text" Name="Text_3" Row="6" Column="1" Content="PRG - oµúoÆ¼ÄÎ," />
+        <Field Type="Variable" Name="Variable_3" Row="1" Column="0" Content="Upgrade.UpgradeDrive" Class="UpgradeDrive_text_Class" Format="o1" Min="0" Max="9" SimulationValue="1" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="Black_rows_132x16.bmp" />
+        <Field Type="Text" Name="Text_4" Row="7" Column="1" Content="ESC - oÄÀ¸úa" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="PRG" BindOn="Upgrade_1_PRG" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+      </KeyBindings>
+    </Mask>
+  </Loop>
+  <Mask Name="Upgrade_Progress" Type="Normal" X="3" Y="5" ZoomCode="" Foreground="0, 0, 0" Color="255, 222, 173" ReferToMask="REF_DoNothing">
+    <Fields>
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="4" Content="OµúoÆ¿¸ú¼¸ ªO" />
+      <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Variable" Name="Variable_2" Row="7" Column="2" Content="Upgrade.UPG_STATE" Class="UpgradeStatus_Class" Format="o2" Min="0" Max="9" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_3" Row="2" Column="1" Content="Upgrade.UpgradeBegin" Min="0" Max="1" Class="StartUpgrade_Class" Format="ob" SimulationValue="1" />
+      <Field Type="Variable" Name="Variable_4" Row="5" Column="1" Content="Upgrade.ERROR_UPG" Class="ERROR_UPG_Class" Format="o2" Min="0" Max="99" SimulationValue="3" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="PRG" BindOn="Upgrade_1_PRG" />
+      <KeyBinding Key="ENTER" BindOn="DoNothing" />
+    </KeyBindings>
+  </Mask>
+  <Mask Name="Upgrade_1" Type="Normal" X="3" Y="4" ZoomCode="" Foreground="0, 0, 0" Color="255, 222, 173" ReferToMask="REF_ServiceMask">
+    <Fields>
+      <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Text" Name="Text_2" Row="0" Column="10" Content="OµúoÆ¿¸ú¼¸" />
+      <Field Type="Image" Name="Image_3" Row="7" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+      <Field Type="Text" Name="Text_4" Row="0" Column="0" Content="ªÃoÇ¼Æ¾a:" />
+      <Field Type="Variable" Name="Variable" Row="2" Column="0" Content="Upgrade.InfoErr" Class="CL_DINT" Format="o+6" Min="-999999" Max="999999" />
+      <Field Type="Text" Name="Text" Row="1" Column="0" Content="Error" />
+      <Field Type="Variable" Name="Variable_7" Row="1" Column="15" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[1]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_8" Row="2" Column="15" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[2]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_9" Row="3" Column="15" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[3]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Text" Name="Text_10" Row="1" Column="7" Content="Err_R" />
+      <Field Type="Variable" Name="Variable_4" Row="4" Column="15" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[4]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_5" Row="5" Column="15" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[5]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_12" Row="6" Column="15" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[6]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_14" Row="7" Column="1" Content="Upgrade.UPG_STATE" Class="UpgradeStatus_Class" Format="o2" Min="0" Max="9" />
+      <Field Type="Variable" Name="Variable_23" Row="7" Column="15" Content="Upgrade.UpgradeBegin" Min="0" Max="1" Class="CL_BOOL_SWAP" Format="ob" />
+      <Field Type="Variable" Name="Variable_30" Row="1" Column="19" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[7]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_31" Row="2" Column="19" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[8]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_32" Row="3" Column="19" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[9]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_33" Row="4" Column="19" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[10]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_34" Row="5" Column="19" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[11]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_35" Row="6" Column="19" Content="Upgrade.FILE_READ_PATH_1.DATA_BUFFER[12]" Class="CL_BYTE" Format="o3" Min="0" Max="255" />
+      <Field Type="Variable" Name="Variable_36" Row="4" Column="0" Content="Upgrade.OS_READ_ver" Class="CL_UDINT" Format="o6" Min="0" Max="999999" />
+      <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="R ver" />
+      <Field Type="Text" Name="Text_5" Row="3" Column="7" Content="Cur ver" />
+      <Field Type="Variable" Name="Variable_37" Row="4" Column="8" Content="Upgrade.OS_cur_ver" Class="CL_UDINT" Format="o6" Min="0" Max="999999" />
+      <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="EQ:" />
+    </Fields>
+    <KeyBindings>
+      <KeyBinding Key="PRG" BindOn="Upgrade_1_PRG" />
+      <KeyBinding Key="ENTER" BindOn="Upgrade_1_ENTER" />
+    </KeyBindings>
+  </Mask>
+</Worksheet>

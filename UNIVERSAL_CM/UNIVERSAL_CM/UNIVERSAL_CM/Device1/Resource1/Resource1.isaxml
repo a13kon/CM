@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resource FileVersion="200.00.003" Name="Resource1" ResourceNb="1" ElementGuid="aaa250d1-8b67-4330-9ca3-1e445abf6648" Address="@1" Comment="Resources 1" SingleTextLine="Resource Number 1" GenDebugInfo="true" Password="" ReadOnly="false" UsePrjPassword="false" Code="TicCode">
+  <Properties Test="true" TrigCycle="false" CyTiming="0" DeErrors="true" NbStErrors="16" ExecMode="true" EmbedTable="false" TypeEmbedTable="2" EmbedSource="false" TypeEmbedSource="0" SimulationCode="false" SfcGain="8" SfcOffset="18" EmbeddedSfc="false" ReadableImage="false" RealImage="false" LocExp="false" unlab="false" AriOpe="false" BooOpe="false" BooExp="false" GloExp="false" VarCpy="false" Uncod="false" MapFile="false" DumpPou="false" DumpConfig="true" DumpNetwork="false" CompileIncrementally="true" LinkIncrementally="true" CheckArray="true" ArrStr="false" OnlineMemory="32000" OnlineMemoryVariable="2048" MemRetain="RetainRes1" FunctionInternalStateEnable="false" FbdBehaviorMode="1" OnlineMaxExtraPous="20" OnlineMemorySfc="4096" CyUsTiming="0" IsDisableAccessFBLocalVar="true" EnableCVT="false" ReduceBooleanExpressionEvaluation="true" IsIndirectBitAccessValidation="true" />
+  <Pous>
+    <Function Name="AbsHumidity_INT" ElementGuid="5927a0fc-4432-4784-87e2-a1035ccde51f" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="AbsHumidity_REAL" ElementGuid="756b9ff5-1f8f-4605-b1ea-5103700f223b" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="BarToPsi_INT" ElementGuid="bfdeb954-7a33-4dea-aadf-5b7bb4ccf4c9" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="BarToPsi_REAL" ElementGuid="13e7c6be-7905-4b77-a6e3-df421dffcac2" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahr_INT" ElementGuid="d37cc932-d5ff-4e07-83be-623630b50088" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahr_REAL" ElementGuid="abbe199c-7bc0-4654-bf8b-d440ad9a3325" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahrDelta_INT" ElementGuid="d09f8932-1947-4aab-a3b9-7b0bf5a239a1" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="CelToFahrDelta_REAL" ElementGuid="75e749f3-0e6d-49c6-8d7c-6e3a2c47276a" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CompensSetp_INT" ElementGuid="ca8c6ed1-cfcd-4eb9-899a-dcc0f1baef98" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="CompensSetp_REAL" ElementGuid="9edf7e82-35bf-4468-a955-f82243d84845" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Conv_INT" ElementGuid="be794664-890c-4fe3-a98d-63145c787a59" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="Conv_REAL" ElementGuid="66406066-1d10-42cb-aaaa-a8573fe0f8ce" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="ConvHourToMin_INT" ElementGuid="19cef832-5b10-4589-85a7-b4c3a0111690" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Counter4_INT" ElementGuid="e03dce5d-c081-441c-a342-809c9cc81aff" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Counter8_INT" ElementGuid="d30eecae-98c9-4903-897c-c5d7b4fc3a36" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="DewPoint_INT" ElementGuid="84188286-fcbe-434e-8349-0682df89d179" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="DewPoint_REAL" ElementGuid="f7842fc6-ab41-4369-a51e-be4eec3b48d4" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Eq_REAL" ElementGuid="c597a347-2851-471c-9ab2-94ae9960ad86" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCel_INT" ElementGuid="cccb1962-de2b-495a-bfbb-76b0bc774605" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCel_REAL" ElementGuid="26dd853b-a23d-48b7-b9a4-fdd873df6d2a" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCelDelta_INT" ElementGuid="def7983c-99a7-4d42-8403-048052d21686" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="FahrToCelDelta_REAL" ElementGuid="c389f772-66d0-40dc-a8d3-03747d13b24d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Limit_INT" ElementGuid="128ade45-10db-471e-9bad-23ed061b6047" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Limit_REAL" ElementGuid="4cfd3ca3-8105-4fd1-8e58-e8e0b17380c5" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Loge_REAL" ElementGuid="c1692e1f-7477-4b09-a31a-e6349e11d071" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Max_INT" ElementGuid="e77ad458-b6e2-4b63-85d8-b9854429c242" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Max_REAL" ElementGuid="5d4a15b9-e447-4add-93ea-64d8df8114f6" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Min_INT" ElementGuid="d6cbfae6-629b-451c-a720-a9b88824adff" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Min_REAL" ElementGuid="229561b1-87a4-4063-ae7c-2c407a9c91c1" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Mux5_INT" ElementGuid="00fbd0d4-77a9-48cf-9231-1e88626ed0e1" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="PsiToBar_INT" ElementGuid="b1d8740a-2a8a-4a94-89ef-ae31b1341e3f" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="PsiToBar_REAL" ElementGuid="f1af0e31-643d-4d6e-898a-364365d1c2df" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="PressToTemp_INT" ElementGuid="7f2849fa-8d9f-49c2-9965-b0a408a284aa" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="PressToTemp_REAL" ElementGuid="1bd225ec-6bcc-4b86-9414-eaa9812d5f19" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Range" ElementGuid="cd8af5d0-2355-42a8-bf6f-db33997739ba" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="Range_INT" ElementGuid="f4f5854e-37b7-4b1f-86dd-7187fc3bad2e" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="Range_REAL" ElementGuid="8b734885-4707-493e-8282-b1ace553d110" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="RangeUniv" ElementGuid="0ff1e4cf-63e3-4668-ac47-fab12af40abb" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RangeUniv_INT" ElementGuid="7f7a9487-c4c9-4231-82cc-040789e1c63f" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RangeUniv_REAL" ElementGuid="810b604c-0ab2-4a41-a39c-1ba6c22b13e5" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToInt" ElementGuid="7a968181-4404-40c5-984b-7cfff08179be" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToDint" ElementGuid="7a4fe10f-b668-4b8e-8554-252463dc3430" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToUdint" ElementGuid="2bebd8cf-46eb-443a-b1e7-5572dbd15b3a" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RealToUint" ElementGuid="eb3a7ae5-7e5d-4eb2-b12d-deba74e471f8" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RelHumidity_INT" ElementGuid="baa7b134-eb6d-4f71-80ac-a8c2a16cf759" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="RelHumidity_REAL" ElementGuid="4f63dff1-8b9c-4ee0-a382-c1431443ee8d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Round_REAL" ElementGuid="9418d789-290e-42d5-a10f-488da4d5509e" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Scaler_REAL" ElementGuid="bd554133-2101-4c24-ae91-35d6dfc0a5c4" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="SchedDailyTime" ElementGuid="6b04770d-9b24-4d51-a928-d8d050b9055a" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="SchedDailyTime_INT" ElementGuid="1762c0c7-e6dc-4b04-abea-98829e598714" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="SecToTime" ElementGuid="ed33ba13-5e58-45ed-a26d-c4e147d4fd3f" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sel_BOOL" ElementGuid="c5b8b4d4-97a1-479d-adc4-30a87bfa1c83" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sel_INT" ElementGuid="b65a1c42-53f9-41e8-bbbf-7ce7f7b99aa1" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sel_REAL" ElementGuid="f325bfef-9913-4110-aafb-21c3157f9579" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="Sign_REAL" ElementGuid="1e51cc27-ed37-4a97-955b-3d577edfeef5" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="TempToPress_INT" ElementGuid="2212510f-227c-4d47-8dd5-5e8dc032d860" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Function Name="TempToPress_REAL" ElementGuid="309d771b-9f73-4e65-a14e-d157d489e747" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="TimeToSec" ElementGuid="5f319f53-e6d6-4bb0-a29a-edcb3709a47a" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="VapourSatPress_REAL" ElementGuid="a145c25b-e9ef-4e60-b400-363470d41c55" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="WeekDay_UINT" ElementGuid="e7f826b0-89ea-4ef4-a6e3-5d0f236da55d" Language="ST" CustomFbd="0" Is1499="false" />
+    <Function Name="cpCOe_2_Limit_INT" ElementGuid="a462bd66-70a1-430e-8c0f-336b218309b6" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CheckRetainMem" ElementGuid="ef0d6004-5174-4118-9bf3-8a3de17b8b36" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="And2Com" ElementGuid="05487d94-b1bf-4a5f-9de5-12fb155153b6" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="And5Com" ElementGuid="85920eac-2e26-45e5-8bc5-850f91f4af5b" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="And10Com" ElementGuid="ac4b396a-3f9f-4b5f-b9e7-0eb44dba6c6a" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="BlinkOnOff_INT" ElementGuid="a525a432-f7b6-4a38-8cf0-6b0713767e44" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="ConvMinToHour_INT" ElementGuid="a685745f-56e9-4f89-88f9-8fb37b014d21" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CurrDateTime" ElementGuid="3f7c85ad-768f-455d-8d34-0c606ea7db08" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DelayOnOff_INT" ElementGuid="7b194ebd-d71d-4a68-8d60-7952133dd633" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="DigitConv_INT" ElementGuid="5db78788-e4a5-4ef3-81a0-c967a282079e" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Enthalpy_REAL" ElementGuid="0798ee7a-9124-41ef-9976-624818b3dbdd" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Enthalpy_INT" ElementGuid="1f44caeb-e82b-4259-b3c5-e94d2adf8e8e" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="FEdge" ElementGuid="021f07ff-51ee-43bf-8f85-2f606e9a8347" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="FlipFlop" ElementGuid="e6eb0f0f-8d2a-48de-b7cb-a5575d37399c" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Grad_INT" ElementGuid="77ab97de-df78-437b-8f7e-6b98b4987c83" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Grad_REAL" ElementGuid="e07685b2-fce9-42f9-8c7e-d8135190878e" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="HysterAdv_REAL" ElementGuid="2dafa698-1650-488c-8c97-960a19b2afcf" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="HysterAdv_INT" ElementGuid="7d78f86d-3001-43da-ab71-90159c8da58b" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Interpolate_REAL" ElementGuid="bab90c4a-977b-44d1-b159-c52c7a416428" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Not2" ElementGuid="dc1c6cfe-d444-4f44-b4bb-4079ed6e5846" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Not5" ElementGuid="24226ea5-215c-4512-a13a-c73c570a5acc" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Not10" ElementGuid="435947a9-47e6-4719-ac17-0327191960f2" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="PulseCounter_INT" ElementGuid="363433bb-62d1-4ddc-9a62-d25834370bea" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="REdge" ElementGuid="a743ddc2-ca28-4a33-b38d-c97ef7400d67" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="RFTrig" ElementGuid="66c5041f-8b86-4ae6-848d-e601d689f3d6" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="TimeCounter_INT" ElementGuid="65003dfc-54b0-4926-96da-9e9f1522f5f2" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeas_P_REAL" ElementGuid="1cd5ff1c-7f74-4e86-990d-34c3b37cc6cf" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeas_P_INT" ElementGuid="b8ae0f9a-968d-4d1c-858e-ef051b5b8eab" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTemp_REAL" ElementGuid="437ebfea-50e7-4126-a307-f8eed3c0a9ee" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTemp_INT" ElementGuid="7dc07cf4-83cd-4ea3-af8a-c78b0c478a30" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTempDelta_REAL" ElementGuid="c6c4bb34-5887-44f7-848c-db3f6b194b6c" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="UnitMeasTempDelta_INT" ElementGuid="aa34632b-1863-4f6f-abf9-e39e4018f594" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CntDwnSafT" ElementGuid="9b0114dc-ff2d-4fe5-93c9-e8e78947d426" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="HoursCounter" ElementGuid="dd4cd4db-ba2d-47e3-97d6-d8d4e92e8779" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="VersionChk_2" ElementGuid="eed30321-c243-4834-8a1e-7a83fedaaa4f" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="VersionChk_2_str" ElementGuid="4377ab3b-a068-499c-975a-ea6e94d63795" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="Blackout_3" ElementGuid="ac0a8c9b-8b30-413a-bd22-22be86b37c8b" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_CommSet" ElementGuid="fdad3497-781b-486d-9945-1cc7d476354d" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_PrbAlrm" ElementGuid="19a1fcc8-a4b8-4823-a21a-dbe7097c9228" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_IOMng" ElementGuid="e195c3f2-6c63-48af-a02a-7a0cd03c9311" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_StatusMng" ElementGuid="ed24b3ec-a293-403b-8f0e-92cff30c11bc" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_PriorityMng_INT" ElementGuid="a3d670aa-c7d9-40c4-93ba-fb7d0f5c64af" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2" ElementGuid="49f42bc1-d55c-4125-9cd1-705ff01e9ca8" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_UIMng" ElementGuid="ac199134-8ebc-4c6b-944a-16bde0726cf7" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_REdge" ElementGuid="fc9b8d18-64c1-4dc9-886e-00970da2a889" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="cpCOe_2_AddrChangeWizard" ElementGuid="7a0aa40c-0918-4ea1-a593-3b3f5e618097" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="WriteInLog" ElementGuid="fa262426-f940-4bbe-9a67-d48096101da4" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Prepare" ElementGuid="31491a03-51ed-404c-a459-c09c6f3d61cd" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Boot" ElementGuid="813eccbb-6be1-4cf0-ab72-fb51cc7dc34e" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="TimeMng" ElementGuid="7ce092a5-55cf-4ab0-8be7-79692add129c" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Upgrade" ElementGuid="d03b51be-90f1-4f60-ba53-1fd3d6606ccd" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="IO_Manage" ElementGuid="61ba4831-292b-4161-bbac-479c98fb29dc" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Unit_Manage" ElementGuid="46e7c6e2-a3b3-465d-b5b3-f2ad3a58eccb" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="cpCOe" ElementGuid="e42a50bd-6d92-4bba-91ee-64546bf2f25b" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Cooling_machine" ElementGuid="50c56c6c-49c5-435d-99b5-8db436c3b570" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="Alarms" ElementGuid="2e80d694-594c-48a0-9019-42163b1777f5" Language="ST" CustomFbd="0" Is1499="false" />
+    <Program Name="MaskMng" ElementGuid="dead9df9-b246-46c6-83c6-97d08193be36" Language="ST" CustomFbd="0" Is1499="false" />
+  </Pous>
+  <NetworkParameterValues>
+    <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />
+    <NetworkParameterValue NetworkName="ETCP" Name="TimeOut" Value="10000" />
+  </NetworkParameterValues>
+  <GlobalVars>
+    <Variable Name="__SYSVA_KEY_COUNTER" DataType="INT" InitialValue="" Comment="Key pressed time" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_CURSOR_ROW" DataType="INT" InitialValue="" Comment="Display cursor current Y coordinate" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_CURSOR_COLUMN" DataType="INT" InitialValue="" Comment="Display cursor current X coordinate" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_CURSOR_VAR" DataType="INT" InitialValue="" Comment="Display cursor for scrolling lists" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_TMP_VALUE" DataType="UDINT" InitialValue="" Comment="Temp value for field editing" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_KEY_PRESSED" DataType="USINT" InitialValue="" Comment="Key pressed flag" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_MANUAL_BUZZER_OFF" DataType="USINT" InitialValue="" Comment="Deactivates the alarm buzzer when it has been released from integrated alarm management" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_MANUAL_BUZZER_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer when controlled manually" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="__SYSVA_BEEP_ON" DataType="USINT" InitialValue="" Comment="Activates the buzzer for a while" Address="" Modifier="NonRetain" Kind="VarGlobal" Alias="" AccessRights="ReadWrite" Attributes="32501" />
+    <Variable Name="StartupJmp" DataType="BOOL" InitialValue="" Comment="Флаг процесса загрузки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MemError" DataType="BOOL" InitialValue="" Comment="Automatically generated" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MemWritingsNo" DataType="UDINT" InitialValue="" Comment="Automatically generated" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ErrRetainWrite" DataType="SYSREAD_VALUEOUT" InitialValue="" Comment="List of system parameters that can be read" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="PwrOffDate_BLKO_1" DataType="UDINT" InitialValue="" Comment="Date of the last power off expressed in seconds (Unix Timestamp, seconds from January 1st 1970) " Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="OffTotSec" DataType="UDINT" InitialValue="" Comment="Общее количество секунд последнего отключения" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Xdb22" DataType="REAL" InitialValue="0.1" Comment="Зона нечувствительности Теплового насоса (на охлаждение)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="EQ_Cooler" DataType="STCT_Cooler" InitialValue="" Comment="Структура списка меню" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="3(1),1,3(1),1" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Warning" DataType="BOOL" InitialValue="" Comment="Имеются предупреждения / системные сообщения для Пользователя" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Show_NoConnect" DataType="BOOL" InitialValue="" Comment="Отображение отсутствия связи в маске" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="isPoolCircuitTypeM0" DataType="BOOL" InitialValue="" Comment="Флаг типа схемы бассейна M0" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_Emergency" DataType="ALM" InitialValue="" Comment="Экстренное отключение по команде с D*-CTRL" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ModelLine" DataType="USINT" InitialValue="0" Comment="Номер линейки моделей" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Xp22" DataType="REAL" InitialValue="3.0" Comment="Зона пропорциональности Теплового насоса (на охлаждение)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TurnOn" DataType="BOOL" InitialValue="" Comment="Импульс при включении" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="NoConnect" DataType="BOOL" InitialValue="" Comment="Флаг отсутствия связи" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Alarm" DataType="BOOL" InitialValue="" Comment="Программное выключение установки по авариям" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_retain" DataType="ALM" InitialValue="" Comment="Ошибка подсчета числа записей в постоянную память" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AlrmResByTOP" DataType="BOOL" InitialValue="" Comment="Сброс всех аварий по команде с TOP" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CNT_Sec" DataType="UDINT" InitialValue="" Comment="Счетчик секунд" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Comps" DataType="STCT_Compressors" InitialValue="" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="4(0),((4(0),1,4(0),0,2(1),4(0)),(4(0),1,4(0),0,2(1),4(0)),(4(0),1,4(0),0,2(1),4(0)),(4(0),1,4(0),0,2(1),4(0)))" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Xt22" DataType="INT" InitialValue="60" Comment="Время интегрирования Теплового насоса (на охлаждение)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="High_LastStopDate_Comp" DataType="UINT" InitialValue="" Comment="Дата последней остановки компр.(старшие биты)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="4" />
+    </Variable>
+    <Variable Name="WRN_ManualMode" DataType="ALM" InitialValue="" Comment="Предупреждение: ручной режим" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Al_Err_retain_write" DataType="ALM" InitialValue="" Comment="Ошибка записи в постоянную память" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="RetainIsClear" DataType="BOOL" InitialValue="TRUE" Comment="Флаг очищенной постоянной памяти" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitOn" DataType="BOOL" InitialValue="" Comment="Статус работы установки (false-режим ожидания, true-в работе)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TCool" DataType="BOOL" InitialValue="" Comment="Команда ХОЛОД от регулятора температуры" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Low_LastStopDate_Comp" DataType="UINT" InitialValue="" Comment="Дата последней остановки компр.(младшие биты)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="4" />
+    </Variable>
+    <Variable Name="StatePRG" DataType="USINT" InitialValue="0" Comment="состояние режима редактирования" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitStatus" DataType="USINT" InitialValue="" Comment="Статус установки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="BootEnd" DataType="BOOL" InitialValue="" Comment="Флаг окончания загрузки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitLifeT" DataType="UDINT" InitialValue="0" Comment="Unit life time in Hours (update every HoursNo)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="HCool" DataType="BOOL" InitialValue="" Comment="Команда ХОЛОД от регулятора влажности" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_HPComp1" DataType="ALM" InitialValue="" Comment="Превышение давл.линии нагнетания компрессора 1 (реле давления)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="High_LifeTime_Comp" DataType="UINT" InitialValue="" Comment="Наработка компр.(старшие биты)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="4" />
+    </Variable>
+    <Variable Name="CurRow_modePRG" DataType="DINT" InitialValue="" Comment="Позиция строки курсора в режиме редактирования" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Display" DataType="STCT_Display" InitialValue=",FALSE,0" Comment="Отображение текущего набора выходов" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="old_CNT_Sec" DataType="UDINT" InitialValue="" Comment="Счетчик секунд  с предыдущего цикла" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Ds01" DataType="REAL" InitialValue="7.6" Comment="Уставка для нейтральной зоны" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_HPComp2" DataType="ALM" InitialValue="" Comment="Превышение давл.линии нагнетания компрессора 2 (реле давления)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Low_LifeTime_Comp" DataType="UINT" InitialValue="" Comment="Наработка компр.(младшие биты)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="4" />
+    </Variable>
+    <Variable Name="EmergencyOnOff" DataType="BOOL" InitialValue="" Comment="Немедленное программное выключение установки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_OiR1" DataType="BOOL" InitialValue="" Comment="Авария рег-ра масла Компр.1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dd01" DataType="REAL" InitialValue="2.8" Comment="Диапазон нейтральной зоны" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_HPComp3" DataType="ALM" InitialValue="" Comment="Превышение давл.линии нагнетания компрессора 3 (реле давления)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_OiR2" DataType="BOOL" InitialValue="" Comment="Авария рег-ра масла Компр.2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Emergency_CompStop" DataType="BOOL" InitialValue="" Comment="Флаг аварийного останова компрессоров" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_LPComp1" DataType="ALM" InitialValue="" Comment="Снижение давл.линии всасывания компрессора 1 (реле давления)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_OiR3" DataType="BOOL" InitialValue="" Comment="Авария рег-ра масла Компр.3" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Force_CompStop" DataType="BOOL" InitialValue="" Comment="Флаг останова компрессоров по ДНД" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_LPComp2" DataType="ALM" InitialValue="" Comment="Снижение давл.линии всасывания компрессора 2 (реле давления)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_OilReg_Comp1" DataType="ALM" InitialValue="" Comment="Авария регулятора масла 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Use_Option_R441" DataType="BOOL" InitialValue="FALSE" Comment="Флаг задействованной опции R441(-SM)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_LPComp3" DataType="ALM" InitialValue="" Comment="Снижение давл.линии всасывания компрессора 3 (реле давления)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_OilReg_Comp2" DataType="ALM" InitialValue="" Comment="Авария регулятора масла 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_SV" DataType="BOOL" InitialValue="" Comment="Выход управления соленоида жидкости" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_CTComp1" DataType="ALM" InitialValue="" Comment="Перегрев компр.1 по термостату линии нагнетания" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_OilReg_Comp3" DataType="ALM" InitialValue="" Comment="Авария регулятора масла 3" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AI_LPS" DataType="STCT_AnalogSens" InitialValue="" Comment="Датчик низкого давления" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_CTComp2" DataType="ALM" InitialValue="" Comment="Перегрев компр.2 по термостату линии нагнетания" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_Disc_CPCOE" DataType="ALM" InitialValue="" Comment="Device offline alarm" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt02" DataType="INT" InitialValue="2" Comment="Ширина импульса SV при WarmUp" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_CTComp3" DataType="ALM" InitialValue="" Comment="Перегрев компр.3 по термостату линии нагнетания" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_Conf_CPCOE" DataType="ALM" InitialValue="" Comment="Wrong configuration on device" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurRow" DataType="DINT" InitialValue="" Comment="Позиция строки курсора" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt03" DataType="INT" InitialValue="2" Comment="Макс. длительность PumpDown" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_FreezeTZ" DataType="ALM" InitialValue="" Comment="Авария насоса/капиллярного термостата" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="cpCOe1" DataType="STCT_CPCOE" InitialValue="(0,2,2(3000)),TRUE,,,15,0,1" Comment="" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(2(1),2(1),((2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1),(2(1),2(1),1,2(1),1,1,1,1,1)),((3(1),2(1)),(3(1),2(1)),(3(1),2(1)),(3(1),2(1)),(3(1),2(1)),(3(1),2(1)))),0,(0,0,0,0,0,7(0),3(0),0,0,0),((10(0)),(6(0))),2(0),0,0,((10(0)),(6(0))),(10(0)),(10(0)),2(0),0,(2(0),0),0,(3(0),3(0),0,0),((2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0),(2(0),0,0,2(0),0,0,0,0,0,(1,3(0)),0)),((0,0,3(0)),(0,0,3(0)),(0,0,3(0)),(0,0,3(0)),(0,0,3(0)),(0,0,3(0)))" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_EVD" DataType="ALM" InitialValue="" Comment="Авария ЭРВ EVD Evolution" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="getMainMenu" DataType="BOOL" InitialValue="" Comment="Команда получить основное меню" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dp05" DataType="REAL" InitialValue="4.0" Comment="Макс.  разница давл. и нижней границы нейтр.зоны для задержки" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_PumpTK" DataType="ALM" InitialValue="" Comment="Авария насоса" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="EVD" DataType="STCT_EVD" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="mask_List" DataType="USINT" InitialValue="" Comment="Список параметров на маске" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="128" />
+    </Variable>
+    <Variable Name="Par_Dp04" DataType="INT" InitialValue="5" Comment="Минимальное время задержки переключения компрессора вниз" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SensorTw" DataType="ALM" InitialValue="" Comment="Ошибка (обрыв или КЗ) датчика температуры обратной воды" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_HTRrecvr" DataType="BOOL" InitialValue="" Comment="ХМ_ТЭНы ресивера" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="reload_MainMenu_List" DataType="BOOL" InitialValue="" Comment="Флаг обновления списка mask_List" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SensorHPDVD1" DataType="ALM" InitialValue="" Comment="Ошибка (обрыв или КЗ) датчика высокого давления 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dp01" DataType="INT" InitialValue="5" Comment="Максимальное время задержки переключения компрессора вниз" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="update_MainMenu_List" DataType="BOOL" InitialValue="" Comment="Флаг обновления списка mask_List на экране" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SensorHPDVD2" DataType="ALM" InitialValue="" Comment="Ошибка (обрыв или КЗ) датчика высокого давления 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dp03" DataType="REAL" InitialValue="4.0" Comment="Макс. разница давл. и верхней границы нейтр. зоны для задержки" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="cnt_Items" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SensorLPDND" DataType="ALM" InitialValue="" Comment="Ошибка (обрыв или КЗ) датчика низкого давления" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dp02" DataType="INT" InitialValue="5" Comment="Минимальное время задержки переключения компрессора вверх" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MainMenu" DataType="STCT_Main_Menu" InitialValue="" Comment="Меню параметров" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_HPDVD2" DataType="ALM" InitialValue="" Comment="Превышение давления по ДВД2 (уставка)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt12" DataType="INT" InitialValue="" Comment="Минимальный рабочий цикл компр.(Oil return)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurMenuPoint" DataType="USINT" InitialValue="" Comment="Текущий пункт меню" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Sp100" DataType="BOOL" InitialValue="FALSE" Comment="Режим нагревателя: false – т/о в работе; true - т/о исключен" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt11" DataType="INT" InitialValue="" Comment="Интервал между пусками (Anticycling)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Position" DataType="DINT" InitialValue="" Comment="Номер отображаемой маски выходов" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="En_WCoil" DataType="BOOL" InitialValue="" Comment="Флаг разрешения работы водяного т/о" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ResetHoursComp" DataType="BOOL" InitialValue="" Comment="Сброс счетчика наработки компрессоров" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="4" />
+    </Variable>
+    <Variable Name="isUSB" DataType="BOOL" InitialValue="" Comment="0-внутр.накопитель, 1-USB" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TempAlarmCtrl" DataType="SINT" InitialValue="" Comment="Состояние связи с DP-CTRL" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_SNK2" DataType="BOOL" InitialValue="" Comment="Выход управления соленоида нагнетания конденсатора 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurList_Position" DataType="DINT" InitialValue="" Comment="Текущая позиция в списке" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AlrmResByCTRL" DataType="BOOL" InitialValue="" Comment="Сброс всех аварий о команде с CTRL" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_SNK1" DataType="BOOL" InitialValue="" Comment="Выход управления соленоида нагнетания конденсатора 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="num_Rows" DataType="DINT" InitialValue="" Comment="Количество строк на маске" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt01" DataType="INT" InitialValue="" Comment="Время переключения СНК при Par_Dp01 = TRUE" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="KeybOnOff" DataType="BOOL" InitialValue="" Comment="Положение программного выключателя (false - выкл, true - вкл)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurLevel" DataType="USINT" InitialValue="" Comment="Текущий уровень меню" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Ds03" DataType="REAL" InitialValue="4.5" Comment="Уставка ДНД" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="REQ_Stop_DP_TOP" DataType="BOOL" InitialValue="" Comment="Команда на  DP-TOP к остановке для перепрошивки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="save_MenuPoint" DataType="USINT" InitialValue="" Comment="сохранённый пункт меню" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="10" />
+    </Variable>
+    <Variable Name="FLR_DX_LPDND" DataType="ALM" InitialValue="" Comment="Снижение давления по ДНД (уставка)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ANSW_Stop_DP_TOP" DataType="BOOL" InitialValue="" Comment="Ответ от  DP-TOP к остановке для перепрошивки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="save_Position" DataType="DINT" InitialValue="" Comment="сохранённая позиция меню" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="10" />
+    </Variable>
+    <Variable Name="AI_HPS1" DataType="STCT_AnalogSens" InitialValue="" Comment="Датчик высокого давления 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CommandOnOff" DataType="BOOL" InitialValue="" Comment="Команда вкл/выкл" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="save_CurRow" DataType="DINT" InitialValue="" Comment="сохранённая позиция меню" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="10" />
+    </Variable>
+    <Variable Name="Par_Ds04" DataType="REAL" InitialValue="38.0" Comment="Уставка ДВД1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SFComp1" DataType="ALM" InitialValue="" Comment="Срабатывание автоматического выключателя компр.1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MaskIDStore" DataType="USINT" InitialValue="" Comment="Сохраняет MaskID" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="0" Upper="9" />
+    </Variable>
+    <Variable Name="FLR_DX_HPDVD1" DataType="ALM" InitialValue="" Comment="Превышение давления по ДВД1 (уставка)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SFComp2" DataType="ALM" InitialValue="" Comment="Срабатывание автоматического выключателя компр.2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MaskIDLevel" DataType="USINT" InitialValue="" Comment="Текущий уровень MaskID" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Alarms_Dt1213" DataType="UDINT" InitialValue="12" Comment="Время для 5/12 для аварии по датчику LPS" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_DX_SFComp3" DataType="ALM" InitialValue="" Comment="Срабатывание автоматического выключателя компр.3" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Alarms_Dt1214" DataType="UDINT" InitialValue="12" Comment="Время для 5/12 для аварии по датчику HPS" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DP_TOP_Version" DataType="UINT" InitialValue="" Comment="Текущая версия прошивки на DP-CTRL" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt1213" DataType="UINT" InitialValue="12" Comment="Время для 5/12 для аварии по датчику LPS" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dt1214" DataType="UINT" InitialValue="12" Comment="Время для 5/12 для аварии по датчику HPS" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="En_TimeSync" DataType="BOOL" InitialValue="" Comment="Флаг синхронизации времени" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="En_DP_TOP_TimeSync" DataType="BOOL" InitialValue="" Comment="Флаг синхронизации времени с DP-TOP" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="En_DP_CTRL_TimeSync" DataType="BOOL" InitialValue="" Comment="Флаг синхронизации времени с DP-CTRL" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TimeSync_High" DataType="UINT" InitialValue="" Comment="Текущее время DP-CTRL в секундах (старшие биты)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TimeSync_Low" DataType="UINT" InitialValue="" Comment="Текущее время DP-CTRL в секундах (младшие биты)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurrDateInSec" DataType="UDINT" InitialValue="" Comment="Текущее время в секундах" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FLR_Disc_CTRL" DataType="ALM" InitialValue="" Comment="Потеря связи со шкафом управления" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dd03" DataType="REAL" InitialValue="1.5" Comment="Гистерезис ДНД" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Par_Dd04" DataType="REAL" InitialValue="5.0" Comment="Гистерезис ДВД1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="PoolCircuitType" DataType="USINT" InitialValue="99" Comment="Тип схемы установок POOL" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AI_HPS2" DataType="STCT_AnalogSens" InitialValue="" Comment="Датчик высокого давления 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_HP1" DataType="BOOL" InitialValue="" Comment="Реле высокого давления компрессора 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_HP2" DataType="BOOL" InitialValue="" Comment="Реле высокого давления компрессора 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_HP3" DataType="BOOL" InitialValue="" Comment="Реле высокого давления компр.3" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_LP1" DataType="BOOL" InitialValue="" Comment="Реле низкого давления компрессора 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_LP3" DataType="BOOL" InitialValue="" Comment="Реле низкого давления компр.3" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_LP2" DataType="BOOL" InitialValue="" Comment="Реле низкого давления компрессора 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_CT1" DataType="BOOL" InitialValue="" Comment="Термостат нагнетания компрессора 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_CT2" DataType="BOOL" InitialValue="" Comment="Термостат нагнетания компрессора 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_CT3" DataType="BOOL" InitialValue="" Comment="Термостат нагнетания компр.3" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AI_Tw" DataType="STCT_AnalogSens" InitialValue="" Comment="Т обратной воды" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DI_WHeatTZ" DataType="BOOL" InitialValue="" Comment="Угроза замерз.водяного т/о по воздуху(Капиллярный термостат TZ)" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AO_WHeat3Valve" DataType="REAL" InitialValue="" Comment="AO 3-ходовым клапаном водяного нагревателя" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="AO_SuExhValves" DataType="REAL" InitialValue="" Comment="Привод клапана приточного и вытяжного воздуха" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_Pump" DataType="BOOL" InitialValue="" Comment="Выход управления насосом" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="U" DataType="STCT_Analog_IO" InitialValue="" Comment="Универсальные вх/вых для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0),(2(1),0,0,2(1),1,0,0,0,1,(1,3(0)),0)" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="10" />
+    </Variable>
+    <Variable Name="DIn" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые входы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="2" />
+    </Variable>
+    <Variable Name="Y" DataType="STCT_Analog_IO" InitialValue="" Comment="Аналоговые выходы для c.design" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(0,1,0,0,2(0),0,0,0,0,0,(4(0)),0),(0,1,0,0,2(0),0,0,0,0,0,(4(0)),0)" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="2" />
+    </Variable>
+    <Variable Name="DOut" DataType="STCT_Digit_IO" InitialValue="" Comment="Цифровые выходы для c.design" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="">
+      <Dimension Lower="1" Upper="6" />
+    </Variable>
+    <Variable Name="cfgIO" DataType="STCT_IO" InitialValue=",(159(0)),(,17(1),2(2048),2(14336),2(2048),17(2),12(0),14845,14844,14845,10749,14845,14781,14(14845),6(2)),,,,(TRUE)" Comment="Структура конфигурации вх/вых" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="(180(0)),(179(1)),(179(0)),(448(1)),(179(1)),(180(0)),(180(0)),(135(0)),(10(0))" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MODE_Testing" DataType="BOOL" InitialValue="FALSE" Comment="Режим тестирования" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="FullStop" DataType="BOOL" InitialValue="" Comment="Немедленное отключение установки " Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Alarm_Disconnect" DataType="BOOL" InitialValue="" Comment="Флаг аварии по дисконнекту" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="isPOOL" DataType="BOOL" InitialValue="" Comment="Флаг модельного ряда  бассейнов" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="isICE" DataType="BOOL" InitialValue="" Comment="Флаг модельного ряда льдов" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="NextCycleAction" DataType="USINT" InitialValue="" Comment="Команда на выполнение действия в следующем цикле" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="mask_List_pos" DataType="DINT" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="BMS" DataType="STCT_PortConfig" InitialValue="255,19200,1,0" Comment="Настройка порта BMS2" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="1,1,2(1)" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="getIOList" DataType="BOOL" InitialValue="" Comment="Запрос списка вх/вых" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="ManualManage" DataType="BOOL" InitialValue="" Comment="Флаг ручного управления вх/вых" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="En_Reboot" DataType="BOOL" InitialValue="" Comment="Флаг разрешения перезагрузки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="CurrVer" DataType="VERSIONCHK_APPVER" InitialValue="" Comment="Current version of the application according to standard" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="4(1),2(1)" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="UnitOff" DataType="BOOL" InitialValue="TRUE" Comment="Unit Off status: TRUE = Unit OFF" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="TRAP" DataType="BOOL" InitialValue="" Comment="" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_SRC" DataType="BOOL" InitialValue="" Comment="Выход управления соленоида СРЦ" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_SV1" DataType="BOOL" InitialValue="" Comment="Выход управления соленоида жидкости 1" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="DO_SV2" DataType="BOOL" InitialValue="" Comment="Выход управления соленоида жидкости 2" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="Use_Option_R7" DataType="BOOL" InitialValue="FALSE" Comment="Флаг задействованной опции R7 (с реверсом)" Address="" Modifier="Retain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+    <Variable Name="MODE_Unit" DataType="USINT" InitialValue="0" Comment="Режимы работы установки" Address="" Modifier="NonRetain" Kind="Var" Alias="" AccessRights="ReadWrite" StringSize="0" RetainFlags="" CommentFields="" Attributes="0" GroupName="" />
+  </GlobalVars>
+  <Devices />
+  <ExportedGroups />
+  <ImportedGroups />
+  <Groups />
+</Resource>

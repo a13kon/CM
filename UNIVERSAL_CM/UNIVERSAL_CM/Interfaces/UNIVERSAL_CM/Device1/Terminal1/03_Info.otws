@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Worksheet Name="03_Info" Version="1.0.0">
+  <Loop Name="INFO" X="2" Y="0">
+    <Mask Name="SwInfo" Type="Normal" X="2" Y="1" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="5" Content=" ¦úûoÃÀa¶¼Ó" />
+        <Field Type="Text" Name="Text_1" Row="2" Column="0" Content="OOO &quot;T¸xúo¥ÃÅÁÁ&quot;" />
+        <Field Type="Text" Name="Text_2" Row="5" Column="0" Content="SW ver.:" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="OS ver.:" />
+        <Field Type="Variable" Name="Variable_1" Row="6" Column="11" Content="Boot.OsVersion[1]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_2" Row="6" Column="13" Content="Boot.OsVersion[2]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="Boot.OsVersion[3]" Class="CL_UDINT" Format="o3z" Min="0" Max="999" />
+        <Field Type="Text" Name="Text_7" Row="6" Column="12" Content="." />
+        <Field Type="Text" Name="Text_8" Row="6" Column="14" Content="." />
+        <Field Type="Variable" Name="Variable_10" Row="5" Column="19" Content="CurrVer.IsBeta" Class="Beta" Format="ob" Min="0" Max="1" />
+        <Field Type="Text" Name="Text_11" Row="5" Column="12" Content=". . ." />
+        <Field Type="Variable" Name="Variable_7" Row="5" Column="11" Content="CurrVer.X" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_8" Row="5" Column="13" Content="CurrVer.Y" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_9" Row="5" Column="15" Content="CurrVer.Z" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_11" Row="5" Column="17" Content="CurrVer.D" Class="CL_UINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="¨o·:" />
+        <Field Type="Text" Name="Text" Row="7" Column="0" Content="BOOT ver.:" />
+        <Field Type="Variable" Name="Variable_4" Row="7" Column="11" Content="Boot.BootVersion[1]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_5" Row="7" Column="13" Content="Boot.BootVersion[2]" Class="CL_UDINT" Format="o1" Min="0" Max="9" />
+        <Field Type="Variable" Name="Variable_6" Row="7" Column="15" Content="Boot.BootVersion[3]" Class="CL_UDINT" Format="o3z" Min="0" Max="999" />
+        <Field Type="Text" Name="Text_6" Row="7" Column="12" Content="." />
+        <Field Type="Text" Name="Text_9" Row="7" Column="14" Content="." />
+        <Field Type="Variable" Name="Variable" Row="3" Column="5" Content="PoolCircuitType" Class="PoolCircuitType_Class" Format="o1" Min="0" Max="9" SimulationValue="0" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+      </KeyBindings>
+    </Mask>
+    <Mask Name="SysInfo_1" Type="Normal" X="2" Y="2" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="0" Column="5" Content=" ¦úûoÃÀa¶¼Ó" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="0" Content="¨oúÄÃo¿¿¸Ã:" />
+        <Field Type="Text" Name="Text_5" Row="3" Column="0" Content="PaÊÀ¸Ã    :" />
+        <Field Type="Variable" Name="Variable_3" Row="2" Column="12" Content="Boot.BoardTyp[1]" Class="pCO_Type" Format="o2" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="12" Content="Boot.BoardTyp[2]" Class="BoardType" Format="o2" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="15" Content="BoardTempMsk" Class="BoardTempCPCO" Format="o+3.1" Min="0.0" Max="999.9" SimulationValue="" />
+        <Field Type="Text" Name="Text_3" Row="4" Column="0" Content="Ñ·Ão      :" />
+        <Field Type="Variable" Name="Variable" Row="4" Column="20" Content="Boot.Core" Class="CL_UINT" Format="o2" Min="0" Max="99" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+      </KeyBindings>
+    </Mask>
+    <Mask Name="SysInfo_2" Type="Normal" X="2" Y="3" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_1" Row="0" Column="5" Content=" ¦úûoÃÀa¶¼Ó" />
+        <Field Type="Variable" Name="Variable_2" Row="6" Column="0" Content="Boot.PrgCycleMs" Class="CL_UINT" Format="o4" Min="0" Max="9999" />
+        <Field Type="Text" Name="Text_3" Row="6" Column="14" Content="¶¼¾¿oÆ/c" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="4" Content="Àc" />
+        <Field Type="Variable" Name="Variable_1" Row="6" Column="7" Content="Boot.CyclesPerSecond" Class="CL_REAL_2" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="0" Content="¡ËcÄÃo·¸ÉcÄÆ¼¸:" />
+        <Field Type="Text" Name="Text_9" Row="2" Column="0" Content="±aÁ¼c¸É Æ ÁocÄ.ÁaÀÓÄÎ:" />
+        <Field Type="Variable" Name="Variable" Row="3" Column="6" Content="MemWritingsNo" Min="0" Max="999999" Class="CL_UDINT" Format="o10z" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+      </KeyBindings>
+      <EnableOn>
+        <Var Name="EnPwdChgM" />
+      </EnableOn>
+    </Mask>
+    <Mask Name="WorkHours" Type="Normal" X="2" Y="4" Color="LightCyan">
+      <Fields>
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="0" Content="HaÃaµoÄ¾a:           Â" />
+        <Field Type="Variable" Name="Variable_1" Row="2" Column="15" Content="UnitLifeT" Class="CL_UDINT" Format="o6z" Min="0" Max="999999" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="5" Content=" ¦úûoÃÀa¶¼Ó" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+      </KeyBindings>
+    </Mask>
+    <Mask Name="Blackout" Type="Normal" X="2" Y="5" Color="LightCyan">
+      <Fields>
+        <Field Type="Text" Name="Text_1" Row="4" Column="0" Content="­Ã¸ÀÓ oÄ¾¿ÌÂ¸ú¼Ó:" />
+        <Field Type="Variable" Name="Variable_1" Row="5" Column="2" Content="Boot.LastOnDay" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_2" Row="5" Column="5" Content="Boot.LastOnMonth" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_3" Row="5" Column="8" Content="Boot.LastOnYear" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_2" Row="5" Column="4" Content="/" />
+        <Field Type="Text" Name="Text_3" Row="5" Column="7" Content="/" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="15" Content="Boot.LastOnMinute" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="12" Content="Boot.LastOnHour" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_4" Row="6" Column="0" Content="£¿¼Ä.Áoc¿.oÄ¾¿ÌÂ¸ú¼Ó:" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_6" Row="5" Column="18" Content="Boot.LastOnSecond" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_7" Row="7" Column="0" Content="Boot.OffDays" Class="CL_UINT" Format="o3" Min="0" Max="999" />
+        <Field Type="Variable" Name="Variable_8" Row="7" Column="9" Content="Boot.OffHours" Class="CL_UINT" Format="o2" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_9" Row="7" Column="16" Content="Boot.OffMinutes" Class="CL_UINT" Format="o2" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_6" Row="7" Column="4" Content="·ú¸É    Â      À¼ú" />
+        <Field Type="Text" Name="Text_7" Row="5" Column="17" Content=":" />
+        <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_8" Row="0" Column="5" Content=" ¦úûoÃÀa¶¼Ó" />
+        <Field Type="Variable" Name="Variable_10" Row="3" Column="15" Content="Boot.CurDate.Minute" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_9" Row="3" Column="14" Content=":" />
+        <Field Type="Variable" Name="Variable_11" Row="3" Column="12" Content="Boot.CurDate.Hour" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_10" Row="3" Column="4" Content="/" />
+        <Field Type="Text" Name="Text_11" Row="3" Column="7" Content="/" />
+        <Field Type="Variable" Name="Variable_12" Row="3" Column="5" Content="Boot.CurDate.Month" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_13" Row="3" Column="8" Content="Boot.CurDate.Year" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Variable" Name="Variable_14" Row="3" Column="2" Content="Boot.CurDate.Day" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_12" Row="3" Column="17" Content=":" />
+        <Field Type="Text" Name="Text_13" Row="2" Column="0" Content="T¸¾ÅÈ¸¸ ÆÃ¸ÀÓ:" />
+        <Field Type="Variable" Name="Variable_15" Row="3" Column="18" Content="Boot.CurDate.Second" Class="CL_UINT" Format="o2z" Min="0" Max="99" />
+        <Field Type="Text" Name="Text_14" Row="1" Column="0" Content="¦úûoÃÀa¶¼Ó oÄ¾¿ÌÂ¸ú¼Ó" />
+      </Fields>
+      <KeyBindings>
+        <KeyBinding Key="UP" BindOn="Move_UP" />
+        <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      </KeyBindings>
+    </Mask>
+  </Loop>
+</Worksheet>

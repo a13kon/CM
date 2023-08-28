@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Alarms UnitConversionZone="NoConversion">
+  <Alarm Name="Al_retain" Type="ManualReset" Trigger="Al_retain.Trigger" Active="Al_retain.Active" Description="Ошибка подсчета числа записей в постоянную память" />
+  <Alarm Name="Al_Err_retain_write" Type="ManualReset" Trigger="Al_Err_retain_write.Trigger" Active="Al_Err_retain_write.Active" Description="Ошибка записи в постоянную память" />
+  <Alarm Name="FLR_DX_LPDND" Type="AutoReset" Trigger="FLR_DX_LPDND.Trigger" Active="FLR_DX_LPDND.Active" Description="Снижение давления по ДНД (уставка)" />
+  <Alarm Name="FLR_DX_HPDVD1" Type="AutoResetUntilCounter" Trigger="FLR_DX_HPDVD1.Trigger" Active="FLR_DX_HPDVD1.Active" Description="Превышение давления по ДВД1 (уставка)" TimeValue="Alarms_Dt1214" CounterMax="5" />
+  <Alarm Name="FLR_DX_HPDVD2" Type="AutoResetUntilCounter" Trigger="FLR_DX_HPDVD2.Trigger" Active="FLR_DX_HPDVD2.Active" Description="Превышение давления по ДВД2 (уставка)" TimeValue="Alarms_Dt1214" CounterMax="5" />
+  <Alarm Name="FLR_Disc_CTRL" Type="AutoReset" Trigger="FLR_Disc_CTRL.Trigger" Active="FLR_Disc_CTRL.Active" Description="Потеря связи со шкафом управления" />
+  <Alarm Name="FLR_DX_HPComp1" Type="ManualReset" Trigger="FLR_DX_HPComp1.Trigger" Active="FLR_DX_HPComp1.Active" Description="Превышение давл.линии нагнетания компрессора 1 (реле давления)" />
+  <Alarm Name="FLR_DX_HPComp2" Type="ManualReset" Trigger="FLR_DX_HPComp2.Trigger" Active="FLR_DX_HPComp2.Active" Description="Превышение давл.линии нагнетания компрессора 2 (реле давления)" />
+  <Alarm Name="FLR_DX_HPComp3" Type="ManualReset" Trigger="FLR_DX_HPComp3.Trigger" Active="FLR_DX_HPComp3.Active" Description="Превышение давл.линии нагнетания компрессора 3 (реле давления)" />
+  <Alarm Name="FLR_DX_LPComp1" Type="AutoResetUntilCounter" Trigger="FLR_DX_LPComp1.Trigger" Active="FLR_DX_LPComp1.Active" Description="Снижение давл.линии всасывания компрессора 1 (реле давления)" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DX_LPComp2" Type="AutoResetUntilCounter" Trigger="FLR_DX_LPComp2.Trigger" Active="FLR_DX_LPComp2.Active" Description="Снижение давл.линии всасывания компрессора 2 (реле давления)" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DX_LPComp3" Type="AutoResetUntilCounter" Trigger="FLR_DX_LPComp3.Trigger" Active="FLR_DX_LPComp3.Active" Description="Снижение давл.линии всасывания компрессора 3 (реле давления)" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DX_CTComp1" Type="AutoResetUntilCounter" Trigger="FLR_DX_CTComp1.Trigger" Active="FLR_DX_CTComp1.Active" Description="Перегрев компр.1 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DX_CTComp2" Type="AutoResetUntilCounter" Trigger="FLR_DX_CTComp2.Trigger" Active="FLR_DX_CTComp2.Active" Description="Перегрев компр.2 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DX_CTComp3" Type="AutoResetUntilCounter" Trigger="FLR_DX_CTComp3.Trigger" Active="FLR_DX_CTComp3.Active" Description="Перегрев компр.3 по термостату линии нагнетания" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_FreezeTZ" Type="ManualReset" Trigger="FLR_FreezeTZ.Trigger" Active="FLR_FreezeTZ.Active" Description="Авария насоса/капиллярного термостата" />
+  <Alarm Name="FLR_PumpTK" Type="AutoResetUntilCounter" Trigger="FLR_PumpTK.Trigger" Active="FLR_PumpTK.Active" Description="Авария насоса" CounterMax="3" TimeValue="7200" />
+  <Alarm Name="FLR_DX_SensorTw" Type="ManualReset" Trigger="FLR_DX_SensorTw.Trigger" Active="FLR_DX_SensorTw.Active" Description="Ошибка (обрыв или КЗ) датчика температуры обратной воды" />
+  <Alarm Name="FLR_DX_SensorHPDVD1" Type="ManualReset" Trigger="FLR_DX_SensorHPDVD1.Trigger" Active="FLR_DX_SensorHPDVD1.Active" Description="Ошибка (обрыв или КЗ) датчика высокого давления 1" />
+  <Alarm Name="FLR_DX_SensorHPDVD2" Type="ManualReset" Trigger="FLR_DX_SensorHPDVD2.Trigger" Active="FLR_DX_SensorHPDVD2.Active" Description="Ошибка (обрыв или КЗ) датчика высокого давления 2" />
+  <Alarm Name="FLR_DX_SensorLPDND" Type="ManualReset" Trigger="FLR_DX_SensorLPDND.Trigger" Active="FLR_DX_SensorLPDND.Active" Description="Ошибка (обрыв или КЗ) датчика низкого давления" />
+  <Alarm Name="FLR_DX_SFComp1" Type="ManualReset" Trigger="FLR_DX_SFComp1.Trigger" Active="FLR_DX_SFComp1.Active" Description="Срабатывание автоматического выключателя компр.1" />
+  <Alarm Name="FLR_DX_SFComp2" Type="ManualReset" Trigger="FLR_DX_SFComp2.Trigger" Active="FLR_DX_SFComp2.Active" Description="Срабатывание автоматического выключателя компр.2" />
+  <Alarm Name="FLR_DX_SFComp3" Type="ManualReset" Trigger="FLR_DX_SFComp3.Trigger" Active="FLR_DX_SFComp3.Active" Description="Срабатывание автоматического выключателя компр.3" />
+  <Alarm Name="WRN_ManualMode" Type="AutoReset" Trigger="WRN_ManualMode.Trigger" Active="WRN_ManualMode.Active" Description="Предупреждение: ручной режим" />
+  <Alarm Name="FLR_Emergency" Type="AutoReset" Trigger="FLR_Emergency.Trigger" Active="FLR_Emergency.Active" Description="Экстренное отключение по команде с D*-CTRL" />
+  <Alarm Name="FLR_DX_OilReg_Comp1" Type="AutoReset" Trigger="FLR_DX_OilReg_Comp1.Trigger" Active="FLR_DX_OilReg_Comp1.Active" Description="Авария регулятора масла 1" />
+  <Alarm Name="FLR_DX_OilReg_Comp2" Type="AutoReset" Trigger="FLR_DX_OilReg_Comp2.Trigger" Active="FLR_DX_OilReg_Comp2.Active" Description="Авария регулятора масла 2" />
+  <Alarm Name="FLR_DX_OilReg_Comp3" Type="AutoReset" Trigger="FLR_DX_OilReg_Comp3.Trigger" Active="FLR_DX_OilReg_Comp3.Active" Description="Авария регулятора масла 3" />
+  <Alarm Name="FLR_Disc_CPCOE" Type="AutoReset" Description="Device offline alarm" Trigger="FLR_Disc_CPCOE.Trigger" Active="FLR_Disc_CPCOE.Active" />
+  <Alarm Name="FLR_Conf_CPCOE" Type="AutoReset" Description="Wrong configuration on device" Trigger="FLR_Conf_CPCOE.Trigger" Active="FLR_Conf_CPCOE.Active" />
+  <Alarm Name="FLR_EVD" Type="AutoReset" Trigger="FLR_EVD.Trigger" Active="FLR_EVD.Active" Description="Авария ЭРВ EVD Evolution" />
+</Alarms>

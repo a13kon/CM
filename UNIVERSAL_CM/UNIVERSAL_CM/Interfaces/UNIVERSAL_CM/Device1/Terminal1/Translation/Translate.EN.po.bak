@@ -1,0 +1,6363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 07/05/2015 11:48:26\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: EN\n"
+"Language-Id: 1\n"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:0]"
+msgid ""
+msgstr "  Carel NTC"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:1]"
+msgid ""
+msgstr "     PT1000"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:2]"
+msgid ""
+msgstr "     0..1 V"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:3]"
+msgid "  Carel NTC"
+msgstr "  Carel NTC"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:4]"
+msgid "     PT1000"
+msgstr "     PT1000"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:5]"
+msgid "     0..1 V"
+msgstr "     0..1 V"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:6]"
+msgid "    0..10 V"
+msgstr "    0..10 V"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:7]"
+msgid "    4..20mA"
+msgstr "    4..20mA"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:8]"
+msgid "      0..5V"
+msgstr "      0..5V"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:9]"
+msgid "    0..20mA"
+msgstr "    0..20mA"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:11]"
+msgid "      0-10V"
+msgstr "      0-10V"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:12]"
+msgid "  PWM 100Hz"
+msgstr "  PWM 100Hz"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:13]"
+msgid "   PWM 2KHz"
+msgstr "   PWM 2KHz"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:14]"
+msgid ""
+msgstr "  PWM 100Hz"
+
+#: Classes.otsf
+msgctxt "[Class:All_Types_Class][Resource:15]"
+msgid ""
+msgstr "0-10V sl.r."
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:0]"
+msgid "C¿¼Ç¾oÀ Àúoºo ÊaÁ¼c¸É Æ ÁocÄoÓúúÅÌ ÁaÀÓÄÎ"
+msgstr "Too many mem writings"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:1]"
+msgid "OÇ¼µ¾a ÊaÁ¼c¼ Æ       ÁocÄoÓúúÅÌ ÁaÀÓÄÎ"
+msgstr "Retain mem write error"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:2]"
+msgid "AÆaÃ¼Ó ÁÃ¼ÄoÂúoºo     Æ¸úÄ¼¿ÓÄoÃa"
+msgstr "Low pressure sensor"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:3]"
+msgid "AÆaÃ¼Ó ÆËÄÓ½úoºo      Æ¸úÄ¼¿ÓÄoÃa"
+msgstr "High pressure sensor 1"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:4]"
+msgid "AÆaÃ¼Ó úacoca"
+msgstr "High pressure sensor 2"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:5]"
+msgid "C¼ºúa¿ 'ªo½aÃ'"
+msgstr "CTRL is offline"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:6]"
+msgid "OÇ¼µ¾a ÁÃ¸·úaºÃ¸Æa.   H¸·ocÄ¼½¸ú¼¸ ¶¸¿¸ÆoÉ  Ä¸ÀÁ¸ÃaÄÅÃË."
+msgstr "High pressure relay 1"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:7]"
+msgid "Cú¼½¸ú¼¸ Ä¸ÀÁ¸ÃaÄÅÃË  Æo·Ë ·o oÁacúoºo      À¼ú¼ÀÅÀa Áo ·aÄÂ¼¾Å Tw"
+msgstr "High pressure relay 2"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:8]"
+msgid "AÆaÃ¼Ó úacoca/¾aÁ¼¿.  Ä¸ÃÀocÄaÄa"
+msgstr "High pressure relay 3"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:9]"
+msgid "ªo¿úËÉ oÄ¾aÊ XM"
+msgstr "Low pressure relay 1"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:10]"
+msgid "P¸¿¸ ÆËco¾oºo ·aÆ¿¸ú¼Ó1"
+msgstr "Low pressure relay 2"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:11]"
+msgid "P¸¿¸ ÆËco¾oºo ·aÆ¿¸ú¼Ó2"
+msgstr "Low pressure relay 3"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:12]"
+msgid "P¸¿¸ ÆËco¾oºo ·aÆ¿¸ú¼Ó3"
+msgstr "Discharge thermostat 1"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:13]"
+msgid "P¸¿¸ ú¼Ê¾oºo ·aÆ¿¸ú¼Ó 1"
+msgstr "Discharge thermostat 2"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:14]"
+msgid "P¸¿¸ ú¼Ê¾oºo ·aÆ¿¸ú¼Ó 2"
+msgstr "Discharge thermostat 3"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:15]"
+msgid "P¸¿¸ ú¼Ê¾oºo ·aÆ¿¸ú¼Ó 3"
+msgstr "Pump/thermostate failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:16]"
+msgid "T¸ÃÀocÄaÄ ¾oÀÁÃ¸ccoÃa 1"
+msgstr "Pump failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:17]"
+msgid "T¸ÃÀocÄaÄ ¾oÀÁÃ¸ccoÃa 2"
+msgstr "Water temperature     sensor failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:18]"
+msgid "T¸ÃÀocÄaÄ ¾oÀÁÃ¸ccoÃa 3"
+msgstr "High pressure sensor   1 failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:19]"
+msgid "ªÃ¸ÆËÇ¸ú¼¸ ·aÆ¿¸ú¼Ó Áo£­£1"
+msgstr "High pressure sensor   2 failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:20]"
+msgid "ªÃ¸ÆËÇ¸ú¼¸ ·aÆ¿¸ú¼Ó Áo£­£2"
+msgstr "Low pressure sensor    failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:21]"
+msgid "Cú¼½¸ú¼¸ ·aÆ¿¸ú¼Ó Áo  £H£"
+msgstr "Compressor 1 failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:22]"
+msgid "¨oÀÁÃ¸ccoÃ 1"
+msgstr "Compressor 2 failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:23]"
+msgid "¨oÀÁÃ¸ccoÃ 2"
+msgstr "Compressor 3 failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:24]"
+msgid " O·¼ú (¼¿¼ ú¸c¾o¿Î¾o)   Æxo·oÆ (ÆËxo·oÆ) Æ      ÃÅÂúoÀ Ã¸½¼À¸!"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:25]"
+msgid "´¾cÄÃ¸úúo¸ oÄ¾¿ÌÂ¸ú¼¸ Áo ¾oÀaú·¸ c CTRL"
+msgstr "Emergency off by CTRL"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:26]"
+msgid "AÆaÃ¼Ó Ã¸ºÅ¿ÓÄoÃa    Àac¿a 1"
+msgstr "Oil regulator 1 fail"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:27]"
+msgid "AÆaÃ¼Ó Ã¸ºÅ¿ÓÄoÃa    Àac¿a 2"
+msgstr "Oil regulator 2 fail"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:28]"
+msgid "AÆaÃ¼Ó Ã¸ºÅ¿ÓÄoÃa    Àac¿a 3"
+msgstr "Oil regulator 3 fail"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:29]"
+msgid "H¸Ä cÆÓÊ¼ c Ào·Å¿¸À ÃacÇ¼Ã¸ú¼Ó"
+msgstr "cpCOe: offline"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:30]"
+msgid "H¸ÁÃaÆ¼¿ÎúaÓ úacÄÃoÉ¾aÀo·Å¿Ó ÃacÇ¼Ã¸ú¼Ó"
+msgstr "cpCOe: wrong configuration"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:31]"
+msgid "AÆaÃ¼Ó Ào·Å¿Ó ´P­"
+msgstr "EVD failure"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmLogEvent][Resource:0]"
+msgid "A¾Ä¼Æa¶¼Ó"
+msgstr "Start"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmLogEvent][Resource:1]"
+msgid "£¸a¾Ä¼Æ."
+msgstr " Stop"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:0]"
+msgid "AL#01"
+msgstr "AL#01"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:1]"
+msgid "AL#02"
+msgstr "AL#02"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:2]"
+msgid "FLR#01"
+msgstr "FLR#01"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:3]"
+msgid "FLR#02"
+msgstr "FLR#02"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:4]"
+msgid "FLR#03"
+msgstr "FLR#03"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:5]"
+msgid "FLR#04"
+msgstr "FLR#04"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:6]"
+msgid "FLR#05"
+msgstr "FLR#05"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:7]"
+msgid "FLR#06"
+msgstr "FLR#06"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:8]"
+msgid "FLR#07"
+msgstr "FLR#07"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:9]"
+msgid "FLR#08"
+msgstr "FLR#08"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:10]"
+msgid "FLR#09"
+msgstr "FLR#09"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:11]"
+msgid "FLR#10"
+msgstr "FLR#10"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:12]"
+msgid "FLR#11"
+msgstr "FLR#11"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:13]"
+msgid "FLR#12"
+msgstr "FLR#12"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:14]"
+msgid "FLR#13"
+msgstr "FLR#13"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:15]"
+msgid "FLR#14"
+msgstr "FLR#14"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:16]"
+msgid "FLR#15"
+msgstr "FLR#15"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:17]"
+msgid "FLR#16"
+msgstr "FLR#16"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:18]"
+msgid "FLR#17"
+msgstr "FLR#17"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:19]"
+msgid "FLR#18"
+msgstr "FLR#18"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:20]"
+msgid "FLR#19"
+msgstr "FLR#19"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:21]"
+msgid "FLR#20"
+msgstr "WRN#01"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:22]"
+msgid "FLR#21"
+msgstr "WRN#02"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:23]"
+msgid "FLR#22"
+msgstr "WRN#03"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:24]"
+msgid "FLR#23"
+msgstr "WRN#03"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:25]"
+msgid "FLR#24"
+msgstr "FLR#21"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:26]"
+msgid "FLR#25"
+msgstr "FLR#22"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:27]"
+msgid "FLR#26"
+msgstr "FLR#23"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:28]"
+msgid "FLR#27"
+msgstr "FLR#24"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:29]"
+msgid "FLR#28"
+msgstr "FLR#25"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:30]"
+msgid "FLR#29"
+msgstr "FLR#26"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:31]"
+msgid "FLR#30"
+msgstr "FLR#27"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:32]"
+msgid "FLR#31"
+msgstr "FLR#32"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:33]"
+msgid "FLR#32"
+msgstr "FLR#33"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:34]"
+msgid "FLR#33"
+msgstr "FLR#34"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:35]"
+msgid "FLR#34"
+msgstr "FLR#35"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:36]"
+msgid "FLR#35"
+msgstr "FLR#36"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:37]"
+msgid "FLR#36"
+msgstr "WRN#01"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:38]"
+msgid "WRN#01"
+msgstr "WRN#02"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:39]"
+msgid "WRN#02"
+msgstr "WRN#03"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:40]"
+msgid "WRN#03"
+msgstr "WRN#04"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:41]"
+msgid "WRN#04"
+msgstr "WRN#04"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:42]"
+msgid "WRN#05"
+msgstr "WRN#05"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmOnOff_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmOnOff_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Beta][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Beta][Resource:1]"
+msgid "B"
+msgstr "B"
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:5]"
+msgid "-"
+msgstr "-"
+
+#: Classes.otsf
+msgctxt "[Class:Board_Temperature_C_UoM][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardTempCPCO][ClassText:Text]"
+msgid "T¸ÀÁ¸ÃaÄÅÃa:"
+msgstr "Board Temp.:          "
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:8]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:10]"
+msgid "     Large"
+msgstr "     Large"
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:11]"
+msgid "    Medium"
+msgstr "    Medium"
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:12]"
+msgid "     Small"
+msgstr "     Small"
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:13]"
+msgid "        XL"
+msgstr "        XL"
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:16]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:17]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:18]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:19]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:20]"
+msgid "     Basic"
+msgstr "     Basic"
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:21]"
+msgid "  Enhanced"
+msgstr "  Enhanced"
+
+#: Classes.otsf
+msgctxt "[Class:BoardType][Resource:22]"
+msgid "  High End"
+msgstr "  High End"
+
+#: Classes.otsf
+msgctxt "[Class:CompAlarm_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CompAlarm_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CompAlarm_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CompAlarm_Class][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CompAlarm_Class][Resource:4]"
+msgid "x"
+msgstr "x"
+
+#: Classes.otsf
+msgctxt "[Class:CompAlarm_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CompWarning_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CompWarning_Class][Resource:1]"
+msgid "!"
+msgstr "!"
+
+#: Classes.otsf
+msgctxt "[Class:CurRow[1]][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CurRow[2]][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:CurRow[3]][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:1]"
+msgid "-1"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:2]"
+msgid "-2"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:3]"
+msgid "ýaÉ¿ ú¸ úaÉ·¸ú"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:4]"
+msgid "-4"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:5]"
+msgid "-5"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:6]"
+msgid "-6"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:7]"
+msgid "-7"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:8]"
+msgid "-8"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:9]"
+msgid "-9"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:10]"
+msgid "-10"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:11]"
+msgid "-11"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:12]"
+msgid "-12"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:13]"
+msgid "-13"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:14]"
+msgid "-14"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:15]"
+msgid "-15"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ERROR_UPG_Class][Resource:16]"
+msgid "-16"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:FWUpgrade_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:FWUpgrade_Class][Resource:1]"
+msgid "     OµúoÆ¼ÄÎ ªª?      PRG - oµúoÆ¼ÄÎ,"
+msgstr "     Upgrade FW?       PRG - upgrade,"
+
+#: Classes.otsf
+msgctxt "[Class:Hide_Baudrate_Class][ClassText:Text]"
+msgid "C¾oÃocÄÎ:"
+msgstr "Baudrate:"
+
+#: Classes.otsf
+msgctxt "[Class:Hide_Parity_Class][ClassText:Text]"
+msgid "«¸ÄúocÄÎ:"
+msgstr "Parity:"
+
+#: Classes.otsf
+msgctxt "[Class:Hide_Parity_Class][Resource:0]"
+msgid "  ú¸Ä"
+msgstr " none"
+
+#: Classes.otsf
+msgctxt "[Class:Hide_Parity_Class][Resource:1]"
+msgid "ú¸Â¸Ä"
+msgstr "  odd"
+
+#: Classes.otsf
+msgctxt "[Class:Hide_Parity_Class][Resource:2]"
+msgid "  Â¸Ä"
+msgstr " even"
+
+#: Classes.otsf
+msgctxt "[Class:hide_PassDigit_1_Class][Resource:0]"
+msgid "*"
+msgstr "*"
+
+#: Classes.otsf
+msgctxt "[Class:hide_PassDigit_1_Class][Resource:1]"
+msgid "*"
+msgstr "*"
+
+#: Classes.otsf
+msgctxt "[Class:hide_PassDigit_2_Class][Resource:0]"
+msgid "*"
+msgstr "*"
+
+#: Classes.otsf
+msgctxt "[Class:hide_PassDigit_2_Class][Resource:1]"
+msgid "*"
+msgstr "*"
+
+#: Classes.otsf
+msgctxt "[Class:hide_PassDigit_3_Class][Resource:0]"
+msgid "*"
+msgstr "*"
+
+#: Classes.otsf
+msgctxt "[Class:hide_PassDigit_3_Class][Resource:1]"
+msgid "*"
+msgstr "*"
+
+#: Classes.otsf
+msgctxt "[Class:Hide_StopBits_Class][ClassText:Text]"
+msgid "CÄoÁ µ¼ÄË:"
+msgstr "Stop bits:"
+
+#: Classes.otsf
+msgctxt "[Class:Hot_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:IdxImgQM_POOL][Resource:0]"
+msgctxt "[Class:IdxImgQM_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:0]"
+msgid ""
+msgstr "       none"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:1]"
+msgid ""
+msgstr "       DI 1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:2]"
+msgid ""
+msgstr "       DI 2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:3]"
+msgid ""
+msgstr "       DI 3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:4]"
+msgid ""
+msgstr "       DI 4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:5]"
+msgid ""
+msgstr "       DI 5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:6]"
+msgid ""
+msgstr "       DI 6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:7]"
+msgid ""
+msgstr "       DI 7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:8]"
+msgid ""
+msgstr "       DI 8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:9]"
+msgid ""
+msgstr "       DI 9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:10]"
+msgid ""
+msgstr "      DI 10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:11]"
+msgid ""
+msgstr "      DI 11"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:12]"
+msgid ""
+msgstr "      DI 12"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:13]"
+msgid ""
+msgstr "      DI 13"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:14]"
+msgid ""
+msgstr "      DI 14"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:15]"
+msgid ""
+msgstr "      DI 15"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:16]"
+msgid ""
+msgstr "      DI 16"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:17]"
+msgid ""
+msgstr "      DI 17"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:18]"
+msgid ""
+msgstr "      DI 18"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:19]"
+msgid ""
+msgstr "         Y1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:20]"
+msgid ""
+msgstr "         Y2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:21]"
+msgid ""
+msgstr "         Y3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:22]"
+msgid ""
+msgstr "         Y4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:23]"
+msgid ""
+msgstr "         Y5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:24]"
+msgid ""
+msgstr "         Y6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:25]"
+msgid ""
+msgstr "       NO 1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:26]"
+msgid ""
+msgstr "       NO 2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:27]"
+msgid ""
+msgstr "       NO 3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:28]"
+msgid ""
+msgstr "       NO 4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:29]"
+msgid ""
+msgstr "       NO 5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:30]"
+msgid ""
+msgstr "       NO 6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:31]"
+msgid ""
+msgstr "       NO 7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:32]"
+msgid ""
+msgstr "       NO 8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:33]"
+msgid ""
+msgstr "       NO 9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:34]"
+msgid ""
+msgstr "      NO 10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:35]"
+msgid ""
+msgstr "      NO 11"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:36]"
+msgid ""
+msgstr "      NO 12"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:37]"
+msgid ""
+msgstr "      NO 13"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:38]"
+msgid ""
+msgstr "      NO 14"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:39]"
+msgid ""
+msgstr "      NO 15"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:40]"
+msgid ""
+msgstr "      NO 16"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:41]"
+msgid ""
+msgstr "      NO 17"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:42]"
+msgid ""
+msgstr "      NO 18"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:43]"
+msgid ""
+msgstr "      NO 19"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:44]"
+msgid ""
+msgstr "      NO 20"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:45]"
+msgid ""
+msgstr "      NO 21"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:46]"
+msgid ""
+msgstr "      NO 22"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:47]"
+msgid ""
+msgstr "      NO 23"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:48]"
+msgid ""
+msgstr "      NO 24"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:49]"
+msgid ""
+msgstr "      NO 25"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:50]"
+msgid ""
+msgstr "      NO 26"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:51]"
+msgid ""
+msgstr "      NO 27"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:52]"
+msgid ""
+msgstr "      NO 28"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:53]"
+msgid ""
+msgstr "      NO 29"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:54]"
+msgid ""
+msgstr "        U 1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:55]"
+msgid ""
+msgstr "        U 2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:56]"
+msgid ""
+msgstr "        U 3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:57]"
+msgid ""
+msgstr "        U 4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:58]"
+msgid ""
+msgstr "        U 5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:59]"
+msgid ""
+msgstr "        U 6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:60]"
+msgid ""
+msgstr "        U 7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:61]"
+msgid ""
+msgstr "        U 8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:62]"
+msgid ""
+msgstr "        U 9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:63]"
+msgid ""
+msgstr "       U 10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:64]"
+msgid ""
+msgstr "  mini DI 1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:65]"
+msgid ""
+msgstr "  mini DI 2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:66]"
+msgid ""
+msgstr "    mini Y1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:67]"
+msgid ""
+msgstr "    mini Y2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:68]"
+msgid ""
+msgstr "  mini NO 1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:69]"
+msgid ""
+msgstr "  mini NO 2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:70]"
+msgid ""
+msgstr "  mini NO 3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:71]"
+msgid ""
+msgstr "  mini NO 4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:72]"
+msgid ""
+msgstr "  mini NO 5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:73]"
+msgid ""
+msgstr "  mini NO 6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:74]"
+msgid ""
+msgstr "   mini U 1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:75]"
+msgid ""
+msgstr "   mini U 2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:76]"
+msgid ""
+msgstr "   mini U 3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:77]"
+msgid ""
+msgstr "   mini U 4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:78]"
+msgid ""
+msgstr "   mini U 5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:79]"
+msgid ""
+msgstr "   mini U 6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:80]"
+msgid ""
+msgstr "   mini U 7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:81]"
+msgid ""
+msgstr "   mini U 8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:82]"
+msgid ""
+msgstr "   mini U 9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:83]"
+msgid ""
+msgstr "  mini U 10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:84]"
+msgid ""
+msgstr "   pCOe1:U1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:85]"
+msgid ""
+msgstr "   pCOe1:U2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:86]"
+msgid ""
+msgstr "   pCOe1:U3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:87]"
+msgid ""
+msgstr "   pCOe1:U4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:88]"
+msgid ""
+msgstr "   pCOe1:U5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:89]"
+msgid ""
+msgstr "   pCOe1:U6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:90]"
+msgid ""
+msgstr "   pCOe1:U7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:91]"
+msgid ""
+msgstr "   pCOe1:U8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:92]"
+msgid ""
+msgstr "   pCOe1:U9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:93]"
+msgid ""
+msgstr "  pCOe1:U10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:94]"
+msgid ""
+msgstr "  pCOe1:NO1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:95]"
+msgid ""
+msgstr "  pCOe1:NO2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:96]"
+msgid ""
+msgstr "  pCOe1:NO3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:97]"
+msgid ""
+msgstr "  pCOe1:NO4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:98]"
+msgid ""
+msgstr "  pCOe1:NO5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:99]"
+msgid ""
+msgstr "  pCOe1:NO6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:100]"
+msgid ""
+msgstr "   pCOe2:U1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:101]"
+msgid ""
+msgstr "   pCOe2:U2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:102]"
+msgid ""
+msgstr "   pCOe2:U3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:103]"
+msgid ""
+msgstr "   pCOe2:U4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:104]"
+msgid ""
+msgstr "   pCOe2:U5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:105]"
+msgid ""
+msgstr "   pCOe2:U6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:106]"
+msgid ""
+msgstr "   pCOe2:U7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:107]"
+msgid ""
+msgstr "   pCOe2:U8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:108]"
+msgid ""
+msgstr "   pCOe2:U9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:109]"
+msgid ""
+msgstr "  pCOe2:U10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:110]"
+msgid ""
+msgstr "  pCOe2:NO1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:111]"
+msgid ""
+msgstr "  pCOe2:NO2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:112]"
+msgid ""
+msgstr "  pCOe2:NO3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:113]"
+msgid ""
+msgstr "  pCOe2:NO4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:114]"
+msgid ""
+msgstr "  pCOe2:NO5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:115]"
+msgid ""
+msgstr "  pCOe2:NO6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:116]"
+msgid ""
+msgstr "   pCOe3:U1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:117]"
+msgid ""
+msgstr "   pCOe3:U2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:118]"
+msgid ""
+msgstr "   pCOe3:U3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:119]"
+msgid ""
+msgstr "   pCOe3:U4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:120]"
+msgid ""
+msgstr "   pCOe3:U5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:121]"
+msgid ""
+msgstr "   pCOe3:U6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:122]"
+msgid ""
+msgstr "   pCOe3:U7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:123]"
+msgid ""
+msgstr "   pCOe3:U8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:124]"
+msgid ""
+msgstr "   pCOe3:U9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:125]"
+msgid ""
+msgstr "  pCOe3:U10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:126]"
+msgid ""
+msgstr "  pCOe3:NO1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:127]"
+msgid ""
+msgstr "  pCOe3:NO2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:128]"
+msgid ""
+msgstr "  pCOe3:NO3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:129]"
+msgid ""
+msgstr "  pCOe3:NO4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:130]"
+msgid ""
+msgstr "  pCOe3:NO5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:131]"
+msgid ""
+msgstr "  pCOe3:NO6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:132]"
+msgid ""
+msgstr "   pCOe4:U1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:133]"
+msgid ""
+msgstr "   pCOe4:U2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:134]"
+msgid ""
+msgstr "   pCOe4:U3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:135]"
+msgid ""
+msgstr "   pCOe4:U4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:136]"
+msgid ""
+msgstr "   pCOe4:U5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:137]"
+msgid ""
+msgstr "   pCOe4:U6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:138]"
+msgid ""
+msgstr "   pCOe4:U7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:139]"
+msgid ""
+msgstr "   pCOe4:U8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:140]"
+msgid ""
+msgstr "   pCOe4:U9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:141]"
+msgid ""
+msgstr "  pCOe4:U10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:142]"
+msgid ""
+msgstr "  pCOe4:NO1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:143]"
+msgid ""
+msgstr "  pCOe4:NO2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:144]"
+msgid ""
+msgstr "  pCOe4:NO3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:145]"
+msgid ""
+msgstr "  pCOe4:NO4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:146]"
+msgid ""
+msgstr "  pCOe4:NO5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:147]"
+msgid ""
+msgstr "  pCOe4:NO6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:148]"
+msgid ""
+msgstr "   pCOe5:U1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:149]"
+msgid ""
+msgstr "   pCOe5:U2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:150]"
+msgid ""
+msgstr "   pCOe5:U3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:151]"
+msgid ""
+msgstr "   pCOe5:U4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:152]"
+msgid ""
+msgstr "   pCOe5:U5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:153]"
+msgid ""
+msgstr "   pCOe5:U6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:154]"
+msgid ""
+msgstr "   pCOe5:U7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:155]"
+msgid ""
+msgstr "   pCOe5:U8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:156]"
+msgid ""
+msgstr "   pCOe5:U9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:157]"
+msgid ""
+msgstr "  pCOe5:U10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:158]"
+msgid ""
+msgstr "  pCOe5:NO1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:159]"
+msgid ""
+msgstr "  pCOe5:NO2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:160]"
+msgid ""
+msgstr "  pCOe5:NO3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:161]"
+msgid ""
+msgstr "  pCOe5:NO4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:162]"
+msgid ""
+msgstr "  pCOe5:NO5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:163]"
+msgid ""
+msgstr "  pCOe5:NO6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:164]"
+msgid ""
+msgstr "   pCOe6:U1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:165]"
+msgid ""
+msgstr "   pCOe6:U2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:166]"
+msgid ""
+msgstr "   pCOe6:U3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:167]"
+msgid ""
+msgstr "   pCOe6:U4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:168]"
+msgid ""
+msgstr "   pCOe6:U5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:169]"
+msgid ""
+msgstr "   pCOe6:U6"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:170]"
+msgid ""
+msgstr "   pCOe6:U7"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:171]"
+msgid ""
+msgstr "   pCOe6:U8"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:172]"
+msgid ""
+msgstr "   pCOe6:U9"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:173]"
+msgid ""
+msgstr "  pCOe6:U10"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:174]"
+msgid ""
+msgstr "  pCOe6:NO1"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:175]"
+msgid ""
+msgstr "  pCOe6:NO2"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:176]"
+msgid ""
+msgstr "  pCOe6:NO3"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:177]"
+msgid ""
+msgstr "  pCOe6:NO4"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:178]"
+msgid ""
+msgstr "  pCOe6:NO5"
+
+#: Classes.otsf
+msgctxt "[Class:IO_Numbers_Class][Resource:179]"
+msgid ""
+msgstr "  pCOe6:NO6"
+
+#: Classes.otsf
+msgctxt "[Class:isManualMode][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:isManualMode][Resource:1]"
+msgid "M"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:KeybOnOff_Text_Class][Resource:0]"
+msgid "±aÁÅc¾                Êaµ¿o¾¼ÃoÆaú"
+msgstr "Start is              blocked"
+
+#: Classes.otsf
+msgctxt "[Class:KeybOnOff_Text_Class][Resource:1]"
+msgid "±aÁÅc¾                ÃaÊÃ¸Ç¸ú"
+msgstr "Start is              unlocked"
+
+#: Classes.otsf
+msgctxt "[Class:Main_Descr_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Main_Descr_Class][Resource:1]"
+msgid "DVD1"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Main_Descr_Class][Resource:2]"
+msgid "DVD2"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Main_Descr_Class][Resource:3]"
+msgid "DND"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Main_Descr_Class][Resource:4]"
+msgid "Tw"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:1]"
+msgid ""
+msgstr "Ventilation"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:2]"
+msgid ""
+msgstr "Refridgerator"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:3]"
+msgid ""
+msgstr "Alarm logs"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:4]"
+msgid ""
+msgstr "Common settings"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:5]"
+msgid ""
+msgstr "Service"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:6]"
+msgid ""
+msgstr "Logout"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:7]"
+msgid ""
+msgstr "Microclimate"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:8]"
+msgid ""
+msgstr "Microclimate"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:9]"
+msgid ""
+msgstr "Heater"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:10]"
+msgid ""
+msgstr "Recycling"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:11]"
+msgid ""
+msgstr "Cooler"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:12]"
+msgid ""
+msgstr "Recuperator"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:13]"
+msgid ""
+msgstr "Vortex diffuser"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:14]"
+msgid ""
+msgstr "Fans"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:15]"
+msgid ""
+msgstr "Statistics"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:16]"
+msgid ""
+msgstr "Parameters"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:17]"
+msgid ""
+msgstr "Time/Date"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:18]"
+msgid ""
+msgstr "Language"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:19]"
+msgid ""
+msgstr "Password manage"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:20]"
+msgid ""
+msgstr "Group manage"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:21]"
+msgid ""
+msgstr "IO manage"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:22]"
+msgid ""
+msgstr "Sensors correction"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:23]"
+msgid ""
+msgstr "Configurator"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:24]"
+msgid ""
+msgstr "System parameters"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:25]"
+msgid ""
+msgstr "Net settings"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:26]"
+msgid ""
+msgstr "Upgrade"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:27]"
+msgid ""
+msgstr "Work mode schedule"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:28]"
+msgid ""
+msgstr "Work mode schedule"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:29]"
+msgid ""
+msgstr "Control mode"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:30]"
+msgid ""
+msgstr "Parameters control"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:31]"
+msgid ""
+msgstr "Temperature"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:32]"
+msgid ""
+msgstr "Humidity"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:33]"
+msgid ""
+msgstr "Device role"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:34]"
+msgid ""
+msgstr "Group settings"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:35]"
+msgid ""
+msgstr "Group structure"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:36]"
+msgid ""
+msgstr "Digital inputs"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:37]"
+msgid ""
+msgstr "Analog inputs"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:38]"
+msgid ""
+msgstr "Digital outputs"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:39]"
+msgid ""
+msgstr "Analog outputs"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:40]"
+msgid ""
+msgstr "Reset man.control"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:41]"
+msgid ""
+msgstr "Config.master"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:42]"
+msgid ""
+msgstr "Device role"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:43]"
+msgid ""
+msgstr "ModBus settings"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:44]"
+msgid ""
+msgstr "BMS settings"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:45]"
+msgid ""
+msgstr "Search on USB"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:46]"
+msgid ""
+msgstr "Serarch on device"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:47]"
+msgid ""
+msgstr "Mode 4 schedule"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:48]"
+msgid ""
+msgstr "Activation"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:49]"
+msgid ""
+msgstr "Load from USB"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:50]"
+msgid ""
+msgstr "Save to USB"
+
+#: Classes.otsf
+msgctxt "[Class:Main_MenuDescription_Class][Resource:51]"
+msgid ""
+msgstr "Reset parameters"
+
+#: Classes.otsf
+msgctxt "[Class:MainComp_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:MainComp_Class][Resource:1]"
+msgid "*"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ManualMode_Class][Resource:0]"
+msgid "aÆÄo"
+msgstr "auto"
+
+#: Classes.otsf
+msgctxt "[Class:ManualMode_Class][Resource:1]"
+msgid "ÃÅÂ."
+msgstr "man."
+
+#: Classes.otsf
+msgctxt "[Class:mask_StateCompWord_Class][Resource:0]"
+msgid " CÄoÁ"
+msgstr " Stop"
+
+#: Classes.otsf
+msgctxt "[Class:mask_StateCompWord_Class][Resource:1]"
+msgid " CÄoÁ"
+msgstr " Stop"
+
+#: Classes.otsf
+msgctxt "[Class:mask_StateCompWord_Class][Resource:2]"
+msgid "PaµoÄa"
+msgstr " Run"
+
+#: Classes.otsf
+msgctxt "[Class:mask_StateCompWord_Class][Resource:3]"
+msgid "PaµoÄa"
+msgstr " Run"
+
+#: Classes.otsf
+msgctxt "[Class:mask_StateCompWord_Class][Resource:4]"
+msgid "AÆaÃ¼Ó"
+msgstr "Alarm"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:0]"
+msgid "         404:         cÄÃaú¼¶a oÄcÅÄcÄÆÅ¸Ä!"
+msgstr "         404:               not found!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:1]"
+msgid " ­Ë¾¿ÌÂ¼Ä¸ ÅcÄaúoÆ¾Å      ·¿Ó ¼ÊÀ¸ú¸ú¼Ó           úacÄÃo¸¾!"
+msgstr "  Turn off the unit         to  change          unit settings"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:2]"
+msgid "£¿Ó ·ocÄÅÁa, ÆËµ¸Ã¼Ä¸     Ão¿Î ÅcÄÃoÉcÄÆa:          ­E£¬¯¦°"
+msgstr "   To access select      the devise role:           MASTER"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:3]"
+msgid "                        ­¸·oÀËÉ ú¸ Æ c¸Ä¼!"
+msgstr "                        Slave is offline!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:4]"
+msgid "  ­Æ¸·¼Ä¸ C¸ÃÆ¼cúËÉ    ÁaÃo¿Î ·¿Ó ¼ÊÀ¸ú¸ú¼Ó   C¸ÃÆ¼cúËx úacÄÃo¸¾"
+msgstr "    Insert Service      password to modify    Service parameters"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:5]"
+msgid "  ­Æ¸·¼Ä¸ ±aÆo·c¾oÉ    ÁaÃo¿Î ·¿Ó ¼ÊÀ¸ú¸ú¼Ó   ±aÆo·c¾¼x úacÄÃo¸¾"
+msgstr "    Insert Manufact.    password to modify   Manufact. parameters"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:6]"
+msgid "    CocÄaÆ ºÃÅÁÁË          ú¸ oµÍÓÆ¿¸ú!"
+msgstr "     The group is          not declared!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:7]"
+msgid "  ¬cÄaúoÆ¾a ÆÃ¸À¸ú¼    ·ocÄÅÁúa Äo¿Î¾o úa    ­E£¬¯EM ÅcÄÃoÉcÄÆ¸!"
+msgstr "   Time settings is   available only on the         MASTER"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:8]"
+msgid " H¸Ä cÆÓÊ¼ co Ç¾aûoÀ        ÅÁÃaÆ¿¸ú¼Ó!"
+msgstr "  No connection with         control!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:9]"
+msgid "  £ocÄÅÁúo Äo¿Î¾o co     Ç¾aûa ÅÁÃaÆ¿¸ú¼Ó!"
+msgstr "  Only for control!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:10]"
+msgid "   £ocÄÅÁúo Äo¿Î¾o c         ­E£¬¯E¥O!"
+msgstr "  Available only for          MASTER"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:11]"
+msgid " £aÄÂ¼¾ Ä¸ÀÁ.Æ ÁoÀ¸È.     oÄco¸·¼ú¸ú ¼¿¼          ú¸¼cÁÃaÆ¸ú!"
+msgstr "  Troom   sensor is    disabled or broken!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:12]"
+msgid "¬ÁÃaÆ¿¸ú¼¸ ÁaÃaÀ¸ÄÃoÀ   ·ocÄÅÁúo Äo¿Î¾o Æ      Ã¸½¼À¸ A."©ETO""
+msgstr " Parameter manage is  available only in mode      A."SUMMER""
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:13]"
+msgid "                           ¥Ãaû¼¾ ÁÅcÄ!"
+msgstr "                      The schedule is empty!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:14]"
+msgid "   T¸Á¸ÃÎ ­Ë cÀo½¸Ä¸     cµÃoc¼ÄÎ aÆaÃ¼¼!"
+msgstr "   Now You can reset         alarms!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:15]"
+msgid "  PÅÂúo¸ ÅÁÃaÆ¿¸ú¼¸         Æ¾¿ÌÂ¸úo!"
+msgstr "   The manual mode            is ON!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:16]"
+msgid "  PÅÂúo¸ ÅÁÃaÆ¿¸ú¼¸         ÆË¾¿ÌÂ¸úo!"
+msgstr "   The manual mode            is OFF!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:17]"
+msgid "  PÅÂúo¸ ÅÁÃaÆ¿¸ú¼¸         ú¸·ocÄÅÁúo!      ­Ë¾¿ÌÂ¼Ä¸ ÅcÄaúoÆ¾Å!"
+msgstr "  Manual mod in not         available!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:18]"
+msgid "        OÇ¼µ¾a             ¾oúû¼ºÅÃa¶¼¼"
+msgstr "     Configuration            error"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:19]"
+msgid " H¸ Å·a¿ocÎ ÊaºÃÅÊ¼ÄÎ      ¾oúû¼ºÅÃa¶¼Ì!"
+msgstr "    Failed to load        configuration!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:20]"
+msgid "    ­xo·Ë / ÆËxo·Ë     ú¸ c¾oúû¼ºÅÃ¼ÃoÆaúË!"
+msgstr "   Inputs / outputs    are not configured!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:21]"
+msgid " H¸oµxo·¼Ào úaÊúaÂ¼ÄÎ ocúoÆúË¸ Æxo·Ë/ÆËxo·Ë!"
+msgstr " You must set main IO!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:22]"
+msgid " OÇ¼µ¾a ¾oúû¼ºÅÃa¶¼¼.  H¸ ÊaÁo¿ú¸úË ÁÅú¾ÄË          À¸úÌ. "
+msgstr "Configuration failed!  Please,set main menu         points!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:23]"
+msgid "       ¦ÊÆ¿¸¾¼Ä¸          USB-úa¾oÁ¼Ä¸¿Î!"
+msgstr " Extract USB - device!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:24]"
+msgid "       ­cÄaÆÎÄ¸           USB-úa¾oÁ¼Ä¸¿Î!"
+msgstr " Insert Usb - device!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:25]"
+msgid "   OÁ¸Ãa¶¼Ó ÅcÁ¸Çúo         ÊaÆ¸ÃÇ¸úa!"
+msgstr "  Operation completed      successfully!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:26]"
+msgid " H¸ Å·a¿ocÎ ÊaÆ¸ÃÇ¼ÄÎ        oÁ¸Ãa¶¼Ì!"
+msgstr "  Failed to complete      the operation!"
+
+#: Classes.otsf
+msgctxt "[Class:Message_Class][Resource:27]"
+msgid "    ýaÉ¿ ú¸ úaÉ·¸ú!   "
+msgstr "The file is not found!"
+
+#: Classes.otsf
+#| msgctxt "[Class:Class][Resource:0]"
+msgctxt "[Class:ModelLine_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Class][Resource:1]"
+msgctxt "[Class:ModelLine_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Class][Resource:2]"
+msgctxt "[Class:ModelLine_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Class][Resource:3]"
+msgctxt "[Class:ModelLine_Class][Resource:3]"
+msgid "DP-TOP"
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:Class][Resource:4]"
+msgctxt "[Class:ModelLine_Class][Resource:4]"
+msgid "DP-ICE"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ModelLine_TextLogo_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:ModelLine_TextLogo_Class][Resource:1]"
+msgid "     ¬ú¼Æ¸Ãca¿ÎúËÉ          ¾oúÄÃo¿¿¸Ã"
+msgstr "       devices"
+
+#: Classes.otsf
+msgctxt "[Class:ModelLine_TextLogo_Class][Resource:2]"
+msgid "     ¡¸c¾aúa¿ÎúË¸            aºÃ¸ºaÄË"
+msgstr "       devices"
+
+#: Classes.otsf
+msgctxt "[Class:ModelLine_TextLogo_Class][Resource:3]"
+msgid "      ¬cÄaúoÆ¾¼           ·¿Ó µacc¸ÉúoÆ"
+msgstr "       devices"
+
+#: Classes.otsf
+msgctxt "[Class:ModelLine_TextLogo_Class][Resource:4]"
+msgid "       ©¸·oÆË¸                aÃ¸úË"
+msgstr "       arena"
+
+#: Classes.otsf
+msgctxt "[Class:ModelLine_TextLogo_Class][Resource:5]"
+msgid "     ªÃ¸¶¼Ê¼oúúË¸           ÅcÄaúoÆ¾¼"
+msgstr "       devices"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar1][Resource:0]"
+msgid "Memory writes:"
+msgstr "Memory writes:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar1][Resource:1]"
+msgid "Example1:"
+msgstr "Example1:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar1][Resource:2]"
+msgid "HaÃÅ½úaÓ Ä¸ÀÁ.:"
+msgstr "Example1:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar1][Resource:3]"
+msgid "Example3:"
+msgstr "Example1:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar1][Resource:4]"
+msgid "Example4:"
+msgstr "Example1:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar2][Resource:0]"
+msgid "Example2:"
+msgstr "Example2:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar2][Resource:1]"
+msgid "Example2:"
+msgstr "Example2:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar2][Resource:2]"
+msgid "Example2:"
+msgstr "Example2:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar2][Resource:3]"
+msgid "Example2:"
+msgstr "Example2:"
+
+#: Classes.otsf
+msgctxt "[Class:NameVar2][Resource:4]"
+msgid "Example2:"
+msgstr "Example2:"
+
+#: Classes.otsf
+msgctxt "[Class:NotHide_Baudrate_Class][ClassText:Text]"
+msgid "C¾oÃocÄÎ:"
+msgstr "Baudrate:"
+
+#: Classes.otsf
+msgctxt "[Class:NotHide_Parity_Class][ClassText:Text]"
+msgid "«¸ÄúocÄÎ:"
+msgstr "Parity:"
+
+#: Classes.otsf
+msgctxt "[Class:NotHide_Parity_Class][Resource:0]"
+msgid "  ú¸Ä"
+msgstr " none"
+
+#: Classes.otsf
+msgctxt "[Class:NotHide_Parity_Class][Resource:1]"
+msgid "ú¸Â¸Ä"
+msgstr "  odd"
+
+#: Classes.otsf
+msgctxt "[Class:NotHide_Parity_Class][Resource:2]"
+msgid "  Â¸Ä"
+msgstr " even"
+
+#: Classes.otsf
+msgctxt "[Class:NotHide_StopBits_Class][ClassText:Text]"
+msgid "CÄoÁ µ¼ÄË:"
+msgstr "Stop bits:"
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:8]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:11]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:12]"
+msgid "     c.pCO"
+msgstr "     c.pCO"
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:pCO_Type][Resource:14]"
+msgid "c.pCO mini"
+msgstr "c.pCO mini"
+
+#: Classes.otsf
+msgctxt "[Class:PoolCircuitType_Class][Resource:0]"
+msgid "M0"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:PoolCircuitType_Class][Resource:1]"
+msgid "M1"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:PoolCircuitType_Class][Resource:2]"
+msgid "M2"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:PoolCircuitType_Class][Resource:3]"
+msgid "M3"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:0]"
+msgid "404"
+msgstr "         404:               not found!"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:1]"
+msgid "      ª¸Ã¸ÉÄ¼ Æ           ¼ú·¼Æ¼·Åa¿ÎúËÉ            Ã¸½¼À?"
+msgstr "      Switch to             individual              mode?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:2]"
+msgid "      £¿Ó cµÃoca            ÁaÃaÀ¸ÄÃoÆ       úÅ½úa Á¸Ã¸ÊaºÃÅÊ¾a!"
+msgstr "       To reset              parameters     reboot is required!"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:3]"
+msgid "  £¿Ó ¼ÊÀ¸ú¸ú¼Ó Ä¼Áa        úaºÃ¸ÆaÄ¸¿Ó      úÅ½úa Á¸Ã¸ÊaºÃÅÊ¾a!"
+msgstr "      To change             heat type        reboot is required!"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:4]"
+msgid "  £¿Ó ¼ÊÀ¸ú¸ú¼Ó Ão¿¼        ÅcÄÃoÉcÄÆa       úÅ½úa Á¸Ã¸ÊaºÃÅÊ¾a!"
+msgstr "      To change             device role      reboot is required!"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:5]"
+msgid "     £¿Ó ¼ÊÀ¸ú¸ú¼Ó       úacÄÃo¸¾ MODBUS     úÅ½úa Á¸Ã¸ÊaºÃÅÊ¾a!"
+msgstr "      To change          MODBUS settings     reboot is required!"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:6]"
+msgid "      ±aÆ¸ÃÇ¼ÄÎ            ¾oúû¼ºÅÃa¶¼Ì?"
+msgstr "       Complete           configuration?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:7]"
+msgid "  ­¸ÃúÅÄÎcÓ ¾ úaÂa¿Å       ¾oúû¼ºÅÃa¶¼¼?"
+msgstr " Return to the start     of configuration?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:8]"
+msgid " CµÃoc¼ÄÎ cÄaÄ¼cÄ¼¾Å      ¾oÀÁÃ¸ccoÃa 1?"
+msgstr "  Clear compressor 1       statistics?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:9]"
+msgid " CµÃoc¼ÄÎ cÄaÄ¼cÄ¼¾Å      ¾oÀÁÃ¸ccoÃa 2?"
+msgstr "  Clear compressor 2       statistics?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:10]"
+msgid " CµÃoc¼ÄÎ cÄaÄ¼cÄ¼¾Å      ¾oÀÁÃ¸ccoÃa 3?"
+msgstr "  Clear compressor 3       statistics?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:11]"
+msgid "   ±aÁÅcÄ¼ÄÎ ÀacÄ¸Ã        ¾oúû¼ºÅÃa¶¼¼?"
+msgstr " Launch configuration        wizard?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:12]"
+msgid "   ­ËÉÄ¼ ¼Ê ÀacÄ¸Ãa        ¾oúû¼ºÅÃa¶¼É?"
+msgstr "  Exit configuration         wizard?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:13]"
+msgid "H¸·ocÄaÄoÂúËÉ ÅÃoÆ¸úÎ   ·ocÄÅÁa. ª¸Ã¸ÉÄ¼ ¾       ÆÆo·Å ÁaÃo¿Ó?"
+msgstr " Need a higher level        of access!      Do You want to change?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:14]"
+msgid "CµÃoc¼ÄÎ ¾oúû¼ºÅÃa¶¼Ì       ¾ ÊúaÂ¸ú¼ÓÀ          Áo ÅÀo¿Âaú¼Ì?"
+msgstr "Set default settings?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:15]"
+msgid " CÁ¼co¾ oµoÃÅ·oÆaú¼Ó      µÅ·¸Ä cµÃoÇ¸ú!          ªÃo·o¿½¼ÄÎ?"
+msgstr " Equipment list will        be erased!          Are You sure?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:16]"
+msgid "  ¨oúû¼ºÅÃa¶¼Ó µÅ·¸Ä  ÊaÀ¸ú¸úa coxÃaú¸ú¼¸À!       ±aºÃÅÊ¼ÄÎ?"
+msgstr "The configuration willbe replaced by saving.   Confirm loading?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:17]"
+msgid "±aºÃÅÊ¾a ¾oúû¼º.c USB-úa¾oÁ¼Ä¸¿Ó.ªÃo·o¿½¼ÄÎ?"
+msgstr "Loading configuration    from USB-storage.        Continue?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:18]"
+msgid "  ª¸Ã¸Æ¸cÄ¼ Æc¸ Æxo·Ë ¼ ÆËxo·Ë Æ aÆÄ.Ã¸½¼À?"
+msgstr "Reset inputs & outputs  to automatic mode?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:19]"
+msgid " CµÃoc¼ÄÎ úaÊúaÂ¸úúË¸    Æxo·Ë ¼ ÆËxo·Ë?"
+msgstr "Reset inputs & outputs       settings?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:20]"
+msgid "     £¿Ó ¼ÊÀ¸ú¸ú¼Ó        úacÄÃo¸¾ c¸Ä¼      úÅ½úa Á¸Ã¸ÊaºÃÅÊ¾a!"
+msgstr "      To change            net settings      reboot is required!"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:21]"
+msgid "      CoxÃaú¼ÄÎ           ¾oúû¼ºÅÃa¶¼Ì?"
+msgstr "  Save configuration?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:22]"
+msgid " ±aºÃÅÊ¼ÄÎ ÁaÃaÀ¸ÄÃË c    USB-ÅcÄÃoÉcÄÆa?"
+msgstr "  Do You want to load   parameters from USB         device?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:23]"
+msgid "CoxÃaú¼ÄÎ ÁaÃaÀ¸ÄÃË úa    USB-ÅcÄÃoÉcÄÆo?"
+msgstr "  Do You want to save    parameters to USB          device?"
+
+#: Classes.otsf
+msgctxt "[Class:Question_Class][Resource:24]"
+msgid "TÃ¸µÅ¸ÄcÓ Á¸Ã¸ÊaºÃÅÊ¾a    ª¸Ã¸ÊaºÃÅÊ¼ÄÎ?"
+msgstr "  Reboot is required!         Reboot?"
+
+#: Classes.otsf
+msgctxt "[Class:Refridge_Set_Show_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Refridge_Set_Show_Class][Resource:1]"
+msgid "1/1"
+msgstr "1/1"
+
+#: Classes.otsf
+msgctxt "[Class:Refridge_Set_Show_Class][Resource:2]"
+msgid "1/1"
+msgstr "1/1"
+
+#: Classes.otsf
+msgctxt "[Class:Refridge_Set_Show_Class][Resource:3]"
+msgid "1/3"
+msgstr "1/3"
+
+#: Classes.otsf
+msgctxt "[Class:Refridge_Set_Show_Class][Resource:4]"
+msgid "1/3"
+msgstr "1/3"
+
+#: Classes.otsf
+msgctxt "[Class:StartUpgrade_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:StartUpgrade_Class][Resource:1]"
+msgid "¬cÄaúoÆ¾a ªO..."
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:0]"
+msgid ""
+msgstr "CONECTION..."
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:1]"
+msgid "­ PA¡OTE"
+msgstr "UNIT ON"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:2]"
+msgid "­²¨©: A­AP¦Ñ!"
+msgstr "OFF BY ALARM"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:3]"
+msgid "­²¨©: BMS"
+msgstr "OFF BY BMS"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:4]"
+msgid "­²¨©: PACª¦CAH¦E"
+msgstr "OFF BY SCHED"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:5]"
+msgid "­²¨©: RC"
+msgstr "OFF BY RC"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:6]"
+msgid "­²¨©: MECTHO"
+msgstr "OFF BY LOCAL"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:7]"
+msgid "­²¨©: ­E£¬¯¦°"
+msgstr "OFF BY MASTER"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:8]"
+msgid "ªPO¥PE­ T/O"
+msgstr "COIL P/HEAT"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:9]"
+msgid "ªPO¥PE­ ¨­¬:"
+msgstr "GATE P/HEAT:"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:10]"
+msgid "ªPO£¬­¨A   :"
+msgstr "BLOWDOWN"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:11]"
+msgid "PA±¥OH ­EHT:"
+msgstr "FANS ACCEL."
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:12]"
+msgid "­²¨©: RC + PACª."
+msgstr "OFF BY RC+SCHED."
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:13]"
+msgid "­²¨©: RC / PACª."
+msgstr "OFF BY RC/SCHED."
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:14]"
+msgid "­²¨©: RC + BMS"
+msgstr "OFF BY RC + BMS"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:15]"
+msgid "­²¨©: RC / BMS"
+msgstr "OFF BY RC / BMS"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:16]"
+msgid "­²¨©: BMS+PACª."
+msgstr "OFF BY BMS+SCHED"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:17]"
+msgid "­²¨©: BMS/PACª."
+msgstr "OFF BY BMS/SCHED"
+
+#: Classes.otsf
+msgctxt "[Class:UnitStatus_Class][Resource:18]"
+msgid "O§¦£AH¦E XM..."
+msgstr "WAITING FOR CM.."
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:1]"
+msgid "  "
+msgstr " "
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:2]"
+msgid "  K"
+msgstr " K"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:3]"
+msgid "  %"
+msgstr " %"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:4]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:5]"
+msgid "c¸¾"
+msgstr "sec"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:6]"
+msgid "À¼ú"
+msgstr "min"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:7]"
+msgid "Âac"
+msgstr " hr"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:8]"
+msgid " ÀA"
+msgstr " mA"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:9]"
+msgid "  ­"
+msgstr "  V"
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:10]"
+msgid "ppm"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:11]"
+msgid " ªa"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:12]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UoM_CHANGE][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeDrive_text_Class][Resource:0]"
+msgid "  c ÆúÅÄÃ.úa¾oÁ¼Ä¸¿Ó."
+msgstr "  from internal disk."
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeDrive_text_Class][Resource:1]"
+msgid "   c USB-ÅcÄÃoÉcÄÆa."
+msgstr "    from USB-host."
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:0]"
+msgid ""
+msgstr "UNUSED"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:1]"
+msgid ""
+msgstr "UPLOADING"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:2]"
+msgid ""
+msgstr "WAITING"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:3]"
+msgid "ýaÉ¿ ú¸ úaÉ·¸ú"
+msgstr "File is not found"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:8]"
+msgid "ýaÉ¿ ÁÅcÄ"
+msgstr "File is empty"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:11]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:12]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:16]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:17]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:18]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:19]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:20]"
+msgid " £ocÄÅÁúo¸ oµúoÆ¿¸ú¼¸:  UNIVERSAL_ . . ."
+msgstr "Upgrade is available:   UNIVERSAL_ . . ."
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:21]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:22]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:23]"
+msgid "OµúoÆ¿¸ú¼¸ ú¸ úaÉ·¸úo!"
+msgstr "Upgrade is not found!"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:24]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:25]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:26]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:27]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeState_Class][Resource:28]"
+msgid "ýaÉ¿ ÁÅcÄ"
+msgstr "File is empty"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeStatus_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeStatus_Class][Resource:1]"
+msgid "±A¥P¬±¨A"
+msgstr "LOADING"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeStatus_Class][Resource:2]"
+msgid "O§¦£AH¦E"
+msgstr "WAITING"
+
+#: Classes.otsf
+msgctxt "[Class:UpgradeStatus_Class][Resource:3]"
+msgid "ªEPE±A¥P¬±¨A"
+msgstr "RELOADING"
+
+#: Classes.otsf
+msgctxt "[Class:UserAccesMenu][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:UserAccesMenu][Resource:1]"
+msgid "ªaÃo¿Î Áo¿ÎÊoÆaÄ¸¿Ó"
+msgstr "User Password"
+
+#: Classes.otsf
+msgctxt "[Class:UserAccesMenu][Resource:2]"
+msgid "C¸ÃÆ¼cúËÉ ÁaÃo¿Î"
+msgstr "Service Password"
+
+#: Classes.otsf
+msgctxt "[Class:UserAccesMenu][Resource:3]"
+msgid "ªaÃo¿Î ÁÃo¼ÊÆo·¼Ä¸¿Ó"
+msgstr "Manufacturer Password"
+
+#: Classes.otsf
+msgctxt "[Class:UserAccesMenu][Resource:4]"
+msgid "ªaÃo¿Î ÃaÊÃaµoÄÂ¼¾a"
+msgstr "Developer Password"
+
+#: Classes.otsf
+msgctxt "[Class:Warning_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:8]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:11]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:12]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:16]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:17]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:18]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:19]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:20]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:21]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:22]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:23]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:24]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:25]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:26]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:27]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:28]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:29]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:30]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:31]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:32]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:33]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:34]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:35]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:36]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:37]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:38]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:39]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:40]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:41]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:42]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:43]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:44]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:45]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:46]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:47]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:48]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:49]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:50]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:51]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:52]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:53]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:54]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:55]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:56]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:57]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:58]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:59]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:60]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:61]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:62]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:63]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AInDescription_Class][Resource:64]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:8]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:11]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:12]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:16]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:17]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:18]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:19]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:20]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:21]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:22]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:23]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:24]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:25]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:26]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:27]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:28]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:29]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:30]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:31]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:32]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:33]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:34]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:35]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:36]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:37]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:38]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:39]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:40]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:41]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:42]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:43]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:44]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:45]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:46]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:47]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:48]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:49]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:50]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:51]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:52]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:53]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:54]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:55]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:56]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:57]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:58]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:59]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:60]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:61]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:62]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:63]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:64]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:65]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:66]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:67]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:68]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:69]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:70]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:71]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:72]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:73]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:74]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:75]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:76]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:77]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:78]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:79]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:80]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:81]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:82]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:83]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:84]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:85]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:86]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:87]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:88]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:89]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:90]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:91]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:92]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:93]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:94]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:95]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:96]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:97]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:98]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:99]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:100]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:101]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:102]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:103]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:104]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:105]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:106]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:107]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:108]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:109]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:110]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:111]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:112]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:113]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:114]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:115]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:116]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:117]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:118]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:119]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:120]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:121]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:122]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:123]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:124]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:125]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:126]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:127]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_AOutDescription_Class][Resource:128]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:8]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:11]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:12]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:16]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:17]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:18]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:19]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:20]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:21]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:22]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:23]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:24]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:25]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:26]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:27]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:28]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:29]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:30]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:31]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:32]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:33]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:34]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:35]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:36]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:37]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:38]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:39]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:40]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:41]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:42]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:43]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:44]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:45]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:46]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:47]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:48]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:49]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:50]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:51]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:52]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:53]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:54]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:55]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:56]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:57]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:58]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:59]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:60]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:61]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:62]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:63]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:64]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:65]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:66]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:67]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:68]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:69]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:70]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:71]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:72]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:73]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:74]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:75]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:76]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:77]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:78]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:79]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:80]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:81]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:82]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:83]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:84]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:85]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:86]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:87]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:88]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:89]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:90]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:91]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:92]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:93]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:94]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:95]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:96]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:97]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:98]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:99]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:100]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:101]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:102]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:103]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:104]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:105]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:106]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:107]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:108]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:109]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:110]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:111]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:112]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:113]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:114]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:115]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:116]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:117]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:118]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:119]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:120]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:121]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:122]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:123]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:124]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:125]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:126]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:127]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DInDescription_Class][Resource:128]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:2]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:3]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:4]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:5]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:6]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:7]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:8]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:9]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:10]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:11]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:12]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:13]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:14]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:15]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:16]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:17]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:18]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:19]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:20]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:21]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:22]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:23]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:24]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:25]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:26]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:27]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:28]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:29]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:30]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:31]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:32]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:33]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:34]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:35]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:36]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:37]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:38]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:39]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:40]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:41]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:42]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:43]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:44]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:45]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:46]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:47]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:48]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:49]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:50]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:51]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:52]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:53]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:54]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:55]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:56]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:57]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:58]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:59]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:60]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:61]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:62]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:63]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:64]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:65]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:66]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:67]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:68]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:69]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:70]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:71]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:72]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:73]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:74]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:75]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:76]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:77]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:78]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:79]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:80]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:81]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:82]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:83]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:84]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:85]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:86]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:87]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:88]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:89]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:90]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:91]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:92]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:93]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:94]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:95]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:96]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:97]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:98]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:99]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:100]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:101]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:102]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:103]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:104]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:105]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:106]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:107]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:108]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:109]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:110]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:111]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:112]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:113]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:114]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:115]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:116]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:117]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:118]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:119]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:120]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:121]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:122]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:123]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:124]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:125]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:126]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:127]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:Wide_DOutDescription_Class][Resource:128]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:YesNo_Class][Resource:0]"
+msgid "ú¸Ä"
+msgstr " no"
+
+#: Classes.otsf
+msgctxt "[Class:YesNo_Class][Resource:1]"
+msgid " ·a"
+msgstr "yes"
+
+#: 05_Service.otws
+msgctxt "[Mask:AlrmLog_Cleared][Field:Text_1]"
+msgid "HaÊa·: ¾¿aÆ¼Ça ESC"
+msgstr "Press ESC to back"
+
+#: 05_Service.otws
+msgctxt "[Mask:AlrmLog_Cleared][Field:Text_2]"
+msgid "­H¦MAH¦E!"
+msgstr "ATTENTION!"
+
+#: 05_Service.otws
+msgctxt "[Mask:AlrmLog_Cleared][Field:Text_3]"
+msgid "§ÅÃúa¿ aÆaÃ¼É"
+msgstr "  Alarm Log"
+
+#: 05_Service.otws
+msgctxt "[Mask:AlrmLog_Cleared][Field:Text_4]"
+msgid "  oÂ¼È¸ú!"
+msgstr "is cleared!"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Active][Field:Field_1]"
+msgid " AÆaÃ¼¼:           /"
+msgstr "Alarms             /"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Active][Field:Field_4]"
+msgid ":     /  /"
+msgstr ":     /  /"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Log][Field:Data_logger_1]"
+msgid "  ±aÁ¼cÎ:"
+msgstr "  Record:"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Log][Field:Field_5]"
+msgid "§ÅÃúa¿ aÆaÃ¼É"
+msgstr " Data logger"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Log][Field:Text_1]"
+msgid " :     /  /"
+msgstr " :     /  /"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:Field_1]"
+msgid "A­AP¦° HET"
+msgstr " NO ALARMS"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:Press_ENTER_1]"
+msgid "aÆaÃ¼É úa½À¼Ä¸ ENTER"
+msgstr "Press ENTER"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:Text_2]"
+msgid " CÁ¼co¾ aÆaÃ¼É"
+msgstr "Alarms History"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoAlrms][Field:to_DATA_LOGGER_1]"
+msgid "£¿Ó Æxo·a Æ §ÅÃúa¿"
+msgstr "to DATA LOGGER"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoLog][Field:Field_1]"
+msgid " §ÅÃúa¿ aÆaÃ¼É"
+msgstr "Alarms History"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoLog][Field:NO_ACTIVE_ALAMRS_1]"
+msgid "±Aª¦CE° HET"
+msgstr "  NO LOGS"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_NoLog][Field:Text_1]"
+msgid " "
+msgstr " "
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Field_1]"
+msgid "aÆaÃ¼É Å·¸Ã½¼ÆaÉÄ¸"
+msgstr "for 3s to reset"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Field_2]"
+msgid "£¿Ó cµÃoca ­CEX "
+msgstr "Press ALARM "
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Field_3]"
+msgid " AÆaÃ¼¼"
+msgstr "Alarms"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_1]"
+msgid " "
+msgstr " "
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_2]"
+msgid " ALARM Æ Ä¸Â¸ú¼¼ 3c"
+msgstr " all alarms"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_3]"
+msgid "£¿Ó Æxo·a Æ §ÅÃúa¿"
+msgstr " Press ENTER"
+
+#: 01_Alrms.otws
+msgctxt "[Mask:Alrms_Res][Field:Text_4]"
+msgid "aÆaÃÉ¼ úa½À¼Ä¸ ENTER"
+msgstr " to DATA LOGGER"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_1]"
+msgid "­Ã¸ÀÓ oÄ¾¿ÌÂ¸ú¼Ó:"
+msgstr "PowerOff time:"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_2]"
+msgid "/"
+msgstr "/"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_3]"
+msgid "/"
+msgstr "/"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_4]"
+msgid "£¿¼Ä.Áoc¿.oÄ¾¿ÌÂ¸ú¼Ó:"
+msgstr "Length last time off:"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_5]"
+msgid ":"
+msgstr ":"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_6]"
+msgid "·ú¸É    Â      À¼ú"
+msgstr "days    hrs    min"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_7]"
+msgid ":"
+msgstr ":"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_8]"
+msgid " ¦úûoÃÀa¶¼Ó"
+msgstr "Information"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_9]"
+msgid ":"
+msgstr ":"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_10]"
+msgid "/"
+msgstr "/"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_11]"
+msgid "/"
+msgstr "/"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_12]"
+msgid ":"
+msgstr ":"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_13]"
+msgid "T¸¾ÅÈ¸¸ ÆÃ¸ÀÓ:"
+msgstr "Current time:"
+
+#: 03_Info.otws
+msgctxt "[Mask:Blackout][Field:Text_14]"
+msgid "¦úûoÃÀa¶¼Ó oÄ¾¿ÌÂ¸ú¼Ó"
+msgstr "Blackout info"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:BMS_Settings_TOP][Field:Text_2]"
+msgctxt "[Mask:BMS_Settings][Field:Text_2]"
+msgid "HacÄÃoÉ¾¼ BMS"
+msgstr "BMS settings"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:BMS_Settings_TOP][Field:Text_3]"
+msgctxt "[Mask:BMS_Settings][Field:Text_3]"
+msgid "ªoÃÄ:"
+msgstr "Port:"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:BMS_Settings_TOP][Field:Text_4]"
+msgctxt "[Mask:BMS_Settings][Field:Text_4]"
+msgid "BMS2"
+msgstr "BMS2"
+
+#: 05_Service.otws
+msgctxt "[Mask:CORR_AI][Field:Text_2]"
+msgid "/"
+msgstr "/"
+
+#: 05_Service.otws
+msgctxt "[Mask:CORR_AI][Field:Text_3]"
+msgid "±úaÂ. :"
+msgstr "Corr. :"
+
+#: 05_Service.otws
+msgctxt "[Mask:CORR_AI][Field:Text_4]"
+msgid "C¼ºúa¿:"
+msgstr "Signal:"
+
+#: 05_Service.otws
+msgctxt "[Mask:CORR_AI][Field:Text_5]"
+msgid "­xo·  :"
+msgstr "Input :"
+
+#: 05_Service.otws
+msgctxt "[Mask:CORR_AI][Field:Text_6]"
+msgid "T¸¾ÅÈ¸¸:"
+msgstr "Current:"
+
+#: 05_Service.otws
+msgctxt "[Mask:CORR_AI][Field:Text_7]"
+msgid "---"
+msgstr "---"
+
+#: 02_Main.otws
+msgctxt "[Mask:EndDefault][Field:Text_1]"
+msgid "¦H¦¢¦A©¦±A¢¦Ñ"
+msgstr "INITIALIZATION"
+
+#: 02_Main.otws
+msgctxt "[Mask:EndDefault][Field:Text_2]"
+msgid "  ±A­EP®EHA"
+msgstr "  COMPLETED"
+
+#: 02_Main.otws
+msgctxt "[Mask:EndDefault][Field:Text_3]"
+msgid " O½¼·aÉÄ¸ aÆÄoÀaÄ¼Â."
+msgstr " Wait for automatic "
+
+#: 02_Main.otws
+msgctxt "[Mask:EndDefault][Field:Text_4]"
+msgid "  cÄaÃÄa ÁÃoºÃaÀÀË"
+msgstr " application startup"
+
+#: 02_Main.otws
+msgctxt "[Mask:EndDefault][Field:Text_5]"
+msgid "­H¦MAH¦E!"
+msgstr "ATTENTION!"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_1_1][Field:Text_2]"
+msgid "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+msgstr "  Refridgerator"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_1_2][Field:Text_2]"
+msgid "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+msgstr "  Refridgerator"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_1_3][Field:Text_2]"
+msgid "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+msgstr "  Refridgerator"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_2]"
+msgid "Dd01      :"
+msgstr "Dd01      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_3]"
+msgid "Dp01      :"
+msgstr "Dp01      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_4]"
+msgid "Ds01      :"
+msgstr "Ds01      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_5]"
+msgid "Dp03      :"
+msgstr "Dp03      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_6]"
+msgid "Dp04      :"
+msgstr "Dp04      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_7]"
+msgid "ªaÃaÀ¸ÄÃË"
+msgstr ""
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_8]"
+msgid "Dp05      :"
+msgstr "Dp05      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_9]"
+msgid "Dp02      :"
+msgstr "Dp02      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_10]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_11]"
+msgid "c¸¾"
+msgstr "sec"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_12]"
+msgid "c¸¾"
+msgstr "sec"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_13]"
+msgid "c¸¾"
+msgstr "sec"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_14]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_15]"
+msgid "2/3"
+msgstr "1/3"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_1][Field:Text_16]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text]"
+msgid "2/3"
+msgstr "2/3"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_2]"
+msgid "Dt02      :"
+msgstr "Dt02      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_3]"
+msgid "Dt11      :"
+msgstr "Dt11      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_4]"
+msgid "Dt12      :"
+msgstr "Dt12      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_5]"
+msgid "Dt1213    :"
+msgstr "Dt1213    :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_6]"
+msgid "Dt1214    :"
+msgstr "Dt1214    :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_7]"
+msgid "ªaÃaÀ¸ÄÃË"
+msgstr "Parameters"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_8]"
+msgid "Dt01      :"
+msgstr "Dt01      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_9]"
+msgid "c¸¾"
+msgstr "sec"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_15]"
+msgid "c¸¾"
+msgstr "sec"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_16]"
+msgid "À¼ú"
+msgstr "min"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_17]"
+msgid "À¼ú"
+msgstr "min"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_18]"
+msgid "Âac"
+msgstr "hrs"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_3][Field:Text_19]"
+msgid "Âac"
+msgstr "hrs"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text]"
+msgid "3/3"
+msgstr "3/3"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_3]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_4]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_5]"
+msgid "Ds03      :"
+msgstr "Ds03      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_6]"
+msgid "Dd03      :"
+msgstr "Dd03      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_7]"
+msgid "ªaÃaÀ¸ÄÃË"
+msgstr "Parameters"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_8]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_9]"
+msgid "Dd04      :"
+msgstr "Dd04      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_10]"
+msgid "Ds04      :"
+msgstr "Ds04      :"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Params_4][Field:Text_11]"
+msgid "µaÃ"
+msgstr "bar"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_2]"
+msgctxt "[Mask:Fridge_Service][Field:Text_2]"
+msgid "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+msgstr "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Service][Field:Text_3]"
+msgid "RunT2:"
+msgstr "RunT1:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_7]"
+msgctxt "[Mask:Fridge_Service][Field:Text_7]"
+msgid "CH¨:"
+msgstr "SV2:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_8]"
+msgctxt "[Mask:Fridge_Service][Field:Text_8]"
+msgid "£­£1:"
+msgstr "HPS1:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_9]"
+msgctxt "[Mask:Fridge_Service][Field:Text_9]"
+msgid "£­£2:"
+msgstr "HPS2:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_12]"
+msgctxt "[Mask:Fridge_Service][Field:Text_12]"
+msgid "CH¨:"
+msgstr "SV2:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_13]"
+msgctxt "[Mask:Fridge_Service][Field:Text_13]"
+msgid "£H£:"
+msgstr "LPS:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_14]"
+msgctxt "[Mask:Fridge_Service][Field:Text_14]"
+msgid "NzLo:"
+msgstr "Lo"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_15]"
+msgctxt "[Mask:Fridge_Service][Field:Text_15]"
+msgid "NzHi:"
+msgstr "Hi"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_18]"
+msgctxt "[Mask:Fridge_Service][Field:Text_18]"
+msgid "C§:"
+msgstr "SV:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_19]"
+msgctxt "[Mask:Fridge_Service][Field:Text_19]"
+msgid "RunT1:"
+msgstr "RunT"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_20]"
+msgctxt "[Mask:Fridge_Service][Field:Text_20]"
+msgid "RunT2:"
+msgstr "RunT1:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_21]"
+msgctxt "[Mask:Fridge_Service][Field:Text_21]"
+msgid "WU:"
+msgstr "WU"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2][Field:Text_22]"
+msgctxt "[Mask:Fridge_Service][Field:Text_22]"
+msgid "NZ:"
+msgstr "NZ"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text]"
+msgid "Sp:"
+msgstr "Sp"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_2]"
+msgid "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+msgstr "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_3]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_3]"
+msgid "St:"
+msgstr "St"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_4]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_4]"
+msgid "Ac:"
+msgstr "Ac"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_5]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_5]"
+msgid "Al:"
+msgstr "Al"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_6]"
+msgid "On:"
+msgstr "On:"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Fridge_Service_2][Field:Text_7]"
+msgid "3"
+msgstr ""
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_10]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_10]"
+msgid "1"
+msgstr "1:"
+
+#: 04_Refrigerator.otws
+#| msgctxt "[Mask:Fridge_2_Clone_2][Field:Text_11]"
+msgctxt "[Mask:Fridge_Service_2][Field:Text_11]"
+msgid "2"
+msgstr "2:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AI][Field:Text_2]"
+msgid "/"
+msgstr "/"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AI][Field:Text_3]"
+msgid "P¸½¼À :"
+msgstr "Mode  :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AI][Field:Text_4]"
+msgid "C¼ºúa¿:"
+msgstr "Signal:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AI][Field:Text_5]"
+msgid "­xo·  :"
+msgstr "Input :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AI][Field:Text_6]"
+msgid "±úaÂ. :"
+msgstr "Value :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AO][Field:Text_2]"
+msgid "/"
+msgstr "/"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AO][Field:Text_3]"
+msgid "C¼ºúa¿:"
+msgstr "Signal:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AO][Field:Text_4]"
+msgid "P¸½¼À:"
+msgstr "Mode  :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AO][Field:Text_5]"
+msgid "±úaÂ. :"
+msgstr "Value :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_AO][Field:Text_6]"
+msgid "­Ëxo·:"
+msgstr "Output:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DI][Field:Text_2]"
+msgid "/"
+msgstr "/"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DI][Field:Text_3]"
+msgid "CÄaÄÅc:"
+msgstr "Status:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DI][Field:Text_4]"
+msgid "­xo·  :"
+msgstr "Input :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DI][Field:Text_5]"
+msgid "C¼ºúa¿:"
+msgstr "Signal:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DI][Field:Text_6]"
+msgid "P¸½¼À :"
+msgstr "Mode  :"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DI][Field:Text_7]"
+msgid "¦úÆ¸Ã.:"
+msgstr "Invert:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DO][Field:Text_2]"
+msgid "/"
+msgstr "/"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DO][Field:Text_3]"
+msgid "CÄaÄÅc:"
+msgstr "Status:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DO][Field:Text_4]"
+msgid "C¼ºúa¿:"
+msgstr "Signal:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DO][Field:Text_5]"
+msgid "­Ëxo· :"
+msgstr "Output:"
+
+#: 05_Service.otws
+msgctxt "[Mask:IO_DO][Field:Text_6]"
+msgid "P¸½¼À :"
+msgstr "Mode  :"
+
+#: 02_Main.otws
+msgctxt "[Mask:LogoMask][Field:Text]"
+msgid "Xo¿o·¼¿ÎúaÓ ÀaÇ¼úa"
+msgstr ""
+
+#: 02_Main.otws
+#| msgctxt "[Mask:Main_CTRL][Field:Text]"
+msgctxt "[Mask:Main][Field:Text]"
+msgid ":"
+msgstr ":"
+
+#: 02_Main.otws
+msgctxt "[Mask:MainMenu][Field:Text]"
+msgid "¥¿aÆúo¸ À¸úÌ"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:MainMenu][Field:Text_2]"
+msgid "/"
+msgstr ""
+
+#: 02_Main.otws
+msgctxt "[Mask:OnOff][Field:Text_1]"
+msgid "¬ÁÃaÆ¿¸ú¼¸"
+msgstr "Unit On/Off"
+
+#: 02_Main.otws
+#| msgctxt "[Mask:PopUp_Message_Mask_Clone_2][Field:Text_5]"
+msgctxt "[Mask:PopUp_Message_Mask][Field:Text_5]"
+msgid " HaÊa·: ¾¿aÆ¼Ça ESC "
+msgstr "Press ESC to go back"
+
+#: 02_Main.otws
+#| msgctxt "[Mask:PopUp_Message_Mask_Clone_2][Field:Text_6]"
+msgctxt "[Mask:PopUp_Message_Mask][Field:Text_6]"
+msgid " ­H¦MAH¦E!"
+msgstr "ATTENTION!"
+
+#: 02_Main.otws
+#| msgctxt "[Mask:PopUp_Question_Mask_Clone_2][Field:Text_2]"
+msgctxt "[Mask:PopUp_Question_Mask][Field:Text_2]"
+msgid " £A: ¾¿aÆ¼Ça ENTER"
+msgstr "Press ENTER to YES"
+
+#: 02_Main.otws
+#| msgctxt "[Mask:PopUp_Question_Mask_Clone_2][Field:Text_3]"
+msgctxt "[Mask:PopUp_Question_Mask][Field:Text_3]"
+msgid "HET: ¾¿aÆ¼Ça ESC"
+msgstr "Press ESC   to NO"
+
+#: 02_Main.otws
+#| msgctxt "[Mask:PopUp_Question_Mask_Clone_2][Field:Text_6]"
+msgctxt "[Mask:PopUp_Question_Mask][Field:Text_6]"
+msgid " ­H¦MAH¦E!"
+msgstr " ATTENTION!"
+
+#: 02_Main.otws
+msgctxt "[Mask:Reboot][Field:Text_2]"
+msgid "ª¸Ã¸ÊaºÃÅÊ¾a..."
+msgstr "   Reboot..."
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text]"
+msgid "HaÃaµoÄ¾a:"
+msgstr "Life time:"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_2]"
+msgid "¨oÀÁÃ¸ccoÃ"
+msgstr "Compressor"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_3]"
+msgid "«¼c¿o Æ¾¿ÌÂ¸ú¼É:"
+msgstr "Turn on number:"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_4]"
+msgid "Â"
+msgstr "h"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_5]"
+msgid "À¼ú"
+msgstr "min"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_6]"
+msgid "CÄaÄ¼cÄ¼¾a"
+msgstr "Statistics"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_7]"
+msgid "."
+msgstr "."
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_8]"
+msgid ":"
+msgstr ":"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_9]"
+msgid ":"
+msgstr ":"
+
+#: 04_Refrigerator.otws
+msgctxt "[Mask:Stats_1][Field:Text_10]"
+msgid "ªoc¿¸·ú¸¸ ÆË¾¿ÌÂ¸ú¼¸:"
+msgstr "Last turn off time;"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text]"
+msgid "BOOT ver.:"
+msgstr "BOOT ver.:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_1]"
+msgid "OOO "T¸xúo¥ÃÅÁÁ""
+msgstr "TechnoGroup"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_2]"
+msgid "SW ver.:"
+msgstr "SW ver.:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_3]"
+msgid " ¦úûoÃÀa¶¼Ó"
+msgstr "Information"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_4]"
+msgid "¨o·:"
+msgstr "Code:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_5]"
+msgid "OS ver.:"
+msgstr "OS ver.:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_6]"
+msgid "."
+msgstr "."
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_7]"
+msgid "."
+msgstr "."
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_8]"
+msgid "."
+msgstr "."
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_9]"
+msgid "."
+msgstr "."
+
+#: 03_Info.otws
+msgctxt "[Mask:SwInfo][Field:Text_11]"
+msgid ". . ."
+msgstr ". ."
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_1][Field:Text_1]"
+msgid " ¦úûoÃÀa¶¼Ó"
+msgstr "Information"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_1][Field:Text_2]"
+msgid "¨oúÄÃo¿¿¸Ã:"
+msgstr "Board type:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_1][Field:Text_3]"
+msgid "Ñ·Ão      :"
+msgstr "Core:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_1][Field:Text_5]"
+msgid "PaÊÀ¸Ã    :"
+msgstr "Board size:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_2][Field:Text_1]"
+msgid " ¦úûoÃÀa¶¼Ó"
+msgstr "Information"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_2][Field:Text_3]"
+msgid "¶¼¾¿oÆ/c"
+msgstr "Cycle/s"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_2][Field:Text_4]"
+msgid "Àc"
+msgstr "ms"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_2][Field:Text_7]"
+msgid "¡ËcÄÃo·¸ÉcÄÆ¼¸:"
+msgstr "Main task:"
+
+#: 03_Info.otws
+msgctxt "[Mask:SysInfo_2][Field:Text_9]"
+msgid "±aÁ¼c¸É Æ ÁocÄ.ÁaÀÓÄÎ:"
+msgstr "Retain memory writes:"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text]"
+msgctxt "[Mask:Upgrade_1][Field:Text]"
+msgid "Error"
+msgstr "Error"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Upgrade_1][Field:Text_2]"
+msgid "OµúoÆ¿¸ú¼¸"
+msgstr "  Upgrade"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text_3]"
+msgctxt "[Mask:Upgrade_1][Field:Text_3]"
+msgid "R ver"
+msgstr "Error"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text_4]"
+msgctxt "[Mask:Upgrade_1][Field:Text_4]"
+msgid "ªÃoÇ¼Æ¾a:"
+msgstr "Firmware:"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text_5]"
+msgctxt "[Mask:Upgrade_1][Field:Text_5]"
+msgid "Cur ver"
+msgstr "R ver"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Upgrade_1][Field:Text_6]"
+msgid "EQ:"
+msgstr "R ver"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_1_Clone_2_Clone_2][Field:Text_10]"
+msgctxt "[Mask:Upgrade_1][Field:Text_10]"
+msgid "Err_R"
+msgstr "Err_R"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_FW_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Upgrade_FW][Field:Text_2]"
+msgid "OµúoÆ¿¸ú¼¸ ªO"
+msgstr "  Upgrade FW"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_FW_Clone_2][Field:Text_3]"
+msgctxt "[Mask:Upgrade_FW][Field:Text_3]"
+msgid "PRG - oµúoÆ¼ÄÎ,"
+msgstr "PRG - upgrade,"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_FW_Clone_2][Field:Text_4]"
+msgctxt "[Mask:Upgrade_FW][Field:Text_4]"
+msgid "ESC - oÄÀ¸úa"
+msgstr "ESC - cancel"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text]"
+msgctxt "[Mask:Upgrade_OS][Field:Text]"
+msgid "PRG - oµúoÆ¼ÄÎ,"
+msgstr "PRG - upgrade,"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_2]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_2]"
+msgid "OµúoÆ¿¸ú¼¸ ªO"
+msgstr "  Upgrade OS"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_3]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_3]"
+msgid "OS v."
+msgstr "OS v."
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_4]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_4]"
+msgid "."
+msgstr "."
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_5]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_5]"
+msgid "."
+msgstr "."
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_6]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_6]"
+msgid "OµúoÆ¼ÄÎ OC?"
+msgstr " Upgrade OS?"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_7]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_7]"
+msgid "ESC - oÄÀ¸úa"
+msgstr "ESC - cancel"
+
+#: 05_Service.otws
+#| msgctxt "[Mask:Upgrade_OS_Clone_2][Field:Text_8]"
+msgctxt "[Mask:Upgrade_OS][Field:Text_8]"
+msgid "£ocÄÅÁúo¸ oµúoÆ¿¸ú¼¸:"
+msgstr "Upgrade is available:"
+
+#: 05_Service.otws
+msgctxt "[Mask:Upgrade_Progress_Clone_2][Field:Text_2]"
+msgid "OµúoÆ¿¸ú¼¸ ªO"
+msgstr "  Upgrade"
+
+#: 02_Main.otws
+msgctxt "[Mask:USBEject][Field:Text_2]"
+msgid "¦ÊÆ¿¸¾¼Ä¸ USB!"
+msgstr "  Eject USB!"
+
+#: 03_Info.otws
+msgctxt "[Mask:WorkHours][Field:Text_2]"
+msgid "HaÃaµoÄ¾a:           Â"
+msgstr "Unit:                h"
+
+#: 03_Info.otws
+msgctxt "[Mask:WorkHours][Field:Text_3]"
+msgid " ¦úûoÃÀa¶¼Ó"
+msgstr "Information"
+

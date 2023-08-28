@@ -1,0 +1,1172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="UNIVERSAL_CM" ElementGuid="0d779997-876c-45fc-86bf-eb6ce0842c2f" FileVersion="200.00.003" Comment="" SingleTextLine="template" DbVersion="05.50.07" LibraryType="Project" LegacyBinding="true" Password="E4BDBA2BEF6CC4DC" ReadOnly="false">
+  <FileHeader CompanyName="Rockwell Automation Canada, Ltd." ProductName="CAM ISaGRAF 5" CompanyUrl="http://www.isagraf.com" ProductVersion="0" />
+  <Libraries />
+  <DefineWords>
+    <DefineWord Name="ERR_FILE_ACCESS" Define="-3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FILE_INVALID" Define="-5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_BMS2" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS" Define="13" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BOARD_INFO" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_BUSY" Define="-10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_VALUE_INVALID" Define="-6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_POWER_SUPPLY_VOLT" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RETAINED_ERRORS" Define="8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_FB1" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_DISK_ACCESS" Define="-2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_SUCCESS" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_FB2" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_USB_STATUS" Define="16" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_GET_RETAIN_WRITE_HITS" Define="11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BUILTIN_DISPLAY_INFO" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_DISK_INTERNAL" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FILE_EMPTY" Define="-8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_NOT_IMPLEMENTED" Define="-14" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_REMOTE_DISPLAY_3_INFO" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_EXPORT_LOG" Define="-12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_ERROR_ON_DIV_BY_ZERO" Define="9" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_REMOTE_DISPLAY_2_INFO" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_POWER_SUPPLY_FREQ" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BOARD_TEMP" Define="7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_REMOTE_DISPLAY_1_INFO" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_PARAM_INVALID" Define="-13" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FNAME_INVALID" Define="-1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_OS_VERSION" Define="14" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_NO_LOGGER" Define="-11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_UNKNOWN" Define="-99" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_DATE_FILTER" Define="-9" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_DISK_USB" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_WIPE_NVRAM" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_BUFFER_SMALL" Define="-7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_WIPE_ALL" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RESTART_ON_FATAL_ERROR" Define="10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_FILE_IO" Define="-4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_PLAN_INFO" Define="15" Comment="" Access="ReadOnly" />
+    <DefineWord Name="COM_CHANNEL_BMS1" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_VM_QUIT" Define="12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_NO_ERR" Define="10" Comment="Result is a valid value" Access="UserDefined" />
+    <DefineWord Name="SYS_FMODE_OVERWRITE" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_UNKNOWN" Define="0" Comment="Default value" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_IS_WATCHDOG_RESTART" Define="25" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_OPEN" Define="-1" Comment="NTC/PTC input is open" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_SHORT" Define="-2" Comment="NTC/PTC input is shorted" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_OVERFLOW" Define="-3" Comment="Voltage input exceed max allowed value" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_UNDERFLOW" Define="-4" Comment="Voltage input exceed min allowed value" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_INVALID_PARAM" Define="-5" Comment="Channel is out of range" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_SET_PLAN_ADDR" Define="32" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_CHANNEL_NOTFREE" Define="-6" Comment="Channel is not readable due to previous bi-channel probe" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_WIPE_MEMORIES" Define="29" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_INTERNAL_TABLE" Define="-8" Comment="Only ISAI when scaling variable reference are invalid" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_LIC_SNMP" Define="36" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_INVALID_PROBE_TYPE" Define="-9" Comment="Out of range probe type selected" Access="UserDefined" />
+    <DefineWord Name="IO_ERR_CHIPIO_CONFIG_COMM" Define="-100" Comment="Io system has not started due to a severe error" Access="UserDefined" />
+    <DefineWord Name="SYS_PARAM_GET_PHYSICAL_RAM_SIZE" Define="27" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_7SEG_MNG" Define="33" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_SYSTEM_POWERDOWN" Define="18" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_RTC_SRC_NTP" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_SYSTEM_REBOOT" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_WIPE_RETAIN" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ERR_CFG" Define="-15" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RTC_SRC" Define="20" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_1" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_1" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_2" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="IO_ERR_INTERNAL_FULL" Define="-10" Comment="Linked variable already used in timed relays or no more timed relays free" Access="UserDefined" />
+    <DefineWord Name="SYS_VALUE_RTC_SRC_TERA" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_2" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_3" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_GET_UID" Define="28" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_GET_JST_INPUT" Define="26" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_3" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PASSWORD_NONE" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_NO_LOCK" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="NFC_PERMISSION_LOCK_4" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_TICKS" Define="19" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_RTC_SRC_MANUAL" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_LIC_BACNET" Define="35" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_MEM_FREE" Define="31" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_MEM_USED" Define="30" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_FMODE_MODIFY" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_TRANSFER_PATH" Define="'HTTP\TRANSFER\'" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_BOOT_VERSION" Define="34" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_PA" Define="39" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_LIC_NET" Define="42" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_DISABLED" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_DNS" Define="41" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_MSD" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_COMMON" Define="37" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBH_DISABLED" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_USB_CFG" Define="44" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_IP" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBH_MSD" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_CDC" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_VALUE_USBD_MSD_CDC" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_GW" Define="40" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_NETWORK_SETTINGS_IPv6_LL" Define="38" Comment="" Access="ReadOnly" />
+    <DefineWord Name="SYS_PARAM_RETAIN_ALGORITHM_SETTINGS" Define="43" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATA_ARRAY" Define="32" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_TIME" Define="11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_REAL" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RECORDS_SINCE_NOTIFICATION" Define="140" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_BUFFER_SIZE" Define="126" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MODEL_NAME" Define="70" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MIN_PRES_VALUE" Define="69" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DEVICE_ADDRESS_BINDING" Define="30" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_APPLICATION_SOFTWARE_VERSION" Define="12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_CLIENTOFFLINEINTERVAL" Define="77018" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATE" Define="10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROPERTY_LIST" Define="371" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RELIABILITY_EVALUATION_INHIBIT" Define="357" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_ALGORITHM_INHIBIT" Define="354" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_DETECTION_ENABLE" Define="353" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LAST_RESTORE_TIME" Define="157" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NOTIFICATION_THRESHOLD" Define="137" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SEGMENTATION_SUPPORTED" Define="107" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROTOCOL_VERSION" Define="98" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NUMBER_OF_APDU_RETRIES" Define="73" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_CALENDAR" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACSUBNET" Define="77002" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACUDPPORT" Define="77003" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RESTART_NOTIFICATION_RECIPIENTS" Define="202" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ALIGN_INTERVALS" Define="193" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RECORD_COUNT" Define="141" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RELINQUISH_DEFAULT" Define="104" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_POLARITY" Define="84" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_PRES_VALUE" Define="65" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_BINARY_INPUT" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_DUMPTRACE" Define="77019" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_CHAR_STRING" Define="7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_OCTET_STRING" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RESTORE_COMPLETION_TIME" Define="340" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOGGING_TYPE" Define="197" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_TIME_STAMPS" Define="130" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_VENDOR_IDENTIFIER" Define="120" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_UNITS" Define="117" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STATUS_FLAGS" Define="111" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RESOLUTION" Define="106" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OUT_OF_SERVICE" Define="81" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_APDU_LENGTH_ACCEPTED" Define="62" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DAYLIGHT_SAVINGS_STATUS" Define="24" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NOTIFICATION_CLASS" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_COMPORT" Define="77006" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACBBMDTIMETOLIVE" Define="77005" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACSPEED" Define="77007" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_RWC" Define="77009" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_CHAR_STRING_ARRAY" Define="33" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_RECIPIENT_ADDR" Define="19" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOG_INTERVAL" Define="134" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LIMIT_ENABLE" Define="52" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DESCRIPTION" Define="28" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ALARM_VALUES" Define="7" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_MULTISTATE_OUTPUT" Define="14" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_BINARY_OUTPUT" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_ADDRESS_BINDING" Define="18" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROTOCOL_REVISION" Define="139" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_UTC_OFFSET" Define="119" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRIORITY" Define="86" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_TYPE" Define="79" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_MASTER" Define="64" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOW_LIMIT" Define="59" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOCAL_TIME" Define="57" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_APDU_SEGMENT_TIMEOUT" Define="10" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_SCHEDULE" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_UNSIGNED" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACBBMDADDRESS" Define="77004" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_MESSAGE_TEXTS_CONFIG" Define="352" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_CONFIGURATION_FILES" Define="154" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STOP_TIME" Define="143" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ENABLE" Define="133" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOCAL_DATE" Define="56" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_INACTIVE_TEXT" Define="46" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_STATE" Define="36" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_MULTISTATE_INPUT" Define="13" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_DEVICE" Define="8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_ANALOG_INPUT" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACTYPE" Define="77000" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATE_RANGE" Define="30" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_OBJECT_ID" Define="12" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_WEEKLY_SCHEDULE" Define="123" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SYSTEM_STATUS" Define="112" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RELIABILITY" Define="103" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRIORITY_ARRAY" Define="87" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_NAME" Define="77" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_IDENTIFIER" Define="75" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACKED_TRANSITIONS" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_POSITIVE_INTEGER" Define="48" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_SERVEROFFLINEINTERVAL" Define="77017" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DAILY_SCHEDULE" Define="26" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SCHEDULE_DEFAULT" Define="174" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_VENDOR_NAME" Define="121" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EXCEPTION_SCHEDULE" Define="38" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DATE_LIST" Define="23" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACTIVE_TEXT" Define="4" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_BOOLEAN" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_SPECIAL_EVENT" Define="27" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DESTINATION" Define="23" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_BIT_STRING" Define="8" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_NULL" Define="0" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TIME_OF_DEVICE_RESTART" Define="203" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_OBJECT_LIST" Define="76" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ALARM_VALUE" Define="6" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_TREND_LOG" Define="20" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_BINARY_VALUE" Define="5" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_COV_SUBSCRIPTION" Define="37" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DEVICE_OBJECT_PROPERTY_REFERENCE" Define="29" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_INTEGER" Define="3" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TIME_DELAY_NORMAL" Define="356" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DATABASE_REVISION" Define="155" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACTIVE_COV_SUBSCRIPTIONS" Define="152" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EFFECTIVE_PERIOD" Define="32" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_BACKUP_AND_RESTORE_STATE" Define="338" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STOP_WHEN_FULL" Define="144" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NUMBER_OF_STATES" Define="74" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_NOTIFY_TYPE" Define="72" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_ENUMERATED" Define="9" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TRIGGER" Define="205" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LAST_NOTIFY_RECORD" Define="173" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TOTAL_RECORD_COUNT" Define="145" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRESENT_VALUE" Define="85" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_INFO_FRAMES" Define="63" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_FIRMWARE_REVISION" Define="44" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_EVENT_ENABLE" Define="35" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_MACADDRESS" Define="77001" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_PASSWORD" Define="77008" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_CALENDAR_ENTRY" Define="20" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_SERIAL_NUMBER" Define="372" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_MAX_SEGMENTS_ACCEPTED" Define="167" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOCATION" Define="58" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_ACK_REQUIRED" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_MULTISTATE_VALUE" Define="19" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_NOTIFICATION_CLASS" Define="15" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_ANALOG_VALUE" Define="2" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_DATE_TIME" Define="31" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_TYPE_EMPTY_LIST" Define="17" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_BACKUP_FAILURE_TIMEOUT" Define="153" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_START_TIME" Define="142" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOG_DEVICEOBJECTPROPERTY" Define="132" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LOG_BUFFER" Define="131" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_TIME_DELAY" Define="113" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_STATE_TEXT" Define="110" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_HIGH_LIMIT" Define="45" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_FAULT_VALUES" Define="39" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_APDU_TIMEOUT" Define="11" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_INTERVAL_OFFSET" Define="195" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_RECIPIENT_LIST" Define="102" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_DEADBAND" Define="25" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_INTEGER_VALUE" Define="45" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PROP_EXCLUDEEXTERNS" Define="77020" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LAST_RESTART_REASON" Define="196" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_PRIORITY_FOR_WRITING" Define="88" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_LIST_OF_OBJECT_PROPERTY_REFS" Define="54" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_PROP_COV_INCREMENT" Define="22" Comment="" Access="ReadOnly" />
+    <DefineWord Name="BAC_OBJ_ANALOG_OUTPUT" Define="1" Comment="" Access="ReadOnly" />
+    <DefineWord Name="ATMOSPHERIC_PRESSURE" Define="1.01325" Comment="Atmospheric pressure in bar" Access="ReadOnly" />
+    <DefineWord Name="e" Define="2.7182818284590452353602874713526624977572470936999595749" Comment="Euler's number" Access="ReadOnly" />
+    <DefineWord Name="GAS_NUMBER" Define="40" Comment="Number of gas supported by thermodynamic functions (indexes from 0 to GAS_NUMBER-1)" Access="ReadOnly" />
+    <DefineWord Name="STARTUP_JMP_T" Define="T#3s" Comment="Starup jump time" Access="UserDefined" />
+    <DefineWord Name="DF_MIN_IN_HOUR" Define="60" Comment="Кол-во минут в часе" Access="UserDefined" />
+    <DefineWord Name="DF_HOURS_IN_DAY" Define="24" Comment="Кол-во часов в сутках" Access="UserDefined" />
+    <DefineWord Name="DF_SEC_IN_MIN" Define="60" Comment="Кол-во секунд в минуте" Access="UserDefined" />
+    <DefineWord Name="DF_CNT_SEC" Define="300" Comment="Время между сохранениями CNT_Sec счетчика секунд в пост.память" Access="UserDefined" />
+    <DefineWord Name="DF_POOL" Define="3" Comment="Номер линейки бассейнов" Access="UserDefined" />
+    <DefineWord Name="DF_ICE" Define="4" Comment="Номер линейки льдов" Access="UserDefined" />
+    <DefineWord Name="WARMUP_BAND" Define="0.1" Comment="Минимальное изменение давления для разминки" Access="UserDefined" />
+    <DefineWord Name="WARMUP_DELAY" Define="5" Comment="Задержка для включения соленоида жидкости при попадании в WARMUP_BAND" Access="UserDefined" />
+    <DefineWord Name="DF_SECOND" Define="1" Comment="Секунда" Access="UserDefined" />
+    <DefineWord Name="COMPOFF_DELAY" Define="2" Comment="Задержка откл.компрессоров" Access="UserDefined" />
+    <DefineWord Name="DF_SEC_IN_HOUR" Define="3600" Comment="Кол-во секунд в часе" Access="UserDefined" />
+    <DefineWord Name="COMP_LT_SAVEHOUR" Define="3" Comment="Интервал сохранения наработки компрессора в постоянную память" Access="UserDefined" />
+    <DefineWord Name="DF_POOL_CIRCUIT_M0" Define="0" Comment="Схема бассейнов М0 (Иркутск)" Access="UserDefined" />
+    <DefineWord Name="DF_POOL_CIRCUIT_M1" Define="1" Comment="Схема бассейнов М1" Access="UserDefined" />
+    <DefineWord Name="DF_POOL_CIRCUIT_M2" Define="2" Comment="Схема бассейнов М2" Access="UserDefined" />
+    <DefineWord Name="DF_POOL_CIRCUIT_M3" Define="3" Comment="Схема бассейнов М3" Access="UserDefined" />
+    <DefineWord Name="DF_DIRECTION_IN" Define="0" Comment="Тип вх/вых: ВХОД" Access="UserDefined" />
+    <DefineWord Name="DF_DIRECTION_OUT" Define="1" Comment="Тип вх/вых: ВЫХОД" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_0_10V" Define="3" Comment="Тип входа: 0-10 В" Access="UserDefined" />
+    <DefineWord Name="DF_FILTER_NUM_5" Define="5" Comment="Количество проб для фильтрации" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_ONOFF" Define="5" Comment="Тип входа: ON..OFF" Access="UserDefined" />
+    <DefineWord Name="DF_FILTER_NUM_2" Define="2" Comment="Количество проб для фильтрации (DI)" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_CAREL_NTC" Define="0" Comment="Тип входа: Carel NTC" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_4_20mA" Define="4" Comment="Тип входа: 4-20 мА" Access="UserDefined" />
+    <DefineWord Name="DF_OUTPUT_TYPE_0_10V" Define="0" Comment="Тип выхода: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_DI_START" Define="64" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_DI_END" Define="65" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_U_START" Define="74" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_U_END" Define="83" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_NO_ERROR" Define="10" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_MID_MMENU" Define="3" Comment="Осн.меню" Access="UserDefined" />
+    <DefineWord Name="DF_MASK_LIST_SIZE" Define="128" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_MID_ALOG" Define="8" Comment="Журнал аварий" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CM_STA" Define="21" Comment="ХМ: Статистика" Access="UserDefined" />
+    <DefineWord Name="DF_MID_PAR" Define="20" Comment="Маска параметров" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SCORR" Define="25" Comment="Коррекция датчиков" Access="UserDefined" />
+    <DefineWord Name="DF_MID_IO_DI" Define="11" Comment="Дискретные входы" Access="UserDefined" />
+    <DefineWord Name="DF_MID_IO_AI" Define="12" Comment="Аналоговые входы" Access="UserDefined" />
+    <DefineWord Name="DF_MID_IO_DO" Define="13" Comment="Дискретные выходы" Access="UserDefined" />
+    <DefineWord Name="DF_MID_IO_AO" Define="14" Comment="Аналоговые выходы" Access="UserDefined" />
+    <DefineWord Name="DF_MID_BMS" Define="34" Comment="Настройки BMS" Access="UserDefined" />
+    <DefineWord Name="DF_MID_UPGR" Define="27" Comment="Обновление" Access="UserDefined" />
+    <DefineWord Name="DF_MID_MAIN" Define="1" Comment="Гл.экран" Access="UserDefined" />
+    <DefineWord Name="DF_MID_LOGIN" Define="2" Comment="Логин" Access="UserDefined" />
+    <DefineWord Name="DF_MID_ONOFF" Define="4" Comment="Управление" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SCHED" Define="5" Comment="Расписание" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SCH_MU" Define="6" Comment="Меню расписания" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SCH_MG" Define="7" Comment="Управление расписанием" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG" Define="9" Comment="Меню конфигурации" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG_MAS" Define="10" Comment="Мастер конфигурации" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SET" Define="15" Comment="Уставка" Access="UserDefined" />
+    <DefineWord Name="DF_MID_OUT" Define="16" Comment="Выход" Access="UserDefined" />
+    <DefineWord Name="DF_MID_GROLE" Define="17" Comment="Роль устройства" Access="UserDefined" />
+    <DefineWord Name="DF_MID_GSET" Define="18" Comment="Настройки группы" Access="UserDefined" />
+    <DefineWord Name="DF_MID_GSTCT" Define="19" Comment="Состав группы" Access="UserDefined" />
+    <DefineWord Name="DF_MID_DTIME" Define="22" Comment="Дата и время" Access="UserDefined" />
+    <DefineWord Name="DF_MID_LANG" Define="23" Comment="Язык" Access="UserDefined" />
+    <DefineWord Name="DF_MID_PASS" Define="24" Comment="Управление доступом" Access="UserDefined" />
+    <DefineWord Name="DF_MID_MODBUS" Define="26" Comment="Настройки ModBus" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SCH" Define="28" Comment="Расписание" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CMOD" Define="29" Comment="Режим управления" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG_M" Define="10" Comment="Мастер конфигурации" Access="UserDefined" />
+    <DefineWord Name="DF_MID_MSG" Define="30" Comment="Маска сообщения" Access="UserDefined" />
+    <DefineWord Name="DF_MID_QSTN" Define="31" Comment="Маска вопроса" Access="UserDefined" />
+    <DefineWord Name="DF_MID_ROLE" Define="33" Comment="Роль устройства" Access="UserDefined" />
+    <DefineWord Name="DF_MID_NET" Define="34" Comment="Настройки сети" Access="UserDefined" />
+    <DefineWord Name="DF_MID_LOAD" Define="5" Comment="Маска загрузки" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SAVE" Define="6" Comment="Маска сохранения" Access="UserDefined" />
+    <DefineWord Name="DF_MID_PARMNG" Define="35" Comment="Загрузка/Сохранение на USB" Access="UserDefined" />
+    <DefineWord Name="DF_MID_SEQ" Define="9" Comment="Последовательности" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG_DI" Define="36" Comment="Дискретные входы (конфиг)" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG_AI" Define="37" Comment="Аналоговые входы (конфиг)" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG_DO" Define="38" Comment="Дискретные выходы (конфиг)" Access="UserDefined" />
+    <DefineWord Name="DF_MID_CFG_AO" Define="39" Comment="Аналоговые выходы (конфиг)" Access="UserDefined" />
+    <DefineWord Name="DF_MID_COLM" Define="40" Comment="Холодильная машина" Access="UserDefined" />
+    <DefineWord Name="DF_MID_NETM" Define="41" Comment="Карта сети" Access="UserDefined" />
+    <DefineWord Name="DF_MID_INFO" Define="42" Comment="Информация" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_INVISIBLE" Define="8" Comment="Состояние элемента меню: НЕвидимое" Access="UserDefined" />
+    <DefineWord Name="DF_NUM_MENU_ROWS" Define="3" Comment="Количество строк основного меню" Access="UserDefined" />
+    <DefineWord Name="DF_MEN_MAIN" Define="0" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_MEN_FAN" Define="14" Comment="Вентиляторы       " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CLM" Define="2" Comment="Холод.машина      " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_FLR" Define="3" Comment="Журнал аварий     " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SET" Define="4" Comment="Общие настройки   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SRV" Define="5" Comment="Сервис            " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_OUT" Define="6" Comment="Выход             " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_MCL" Define="7" Comment="Микроклимат       " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_MCL_DLE" Define="8" Comment="Микроклимат       " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_HEA" Define="9" Comment="Нагреватель       " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_RCY" Define="10" Comment="Рециркуляция      " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CLD" Define="11" Comment="Охладитель        " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_RCU" Define="12" Comment="Рекуператор       " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_VXD" Define="13" Comment="Вихревой диффузор " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CM_STA" Define="15" Comment="Статистика        " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CM_PAR" Define="16" Comment="Параметры         " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CM_SCOR" Define="17" Comment="Коррекция датчиков" Access="UserDefined" />
+    <DefineWord Name="DF_MEN_TIM" Define="17" Comment="Время/Дата        " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_LNG" Define="18" Comment="Язык              " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_ACC" Define="19" Comment="Управление доступом" Access="UserDefined" />
+    <DefineWord Name="DF_MEN_GRP" Define="20" Comment="Груп.управление   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_IOM" Define="21" Comment="Управление вх/вых." Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SCOR" Define="22" Comment="Коррекция датчиков" Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CFG" Define="23" Comment="Конфигуратор      " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SYS" Define="24" Comment="Системные пар-ры  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_MBU" Define="43" Comment="Настройки ModBus  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_UPG" Define="26" Comment="Обновление ПО     " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SCH" Define="27" Comment="Расп.раб.режима   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SCH_DLE" Define="28" Comment="Расп.раб.режима   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CMO" Define="29" Comment="Режим управления  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_MTEM" Define="31" Comment="Температура       " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_MHUM" Define="32" Comment="Влажность         " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_GROL" Define="33" Comment="Роль устройства   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_GSET" Define="34" Comment="Настройки группы  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_GCNT" Define="35" Comment="Состав группы     " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_DI" Define="36" Comment="Дискретные входы  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_AI" Define="37" Comment="Аналоговые входы  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_DO" Define="38" Comment="Дискретные выходы " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_AO" Define="39" Comment="Аналоговые выходы " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_IORES" Define="40" Comment="Сброс руч.управл. " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CFMAS" Define="41" Comment="Мастер конфигурации" Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CFROL" Define="42" Comment="Роль устройства   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_CFRES" Define="51" Comment="Сброс параметров  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SCH4" Define="47" Comment="График режима 4   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_SCHACT" Define="48" Comment="Активация         " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_NET" Define="25" Comment="Настройки сети    " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_PARM" Define="30" Comment="Управление пар-ми " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_BMS" Define="44" Comment="Настройки BMS     " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_USBUP" Define="45" Comment="Поиск на USB      " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_INTUP" Define="46" Comment="Поиск во внутр.пам." Access="UserDefined" />
+    <DefineWord Name="DF_MEN_LDUSB" Define="49" Comment="Загрузить с USB   " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_RDUSB" Define="50" Comment="Сохранить на USB  " Access="UserDefined" />
+    <DefineWord Name="DF_MEN_VEN" Define="1" Comment="Вент.установка    " Access="UserDefined" />
+    <DefineWord Name="DF_IO_ID_START" Define="1" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_ID_END" Define="18" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_Y_START" Define="19" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_Y_END" Define="24" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_NO_START" Define="25" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_NO_END" Define="53" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_U_START" Define="54" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_U_END" Define="63" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DI_START" Define="1" Comment="Начало диапазона кодов сигналов DI" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DI_END" Define="128" Comment="Конец диапазона кодов сигналов DI" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_U_START" Define="129" Comment="Начало диапазона кодов сигналов AI" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_U_END" Define="192" Comment="Конец диапазона кодов сигналов AI" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_NO_START" Define="193" Comment="Начало диапазона кодов сигналов DO" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_NO_END" Define="320" Comment="Конец диапазона кодов сигналов DO" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Y_START" Define="321" Comment="Начало диапазона кодов сигналов AO" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Y_END" Define="416" Comment="Конец диапазона кодов сигналов AO" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_Y_START" Define="66" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_Y_END" Define="67" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_NO_START" Define="68" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_mini_NO_END" Define="73" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Remote" Define="3" Comment="Дист.ВКЛ/ВЫКЛ." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Fire" Define="4" Comment="Откл.при пожаре" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_ShiftSetp" Define="5" Comment="Перекл.уставок" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Power" Define="6" Comment="Отказ питания" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FilterSuDpd" Define="7" Comment="Фильтр П" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FilterExhDpd" Define="8" Comment="Фильтр В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FilterAux1Dpd" Define="9" Comment="Доп.фильтр1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FilterAux2Dpd" Define="10" Comment="Доп.фильтр2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_AuxAlarm1" Define="11" Comment="Внешняя тревога1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_AuxAlarm2" Define="12" Comment="Внешняя тревога2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSu_FLR" Define="14" Comment="Отказ вент.П(1)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuR_FLR" Define="15" Comment="Отказ вент.П(2)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuDiff" Define="16" Comment="Вент.П:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExh_FLR" Define="17" Comment="Отказ вент.В(1)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExhR_FLR" Define="18" Comment="Отказ вент.В(2)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExhDiff" Define="19" Comment="Вент.В:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux1_FLR" Define="22" Comment="Отказ доп.вент.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux2_FLR" Define="23" Comment="Отказ доп.вент.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux3_FLR" Define="24" Comment="Отказ доп.вент.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampSuOpen" Define="27" Comment="Засл. П:закр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampSuClose" Define="28" Comment="Засл. П:откр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampExhOpen" Define="29" Comment="Засл. В:закр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampExhClose" Define="30" Comment="Засл. В:откр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1pump_FLR" Define="42" Comment="W1:отказ насос1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1pumpR_FLR" Define="43" Comment="W1:отказ насос2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1freeze" Define="44" Comment="W1:обмерзание" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1diff" Define="45" Comment="W1:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1flow" Define="46" Comment="W1:нет протока" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1overheat" Define="47" Comment="E1:отказ э/нагр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2pump_FLR" Define="49" Comment="W2:отказ насос1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2pumpR_FLR" Define="50" Comment="W2:отказ насос2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2diff" Define="51" Comment="W2:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2flow" Define="52" Comment="W2:нет протока" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2overheat" Define="53" Comment="E2:отказ э/нагр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3pump_FLR" Define="49" Comment="W3:отказ насос1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3pumpR_FLR" Define="50" Comment="W3:отказ насос2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3diff" Define="51" Comment="W3:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3flow" Define="52" Comment="W3:нет протока" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3overheat" Define="53" Comment="E3:отказ э/нагр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolPump_FLR" Define="55" Comment="Отказ насос охл." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolDiff" Define="56" Comment="Охл.вода:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolFlow" Define="57" Comment="Охл.вода:проток" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep1_FLR" Define="58" Comment="Отказ ККБ1/К.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep2_FLR" Define="59" Comment="Отказ ККБ2/К.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep3_FLR" Define="60" Comment="Отказ ККБ3/К.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep4_FLR" Define="61" Comment="Отказ ККБ4/К.4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUpump_FLR" Define="67" Comment="Рекупер.:отказ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUdpd" Define="68" Comment="Рекупер.:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUfreeze" Define="69" Comment="Рекупер.:т/стат" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUrotor_FLR" Define="72" Comment="Ротор.:отказ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUrotorDpd" Define="73" Comment="Ротор.:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Twin_FLR" Define="82" Comment="Отказ резерва" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_TwinStart" Define="83" Comment="Пуск от осн.уст." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Contr_DI1" Define="85" Comment="Дискр. вход 1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Contr_DI2" Define="86" Comment="Дискр. вход 2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_UVunit_FLR" Define="89" Comment="Бакт.секц.:отказ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HeaterDamper_FLR" Define="90" Comment="КВУ:отказ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HeaterActuator_FLR" Define="91" Comment="Обогр.прив:отказ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Humid_FLR" Define="93" Comment="Увлажнение:отказ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tout" Define="131" Comment="Т:наружн." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tsu1" Define="132" Comment="Т:прит." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Troom" Define="133" Comment="Т:помещение" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Thru" Define="134" Comment="Т:за рекупер." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tsu2" Define="135" Comment="Т:возд.за нагр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tsu3" Define="136" Comment="Т:возд.за нагр.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tw1" Define="140" Comment="Т:обр.нагр.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tw2" Define="141" Comment="Т:обр.нагр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tw3" Define="142" Comment="Т:обр.нагр.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Pw1" Define="143" Comment="Давл.воды нагр.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1_3wayPos" Define="145" Comment="Полож.3-х.нагр.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Psu" Define="147" Comment="Давление возд.П" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Pexh" Define="148" Comment="Давление возд.В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Usu" Define="151" Comment="Влажность приток" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Uroom" Define="152" Comment="Влажность помещ." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CO2room" Define="153" Comment="СО2 в помещ." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_VOCroom" Define="154" Comment="VOC в помещ." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tcase" Define="155" Comment="Т:шкаф" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampSuPos" Define="157" Comment="Засл.П:полож." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampExhPos" Define="158" Comment="Засл.В:полож." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Contr_AI1" Define="159" Comment="Аналоговый вход1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Contr_AI2" Define="160" Comment="Аналоговый вход2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FailureDO" Define="195" Comment="Норма/Авария" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_RunDO" Define="196" Comment="Простой/Работа" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_UniversalDO" Define="197" Comment="Универс.DO" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HeaterCase_ONOFF" Define="198" Comment="ТЭН шкафа" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_R441Damper_ONOFF" Define="199" Comment="Заслонки R4.4.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HeaterDamper_ONOFF" Define="222" Comment="КВУ (подогрев)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSu_ONOFF" Define="205" Comment="Вент. П" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuR_ONOFF" Define="206" Comment="Вент. П(р)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExh_ONOFF" Define="207" Comment="Вент. В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExhR_ONOFF" Define="208" Comment="Вент. В(р)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuBit1" Define="209" Comment="Вент.П: бит 1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuBit2" Define="210" Comment="Вент.П: бит 2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuBit3" Define="211" Comment="Вент.П: бит 3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux1_ONOFF" Define="215" Comment="Доп.вент 1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux2_ONOFF" Define="216" Comment="Доп.вент 2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux3_ONOFF" Define="217" Comment="Доп.вент 3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampSu_ONOFF" Define="220" Comment="Заслонка П" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampExh_ONOFF" Define="221" Comment="Заслонка В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1pump_ONOFF" Define="236" Comment="W1:осн.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1pumpR_ONOFF" Define="237" Comment="W1:рез.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step1_ONOFF" Define="238" Comment="E1:упр.ступ.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step2_ONOFF" Define="239" Comment="E1:упр.ступ.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step3_ONOFF" Define="240" Comment="E1:упр.ступ.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step4_ONOFF" Define="241" Comment="E1:упр.ступ.4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step5_ONOFF" Define="242" Comment="E1:упр.ступ.5" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step6_ONOFF" Define="243" Comment="E1:упр.ступ.6" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step7_ONOFF" Define="244" Comment="E1:упр.ступ.7" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1step8_ONOFF" Define="245" Comment="E1:упр.ступ.8" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2pump_ONOFF" Define="247" Comment="W2:осн.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2pumpR_ONOFF" Define="248" Comment="W2:рез.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step1_ONOFF" Define="249" Comment="E2:упр.ступ.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step2_ONOFF" Define="250" Comment="E2:упр.ступ.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step3_ONOFF" Define="251" Comment="E2:упр.ступ.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step4_ONOFF" Define="252" Comment="E2:упр.ступ.4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step5_ONOFF" Define="253" Comment="E2:упр.ступ.5" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step6_ONOFF" Define="254" Comment="E2:упр.ступ.6" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step7_ONOFF" Define="255" Comment="E2:упр.ступ.7" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2step8_ONOFF" Define="256" Comment="E2:упр.ступ.8" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3pump_ONOFF" Define="247" Comment="W3:осн.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3pumpR_ONOFF" Define="248" Comment="W3:рез.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step1_ONOFF" Define="249" Comment="E3:упр.ступ.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step2_ONOFF" Define="250" Comment="E3:упр.ступ.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step3_ONOFF" Define="251" Comment="E3:упр.ступ.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step4_ONOFF" Define="252" Comment="E3:упр.ступ.4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step5_ONOFF" Define="253" Comment="E3:упр.ступ.5" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step6_ONOFF" Define="254" Comment="E3:упр.ступ.6" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step7_ONOFF" Define="255" Comment="E3:упр.ступ.7" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3step8_ONOFF" Define="256" Comment="E3:упр.ступ.8" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolPump_ONOFF" Define="259" Comment="Охладитель:насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep1_ONOFF" Define="260" Comment="Вкл/выкл.ККБ1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep2_ONOFF" Define="261" Comment="Вкл/выкл.ККБ2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep3_ONOFF" Define="262" Comment="Вкл/выкл.ККБ3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_CoolStep4_ONOFF" Define="263" Comment="Вкл/выкл.ККБ4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUrotor_ONOFF" Define="266" Comment="Ротор.:вкл/выкл." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUpump_ONOFF" Define="267" Comment="Рекупер.:насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUbypass_ONOFF" Define="268" Comment="Рекупер.:байпас" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Twin_ONOFF" Define="271" Comment="Вкл/выкл.резерв" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_TwinStatus" Define="272" Comment="Норма резерв" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Contr_DO1" Define="275" Comment="Дискр. выход" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Humid_ONOFF" Define="279" Comment="Увлажн.ВКЛ/ВЫКЛ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSu_CTRL" Define="321" Comment="Скор. вент.П(1)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanSuR_CTRL" Define="322" Comment="Скор. вент.П(2)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExh_CTRL" Define="323" Comment="Скор. вент.В(1)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanExhR_CTRL" Define="324" Comment="Скор. вент.В(2)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux1_CTRL" Define="327" Comment="Скор. доп.вент.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux2_CTRL" Define="328" Comment="Скор. доп.вент.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_FanAux3_CTRL" Define="329" Comment="Скор. доп.вент.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampSu_CTRL" Define="332" Comment="Позиц.нар.засл." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampRec1_CTRL" Define="333" Comment="Позиц.рецирк.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampRec2_CTRL" Define="334" Comment="Позиц.рецирк.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_DampRec3_CTRL" Define="335" Comment="Засл.регенер." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W1_CTRL" Define="345" Comment="W1:3-ход.клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1_CTRL" Define="346" Comment="E1: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E1_PWM" Define="347" Comment="E1: ШИМ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2_CTRL" Define="349" Comment="W2:3-ход.клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2_CTRL" Define="350" Comment="E2: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E2_PWM" Define="351" Comment="E2: ШИМ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3_CTRL" Define="349" Comment="W3:3-ход.клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3_CTRL" Define="350" Comment="E3: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_E3_PWM" Define="351" Comment="E3: ШИМ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Cool_CTRL" Define="355" Comment="Охл.:рег.клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUrotor_CTRL" Define="359" Comment="Ротор:скорость" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUvalve_CTRL" Define="360" Comment="Рекупер.:клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HRUbypass_CTRL" Define="361" Comment="Рекупер.:байпас" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Humid_CTRL" Define="367" Comment="Увлажн.:мощность" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Contr_AO1" Define="377" Comment="Аналоговый выход" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HeaterDamper2_ONOFF" Define="158" Comment="КВУ (подогрев)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp1_RelayHP_FLR" Define="97" Comment="ХМ_HP компр.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp2_RelayHP_FLR" Define="98" Comment="ХМ_HP компр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp3_RelayHP_FLR" Define="99" Comment="ХМ_HP компр.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp1_RelayLP_FLR" Define="100" Comment="ХМ_LP компр.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp2_RelayLP_FLR" Define="101" Comment="ХМ_LP компр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp3_RelayLP_FLR" Define="102" Comment="ХМ_LP компр.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp1_TState_FLR" Define="103" Comment="Т/стат нагнет.К1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp2_TState_FLR" Define="104" Comment="Т/стат нагнет.К2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp3_TState_FLR" Define="105" Comment="Т/стат нагнет.К3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp1_Oil_FLR" Define="106" Comment="Уровень масла К1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp2_Oil_FLR" Define="107" Comment="Уровень масла К2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp3_Oil_FLR" Define="108" Comment="Уровень масла К3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EVD_FLR" Define="109" Comment="Авария ЭРВ EVD" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W2_3wayPos" Define="146" Comment="Полож.3-х.нагр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_W3_3wayPos" Define="146" Comment="Полож.3-х.нагр.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Sensor_DVD1" Define="161" Comment="ХМ_ДВД1/ДВД(ICE)" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Sensor_DVD2" Define="162" Comment="ХМ_ДВД2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Sensor_DND" Define="163" Comment="ХМ_ДНД" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HeaterActuator_ONOFF" Define="200" Comment="Обогр.приводов" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp1_ONOFF" Define="289" Comment="ХМ_Компр.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp2_ONOFF" Define="290" Comment="ХМ_Компр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Comp3_ONOFF" Define="291" Comment="ХМ_Компр.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SV_ONOFF" Define="292" Comment="ХМ_СЖ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SNK1_ONOFF" Define="293" Comment="ХМ_СНК1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SNK2_ONOFF" Define="294" Comment="ХМ_СНК2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EVD_ONOFF" Define="295" Comment="ХМ_ЭРВ EVD" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HTRrecvr_ONOFF" Define="296" Comment="ХМ_ТЭНы ресивера" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Vortex_CTRL" Define="365" Comment="Диффузор:позиц." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_START" Define="417" Comment="Начало диапазона кодов сигналов SEQ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_END" Define="448" Comment="Конец диапазона кодов сигналов SEQ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprPump_FLR" Define="35" Comment="Wpr:отказ насос1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprPumpR_FLR" Define="36" Comment="Wpr:отказ насос2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprFreeze" Define="37" Comment="Wpr:обмерзание" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprDiff" Define="38" Comment="Wpr:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprFlow" Define="39" Comment="Wpr:нет протока" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprOverheat" Define="40" Comment="Epr:отказ э/нагр" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WauxPump_FLR" Define="75" Comment="Wau:отказ насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WauxDiff" Define="76" Comment="Wau:перепад" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WauxFlow" Define="77" Comment="Wau:нет протока" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EauxOverheat" Define="78" Comment="Eau:отказ э/нагр" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_TsuPre" Define="135" Comment="Т:возд.преднагр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_TsuAux" Define="136" Comment="Т:возд.доп.нагр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tsat" Define="139" Comment="T:насыщение" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprPump_ONOFF" Define="225" Comment="Wpr:осн.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WprPumpR_ONOFF" Define="226" Comment="Wpr:рез.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep1_ONOFF" Define="227" Comment="Epr:упр.ступ.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep2_ONOFF" Define="228" Comment="Epr:упр.ступ.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep3_ONOFF" Define="229" Comment="Epr:упр.ступ.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep4_ONOFF" Define="230" Comment="Epr:упр.ступ.4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep5_ONOFF" Define="231" Comment="Epr:упр.ступ.5" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep6_ONOFF" Define="232" Comment="Epr:упр.ступ.6" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep7_ONOFF" Define="233" Comment="Epr:упр.ступ.7" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EprStep8_ONOFF" Define="234" Comment="Epr:упр.ступ.8" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_WauPump_ONOFF" Define="281" Comment="Wau:осн.насос" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EauStep1_ONOFF" Define="282" Comment="Eau:упр.ступ.1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EauStep2_ONOFF" Define="283" Comment="Eau:упр.ступ.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EauStep3_ONOFF" Define="284" Comment="Eau:упр.ступ.3" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_EauStep4_ONOFF" Define="285" Comment="Eau:упр.ступ.4" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Wpr_CTRL" Define="341" Comment="Wpr:3-ход.клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Epr_CTRL" Define="342" Comment="Epr: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Epr_PWM" Define="343" Comment="Epr: ШИМ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Wau_CTRL" Define="369" Comment="Wau:3-ход.клапан" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Eau_CTRL" Define="370" Comment="Eau: 0-10В" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Eau_PWM" Define="371" Comment="Eau: ШИМ" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_Heater1" Define="417" Comment="Осн. нагрев 1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_Heater2" Define="418" Comment="Осн. нагрев 2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_DamperHeat" Define="419" Comment="Заслонки/Нагрев." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_HRUheat" Define="420" Comment="Рекупер./Нагрев" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_DamperVOC" Define="429" Comment="Заслонки/VOC" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_FanVOC" Define="430" Comment="Скорость/VOC" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_Cooler" Define="433" Comment="Охладитель/Т" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_DamperCool" Define="434" Comment="Заслонки/Охлажд." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_HRUcool" Define="435" Comment="Рекупер./Охлажд." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_DamperHum" Define="439" Comment="Заслонки/H" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_FanHum" Define="440" Comment="Скорость/H" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_CoolerHum" Define="441" Comment="ККБ/H" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_DamperCO2" Define="445" Comment="Заслонки/СО2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SEQ_FanCO2" Define="446" Comment="Скорость/CO2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_TwPre" Define="142" Comment="Т:обр.преднагр." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Pw2" Define="149" Comment="Давл.воды нагр.2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_PwPre" Define="150" Comment="Давл.воды п/нагр" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Tmixchamb" Define="137" Comment="Т:камера смеш." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HTRcomp1_ONOFF" Define="298" Comment="ХМ_ТЭН КМ1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_HTRcomp2_ONOFF" Define="299" Comment="ХМ_ТЭН КМ2" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_Wpr_3wayPos" Define="144" Comment="Полож.3-х.предн." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_BV_ONOFF" Define="297" Comment="ХМ_Байпасн.вент." Access="UserDefined" />
+    <DefineWord Name="DF_SIG_UVunit_ONOFF" Define="201" Comment="Бактер. секция" Access="UserDefined" />
+    <DefineWord Name="DF_IO_CPCOE1_U_START" Define="84" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_CPCOE1_U_END" Define="93" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_CPCOE1_NO_START" Define="94" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_IO_CPCOE1_NO_END" Define="99" Comment="" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_SWITCH_ON" Define="1" Comment="Состояние элемента меню: переключатель вкл" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_SWITCH_OFF" Define="2" Comment="Состояние элемента меню: переключатель выкл" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_RBUTTON_ON" Define="5" Comment="Состояние элемента меню: радиокнопка вкл" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_RBUTTON_OFF" Define="6" Comment="Состояние элемента меню: радиокнопка выкл" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_MENU_ITEM" Define="0" Comment="Состояние элемента меню: пункт меню" Access="UserDefined" />
+    <DefineWord Name="DF_STATE_DISABLE" Define="3" Comment="Состояние элемента меню: заблокирован" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_DI" Define="1" Comment="Бит типа входа DIn" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_DO" Define="2" Comment="Бит типа выхода DOut" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_CarelNTC" Define="3" Comment="Бит типа входа CarelNTC" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_PT1000" Define="4" Comment="Бит типа входа PT1000" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_0_1V" Define="5" Comment="Бит типа входа 0..1V" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_0_10V_IN" Define="6" Comment="Бит типа входа 0..10V" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_4_20mA" Define="7" Comment="Бит типа входа 4..20mA" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_0_5V" Define="8" Comment="Бит типа входа 0..5V" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_0_20mA" Define="9" Comment="Бит типа входа 0..20mA" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_0_10V_OUT" Define="11" Comment="Бит типа выхода 0..10V" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_PWM_100Hz" Define="12" Comment="Бит типа входа/выхода PWM 100Hz" Access="UserDefined" />
+    <DefineWord Name="DF_IO_TYPE_BIT_PWM_2kHz" Define="13" Comment="Бит типа входа/выхода PWM 2 kHz" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_NONE" Define="0" Comment="Без единиц измерения" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_CELSIUS" Define="1" Comment="°C" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_KELVIN" Define="2" Comment="K" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_PERCENT" Define="3" Comment="%" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_BAR" Define="4" Comment="бар" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_SECOND" Define="5" Comment="сек" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_MINUTE" Define="6" Comment="мин" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_HOUR" Define="7" Comment="час" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_MILLIAMPERE" Define="8" Comment="мА" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_VOLT" Define="9" Comment="В" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_PPM" Define="10" Comment="ppm" Access="UserDefined" />
+    <DefineWord Name="DF_UOM_PASCAL" Define="11" Comment="Па" Access="UserDefined" />
+    <DefineWord Name="DF_UPG_STATE_UPGAVAILABLE" Define="20" Comment="Статус обновления: обновление доступно" Access="UserDefined" />
+    <DefineWord Name="DF_CPCO" Define="12" Comment="Контроллер cpCO" Access="UserDefined" />
+    <DefineWord Name="DF_CPCOMINI" Define="14" Comment="Контроллер cpCOmini" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_NO_TYPE" Define="255" Comment="Вх/вых отключен" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_PT1000" Define="1" Comment="Тип входа: PT 1000" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_0_1V" Define="2" Comment="Тип входа: 0-1 В" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_0_10V_IN" Define="3" Comment="Тип входа: 0-10 В" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_0_5V" Define="6" Comment="Тип входа: 0-5 В" Access="UserDefined" />
+    <DefineWord Name="DF_INPUT_TYPE_0_20mA" Define="42" Comment="Тип входа: 0-20 мА" Access="UserDefined" />
+    <DefineWord Name="DF_OUTPUT_TYPE_0_10V_OUT" Define="0" Comment="Тип выхода: 0-10 В" Access="UserDefined" />
+    <DefineWord Name="DF_OUTPUT_TYPE_PWM_100Hz" Define="3" Comment="Тип выхода: ШИМ 100 Гц" Access="UserDefined" />
+    <DefineWord Name="DF_OUTPUT_TYPE_PWM_2kHz" Define="5" Comment="Тип выхода: ШИМ 2 кГц" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SRC_ONOFF" Define="302" Comment="ХМ_SRC" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SV1_ONOFF" Define="300" Comment="ХМ_СЖ1" Access="UserDefined" />
+    <DefineWord Name="DF_SIG_SV2_ONOFF" Define="301" Comment="ХМ_СЖ2" Access="UserDefined" />
+    <DefineWord Name="DF_SUMMER" Define="3" Comment="ЛЕТО" Access="UserDefined" />
+  </DefineWords>
+  <DataTypes>
+    <DataType Name="VERSIONCHK_APPVER" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="X" DataType="UINT" Comment="X version of the application" StringSize="0" Order="1" />
+        <Variable Name="Y" DataType="UINT" Comment="Y version of the application" StringSize="0" Order="2" />
+        <Variable Name="Z" DataType="UINT" Comment="Z version of the application" StringSize="0" Order="3" />
+        <Variable Name="D" DataType="UINT" Comment="D version of the application" StringSize="0" Order="4" />
+        <Variable Name="IsBeta" DataType="BOOL" Comment="Beta version enable" StringSize="0" Order="5" />
+        <Variable Name="IsDemo" DataType="BOOL" Comment="Demo version enable" StringSize="0" Order="6" />
+      </Struct>
+    </DataType>
+    <DataType Name="SYSWRITE_VALUEIN" Comment="List of system parameters that can be write" Access="UserDefined">
+      <Array Order="1" DataType="UDINT" StringSize="0">
+        <Dimension Lower="1" Upper="5" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_CurDate" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Year" DataType="UINT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="NewYear" DataType="UINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="Month" DataType="UINT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="NewMonth" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Day" DataType="UINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="NewDay" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="Hour" DataType="UINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="NewHour" DataType="UINT" Comment="" StringSize="0" Order="8" />
+        <Variable Name="Minute" DataType="UINT" Comment="" StringSize="0" Order="9" />
+        <Variable Name="NewMinute" DataType="UINT" Comment="" StringSize="0" Order="10" />
+        <Variable Name="Second" DataType="UINT" Comment="" StringSize="0" Order="11" />
+        <Variable Name="NewSecond" DataType="UINT" Comment="" StringSize="0" Order="12" />
+        <Variable Name="WriteNewDate" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="DayOfWeek" DataType="UINT" Comment="" StringSize="0" Order="14" />
+      </Struct>
+    </DataType>
+    <DataType Name="SYSREAD_VALUEOUT" Comment="List of system parameters that can be read " Access="UserDefined">
+      <Array Order="1" DataType="UDINT" StringSize="0">
+        <Dimension Lower="1" Upper="5" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_Cooler" Comment="Структура охладителя" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Use" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Use_Chiller" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+        <Variable Name="Use_KKB" DataType="BOOL" Comment="" StringSize="0" Order="3" />
+        <Variable Name="KKB_Steps" DataType="USINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Use_Reg_T" DataType="BOOL" Comment="" StringSize="0" Order="5" />
+        <Variable Name="Use_Reg_H" DataType="BOOL" Comment="" StringSize="0" Order="6" />
+        <Variable Name="Use_Refridgerator" DataType="BOOL" Comment="" StringSize="0" Order="7" />
+        <Variable Name="CompNum" DataType="DINT" Comment="" StringSize="0" Order="8" />
+      </Struct>
+    </DataType>
+    <DataType Name="Compressor" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="R2Start" DataType="BOOL" Comment="Флаг готовности к пуску компрессора" StringSize="0" Order="1" />
+        <Variable Name="R2Stop" DataType="BOOL" Comment="Флаг готовности к остановке коспрессора" StringSize="0" Order="2" />
+        <Variable Name="Active" DataType="BOOL" Comment="Флаг компрессора  в работе" StringSize="0" Order="3" />
+        <Variable Name="Alarm" DataType="BOOL" Comment="Флаг компрессора в аварии" StringSize="0" Order="4" />
+        <Variable Name="N" DataType="UINT" Comment="Количество включений компрессора" StringSize="0" Order="5" />
+        <Variable Name="LifeTime" DataType="UDINT" Comment="Наработка компрессора" StringSize="0" Order="6" />
+        <Variable Name="RunTime" DataType="UDINT" Comment="Время работы компрессора" StringSize="0" Order="7" />
+        <Variable Name="LastStartTime" DataType="UDINT" Comment="Время последнего пуска компрессора" StringSize="0" Order="8" />
+        <Variable Name="LastStopTime" DataType="UDINT" Comment="Время последнего останова компрессора" StringSize="0" Order="9" />
+        <Variable Name="Warning" DataType="BOOL" Comment="Предупреждение компрессора" StringSize="0" Order="10" />
+        <Variable Name="LifeTimeRetain" DataType="UDINT" Comment="Наработка компрессора (пост.память)" StringSize="0" Order="11" />
+        <Variable Name="LastStopDate" DataType="UDINT" Comment="Дата последней остановки компрессора в сек (UNIX)" StringSize="0" Order="12" />
+        <Variable Name="High_LifeTime" DataType="UINT" Comment="Наработка компрессора(старшие биты)" StringSize="0" Order="13" />
+        <Variable Name="Low_LifeTime" DataType="UINT" Comment="Наработка компрессора(младшие биты)" StringSize="0" Order="14" />
+        <Variable Name="High_LastStopDate" DataType="UINT" Comment="Дата последней остановки комп.(старшие биты)" StringSize="0" Order="15" />
+        <Variable Name="Low_LastStopDate" DataType="UINT" Comment="Дата последней остановки комп.(младшие биты)" StringSize="0" Order="16" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_COMPRESSORS" Comment="Массив компрессоров" Access="UserDefined">
+      <Array Order="1" DataType="Compressor" StringSize="0">
+        <Dimension Lower="1" Upper="4" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_Compressors" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="SUM_R2Start" DataType="UINT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="SUM_R2Stop" DataType="UINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="SUM_Active" DataType="UINT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="SUM_Alarm" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Comp" DataType="ARR_COMPRESSORS" Comment="" StringSize="0" Order="5" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Analog_IO" Comment="Переменные входов/выходов" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Direction" DataType="USINT" Comment="Направление вх/вых" StringSize="0" Order="1" />
+        <Variable Name="IOType" DataType="USINT" Comment="Тип вх/вых" StringSize="0" Order="2" />
+        <Variable Name="Value" DataType="REAL" Comment="Переменная значения вх/вых" StringSize="0" Order="3" />
+        <Variable Name="Error" DataType="SINT" Comment="Ошибка вх/вых" StringSize="0" Order="4" />
+        <Variable Name="IOMin" DataType="REAL" Comment="Мин значение (для аналоговых)" StringSize="0" Order="5" />
+        <Variable Name="IOMax" DataType="REAL" Comment="Макс значение (для аналоговых)" StringSize="0" Order="6" />
+        <Variable Name="Filter" DataType="USINT" Comment="Значение фильтра" StringSize="0" Order="7" />
+        <Variable Name="Code" DataType="UINT" Comment="Код сигнала, привязанного к вх/вых" StringSize="0" Order="8" />
+        <Variable Name="Manual" DataType="BOOL" Comment="Флаг ручного управления" StringSize="0" Order="9" />
+        <Variable Name="Cur_Value" DataType="REAL" Comment="Текущее значение" StringSize="0" Order="10" />
+        <Variable Name="Inverse" DataType="BOOL" Comment="Инверсия для цифрового входа" StringSize="0" Order="11" />
+        <Variable Name="Offset" DataType="STCT_Offset" Comment="Смещение для ан.входа" StringSize="0" Order="12" />
+        <Variable Name="UoM" DataType="USINT" Comment="" StringSize="0" Order="13" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Digit_IO" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="BOOL" Comment="Значние" StringSize="0" Order="1" />
+        <Variable Name="Code" DataType="UDINT" Comment="Код" StringSize="0" Order="2" />
+        <Variable Name="Manual" DataType="BOOL" Comment="" StringSize="0" Order="3" />
+        <Variable Name="Cur_Value" DataType="BOOL" Comment="Текущее значние" StringSize="0" Order="4" />
+        <Variable Name="Inverse" DataType="BOOL" Comment="Инверсия" StringSize="0" Order="5" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_AnalogSens" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="REAL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="Offset" DataType="REAL" Comment="" StringSize="0" Order="2" />
+        <Variable Name="BreakSens" DataType="BOOL" Comment="" StringSize="0" Order="3" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_STCT_IO_REAL_0_179" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="REAL" StringSize="0">
+        <Dimension Lower="0" Upper="179" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_STCT_IO_USINT_1_179" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="USINT" StringSize="0">
+        <Dimension Lower="1" Upper="179" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_STCT_IO_UINT_1_179" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="UINT" StringSize="0">
+        <Dimension Lower="1" Upper="179" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_STCT_IO_USINT_1_448" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="USINT" StringSize="0">
+        <Dimension Lower="1" Upper="448" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_STCT_IO_SINT_0_179" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="SINT" StringSize="0">
+        <Dimension Lower="0" Upper="179" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_STCT_IO_BOOL_0_179" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="0" Upper="179" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_InvDI_BOOL_1_18" Comment="Для инверсии DI" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="135" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_InvU_BOOL_1_10" Comment="Для инверсии U" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_IO" Comment="Структура конфигурации вх/вых" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Values" DataType="ARR_STCT_IO_REAL_0_179" Comment="Значения вх/вых" StringSize="0" Order="1" />
+        <Variable Name="Types" DataType="ARR_STCT_IO_USINT_1_179" Comment="Тип вх/вых" StringSize="0" Order="2" />
+        <Variable Name="Type_Sup" DataType="ARR_STCT_IO_UINT_1_179" Comment="Поддерживаемые вх/вых типы" StringSize="0" Order="3" />
+        <Variable Name="Link_toTypes" DataType="ARR_STCT_IO_USINT_1_448" Comment="Ссылки на типы вх/вых" StringSize="0" Order="4" />
+        <Variable Name="Link_toCodes" DataType="ARR_STCT_IO_UINT_1_179" Comment="Ссылки на коды сигналов" StringSize="0" Order="5" />
+        <Variable Name="Errors" DataType="ARR_STCT_IO_SINT_0_179" Comment="Ошибки вх/вых" StringSize="0" Order="6" />
+        <Variable Name="Manual" DataType="ARR_STCT_IO_BOOL_0_179" Comment="Флаг ручного режима" StringSize="0" Order="7" />
+        <Variable Name="InvDI" DataType="ARR_InvDI_BOOL_1_18" Comment="Инверсия входов DI" StringSize="0" Order="8" />
+        <Variable Name="InvU" DataType="ARR_InvU_BOOL_1_10" Comment="Инверсия дискретных входов U" StringSize="0" Order="9" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_USINT8" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="USINT" StringSize="0">
+        <Dimension Lower="1" Upper="8" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_REAL8" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="REAL" StringSize="0">
+        <Dimension Lower="1" Upper="8" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_BOOL8" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="8" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_INT8" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="INT" StringSize="0">
+        <Dimension Lower="1" Upper="8" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_Display" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Descr" DataType="ARR_USINT8" Comment="Номер выхода в списке" StringSize="0" Order="1" />
+        <Variable Name="ControllerType" DataType="BOOL" Comment="Тип контроллера (0 - CTRL, 1 - TOP)" StringSize="0" Order="2" />
+        <Variable Name="MaskHeader" DataType="USINT" Comment="Заголовок" StringSize="0" Order="3" />
+        <Variable Name="value_BOOL" DataType="ARR_USINT8" Comment="Значения булевых переменных (1 - TRUE, 2 - FALSE)" StringSize="0" Order="4" />
+        <Variable Name="value_REAL" DataType="ARR_REAL8" Comment="Значения real переменных" StringSize="0" Order="5" />
+        <Variable Name="value_Type" DataType="ARR_USINT8" Comment="Показываем булевые значения" StringSize="0" Order="6" />
+        <Variable Name="en_RealValue" DataType="ARR_BOOL8" Comment="Показываем real значения" StringSize="0" Order="7" />
+        <Variable Name="value_INT" DataType="ARR_INT8" Comment="Значения целочисленных переменных" StringSize="0" Order="8" />
+        <Variable Name="en_IntValue" DataType="ARR_BOOL8" Comment="Показывает int значения" StringSize="0" Order="9" />
+        <Variable Name="UoM" DataType="ARR_USINT8" Comment="" StringSize="0" Order="10" />
+        <Variable Name="value_Address" DataType="ARR_USINT8" Comment="Адрес значения" StringSize="0" Order="11" />
+        <Variable Name="value_Storage" DataType="ARR_USINT8" Comment="Хранилище сначения" StringSize="0" Order="12" />
+        <Variable Name="value_MinREAL" DataType="ARR_REAL8" Comment="Минимальное значение переменной (REAL)" StringSize="0" Order="13" />
+        <Variable Name="value_MaxREAL" DataType="ARR_REAL8" Comment="Максимальное значение переменной (REAL)" StringSize="0" Order="14" />
+        <Variable Name="value_MinINT" DataType="ARR_INT8" Comment="Минимальное значение переменной (INT)" StringSize="0" Order="15" />
+        <Variable Name="value_MaxINT" DataType="ARR_INT8" Comment="Максимальное значение переменной (INT)" StringSize="0" Order="16" />
+        <Variable Name="Hint" DataType="USINT" Comment="Подсказка" StringSize="0" Order="17" />
+        <Variable Name="MaskID" DataType="USINT" Comment="ID текущей маски" StringSize="0" Order="18" />
+        <Variable Name="Index" DataType="DINT" Comment="Индекс" StringSize="0" Order="19" />
+        <Variable Name="value_DINT" DataType="ARR_DINT8" Comment="Значения DINT переменных" StringSize="0" Order="20" />
+      </Struct>
+    </DataType>
+    <DataType Name="UNIVCH_CPCOE" Comment="Universal channels values" Access="ReadOnly">
+      <Array Order="1" DataType="REAL" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="DOUT_CPCOE" Comment="Digital outputs values" Access="ReadOnly">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="6" />
+      </Array>
+    </DataType>
+    <DataType Name="VAL_CPCOE" Comment="Values readed/writed from cpCOe" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="UnivChs" DataType="UNIVCH_CPCOE" Comment="Universal channels" StringSize="0" Order="1" />
+        <Variable Name="DOuts" DataType="DOUT_CPCOE" Comment="Digital outputs" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="CFGUNIVCH_CPCOE" Comment="Configuration for universal channel of cpCOe" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="ChDir" DataType="UINT" Comment="Channel direction (0=IN, 1=OUT)" StringSize="0" Order="1" />
+        <Variable Name="ChTyp" DataType="UINT" Comment="Channel type" StringSize="0" Order="2" />
+        <Variable Name="ActPrbMin" DataType="REAL" Comment="Active probe minimum value" StringSize="0" Order="3" />
+        <Variable Name="ActPrbMax" DataType="REAL" Comment="Active probe maximum value" StringSize="0" Order="4" />
+        <Variable Name="FiltSamplesNo" DataType="UINT" Comment="Number of samples for filtering (0-9)" StringSize="0" Order="5" />
+        <Variable Name="PrbOff" DataType="REAL" Comment="Probe offset to adjust readed values (only for AIn)" StringSize="0" Order="6" />
+        <Variable Name="UpdThrsh" DataType="REAL" Comment="Minimum variation to make the slave notify the change to the master (only for AIn)" StringSize="0" Order="7" />
+        <Variable Name="EnSafeMode" DataType="BOOL" Comment="Safe mode enabling (FALSE=freeze output, TRUE=execute pattern)" StringSize="0" Order="8" />
+        <Variable Name="OfflinePattern" DataType="REAL" Comment="Pattern in case of offline if EnSafeMode=TRUE" StringSize="0" Order="9" />
+        <Variable Name="ActPrbAlrmDT" DataType="TIME" Comment="[Only in case of active probe AIn] Active probe alarm delay time" StringSize="0" Order="10" />
+        <Variable Name="ActPrbMinDelta" DataType="REAL" Comment="[Only in case of active probe AIn] Minimum variation to get during MinPeriod to avoid to trigger active probe alarm" StringSize="0" Order="11" />
+        <Variable Name="ActPrbMinPeriod" DataType="TIME" Comment="[Only in case of active probe AIn] Minimum period in which probe value must change at least of MinDelta, otherwise active probe alarm is triggered" StringSize="0" Order="12" />
+      </Struct>
+    </DataType>
+    <DataType Name="CFGUNIVCH_ARRAY_CPCOE" Comment="Universal channels configurations" Access="ReadOnly">
+      <Array Order="1" DataType="CFGUNIVCH_CPCOE" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="CFGDOUT_CPCOE" Comment="Configuration for digital output of cpCOe" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="ChTyp" DataType="UINT" Comment="Channel type (0=standard, 2=cyclic, 3=delayed)" StringSize="0" Order="1" />
+        <Variable Name="TOutOn" DataType="UINT" Comment="Delay in ms in which out is on (for types 2 and 3)" StringSize="0" Order="2" />
+        <Variable Name="TOutOff" DataType="UINT" Comment="Delay in ms in which out is off (for types 2 and 3)" StringSize="0" Order="3" />
+        <Variable Name="EnSafeMode" DataType="BOOL" Comment="Safe mode enabling (FALSE=freeze outputs, TRUE=execute pattern)" StringSize="0" Order="4" />
+        <Variable Name="OfflinePattern" DataType="BOOL" Comment="Pattern in case of offline if EnSafeMode=TRUE" StringSize="0" Order="5" />
+      </Struct>
+    </DataType>
+    <DataType Name="CFGDOUT_ARRAY_CPCOE" Comment="Digital outputs configurations" Access="ReadOnly">
+      <Array Order="1" DataType="CFGDOUT_CPCOE" StringSize="0">
+        <Dimension Lower="1" Upper="6" />
+      </Array>
+    </DataType>
+    <DataType Name="CFG_CPCOE" Comment="cpCOe configuration" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Parity" DataType="USINT" Comment="Line parity (0=NONE, 1=ODD, 2=EVEN)" StringSize="0" Order="1" />
+        <Variable Name="StopBits" DataType="USINT" Comment="Line stop bits (1 or 2)" StringSize="0" Order="2" />
+        <Variable Name="SlvTimeout" DataType="UINT" Comment="Slave offline tiemout in milliseconds" StringSize="0" Order="3" />
+        <Variable Name="SafeModeDT" DataType="UINT" Comment="Delay time to wait before to enter in safe mode in milliseconds" StringSize="0" Order="4" />
+        <Variable Name="UnivChs" DataType="CFGUNIVCH_ARRAY_CPCOE" Comment="Universal channels configuration" StringSize="0" Order="5" />
+        <Variable Name="DOuts" DataType="CFGDOUT_ARRAY_CPCOE" Comment="Digital outputs configuration" StringSize="0" Order="6" />
+      </Struct>
+    </DataType>
+    <DataType Name="ERR_CPCOE" Comment="Universal channels error codes" Access="ReadOnly">
+      <Array Order="1" DataType="INT" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="ALRM_CPCOE" Comment="Universal channels active probes alarms" Access="ReadOnly">
+      <Array Order="1" DataType="BOOL" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="INFO_CPCOE" Comment="Informations about cpCOe device" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="FwVersionH" DataType="UINT" Comment="Version of firmware running on cpCOe, first part" StringSize="0" Order="1" />
+        <Variable Name="FwVersionL" DataType="UINT" Comment="Version of firmware running on cpCOe, second part" StringSize="0" Order="2" />
+        <Variable Name="FwDate" DataType="DATE" Comment="Date of firmware running on cpCOe" StringSize="0" Order="3" />
+      </Struct>
+    </DataType>
+    <DataType Name="COMM_ERR_CPCOE" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="DevErr_StartUp" DataType="INT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="DevErr_Cfg" DataType="INT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="DevErr_IO" DataType="INT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="ErrCode_StartUp" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="ErrCode_Cfg" DataType="UINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="ErrCode_IO" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="DevErr_ExtPosit" DataType="INT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="ErrCode_ExtPosit" DataType="UINT" Comment="" StringSize="0" Order="8" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_AnalogIO" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="STCT_Analog_IO" StringSize="0">
+        <Dimension Lower="1" Upper="10" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_CPCOE" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Cfg" DataType="CFG_CPCOE" Comment="" StringSize="0" Order="1" />
+        <Variable Name="En" DataType="BOOL" Comment="" StringSize="0" Order="2" />
+        <Variable Name="ExtPosit" DataType="TEEV" Comment="" StringSize="0" Order="3" />
+        <Variable Name="ValsIn" DataType="VAL_CPCOE" Comment="" StringSize="0" Order="4" />
+        <Variable Name="Address" DataType="UINT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="ExtAddress" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="Protocol" DataType="USINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="Online" DataType="BOOL" Comment="" StringSize="0" Order="8" />
+        <Variable Name="ValsOut" DataType="VAL_CPCOE" Comment="" StringSize="0" Order="9" />
+        <Variable Name="Errors" DataType="ERR_CPCOE" Comment="" StringSize="0" Order="10" />
+        <Variable Name="ActPrbAlrm" DataType="ALRM_CPCOE" Comment="" StringSize="0" Order="11" />
+        <Variable Name="OfflineAlrm" DataType="BOOL" Comment="" StringSize="0" Order="12" />
+        <Variable Name="ThrshWarnPollTime" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="CfgErr" DataType="UINT" Comment="" StringSize="0" Order="14" />
+        <Variable Name="Info" DataType="INFO_CPCOE" Comment="" StringSize="0" Order="15" />
+        <Variable Name="DevAddrExt" DataType="UDINT" Comment="" StringSize="0" Order="16" />
+        <Variable Name="CommErr" DataType="COMM_ERR_CPCOE" Comment="" StringSize="0" Order="17" />
+        <Variable Name="U" DataType="ARR_AnalogIO" Comment="" StringSize="0" Order="18" />
+        <Variable Name="DOut" DataType="ARR_DigitOuts" Comment="" StringSize="0" Order="19" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_EVD" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="FB" DataType="BOOL" Comment="Обратная связь (авария)" StringSize="0" Order="1" />
+        <Variable Name="On" DataType="BOOL" Comment="Флаг включения" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_DigitOuts" Comment="" Access="UserDefined">
+      <Array Order="1" DataType="STCT_Digit_IO" StringSize="0">
+        <Dimension Lower="1" Upper="6" />
+      </Array>
+    </DataType>
+    <DataType Name="ARR_MAIN_MENU_USINT" Comment="Для основного меню" Access="UserDefined">
+      <Array Order="1" DataType="USINT" StringSize="0">
+        <Dimension Lower="0" Upper="51" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_Main_Menu" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Start" DataType="ARR_MAIN_MENU_USINT" Comment="" StringSize="0" Order="1" />
+        <Variable Name="End" DataType="ARR_MAIN_MENU_USINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="State" DataType="ARR_MAIN_MENU_USINT" Comment="" StringSize="0" Order="3" />
+      </Struct>
+    </DataType>
+    <DataType Name="ARR_DINT8" Comment="Для Display" Access="UserDefined">
+      <Array Order="1" DataType="DINT" StringSize="0">
+        <Dimension Lower="1" Upper="8" />
+      </Array>
+    </DataType>
+    <DataType Name="STCT_PortConfig" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Port" DataType="USINT" Comment="Номер порта" StringSize="0" Order="1" />
+        <Variable Name="Baudrate" DataType="UDINT" Comment="Скорость передачи данных" StringSize="0" Order="2" />
+        <Variable Name="StopBits" DataType="USINT" Comment="Количество стоп битов" StringSize="0" Order="3" />
+        <Variable Name="Parity" DataType="USINT" Comment="Четность" StringSize="0" Order="4" />
+      </Struct>
+    </DataType>
+    <DataType Name="STCT_Offset" Comment="" Access="UserDefined">
+      <Struct FieldOrder="0" Order="1">
+        <Variable Name="Value" DataType="REAL" Comment="Значение" StringSize="0" Order="1" />
+        <Variable Name="Min" DataType="REAL" Comment="Минимальное значение" StringSize="0" Order="2" />
+        <Variable Name="Max" DataType="REAL" Comment="Максимальное значение" StringSize="0" Order="3" />
+        <Variable Name="Step" DataType="REAL" Comment="Шаг изменения" StringSize="0" Order="4" />
+      </Struct>
+    </DataType>
+    <DataType Name="TEEV" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="1" Order="3">
+        <Variable Name="Enable" DataType="BOOL" Comment="" StringSize="0" Order="1" />
+        <Variable Name="PositionToSet" DataType="UINT" Comment="" StringSize="0" Order="2" />
+        <Variable Name="VariationToSet" DataType="INT" Comment="" StringSize="0" Order="3" />
+        <Variable Name="CurrentEstimatedPosition" DataType="UINT" Comment="" StringSize="0" Order="4" />
+        <Variable Name="VariationRemaining" DataType="INT" Comment="" StringSize="0" Order="5" />
+        <Variable Name="MaxSteps" DataType="UINT" Comment="" StringSize="0" Order="6" />
+        <Variable Name="MinSteps" DataType="UINT" Comment="" StringSize="0" Order="7" />
+        <Variable Name="ClosingSteps" DataType="UINT" Comment="" StringSize="0" Order="8" />
+        <Variable Name="NominalCurrent" DataType="UINT" Comment="" StringSize="0" Order="9" />
+        <Variable Name="HoldingCurrent" DataType="UINT" Comment="" StringSize="0" Order="10" />
+        <Variable Name="Speed" DataType="UINT" Comment="" StringSize="0" Order="11" />
+        <Variable Name="DutyCycle" DataType="UINT" Comment="" StringSize="0" Order="12" />
+        <Variable Name="DutyCycleEnable" DataType="BOOL" Comment="" StringSize="0" Order="13" />
+        <Variable Name="OpeningXSteps" DataType="BOOL" Comment="" StringSize="0" Order="14" />
+        <Variable Name="ClosingXSteps" DataType="BOOL" Comment="" StringSize="0" Order="15" />
+        <Variable Name="FastClosingSpeed" DataType="UINT" Comment="" StringSize="0" Order="16" />
+        <Variable Name="FastClosingSpeedEnable" DataType="BOOL" Comment="" StringSize="0" Order="17" />
+        <Variable Name="Alarms" DataType="USINT" Comment="" StringSize="0" Order="18" />
+      </Struct>
+    </DataType>
+    <DataType Name="ALM" Comment="" Access="ReadOnly">
+      <Struct FieldOrder="1" Order="4">
+        <Variable Name="Trigger" DataType="BOOL" Comment="Alarm status Trigger" StringSize="0" Order="1" />
+        <Variable Name="Active" DataType="BOOL" Comment="Alarm status" StringSize="0" Order="2" />
+      </Struct>
+    </DataType>
+  </DataTypes>
+  <Networks>
+    <Network Name="HSD" SingleTextLine="" LocalNet="true" DistributedNet="false" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters />
+      <ConnectionParameters />
+      <ResourceParameters>
+        <Parameter Name="ValidityTime" Format="Long" Default="0" Access="UserDefined" SingleTextLine="Produced Variables validity time." LocalNet="false" DistributedNet="false" />
+      </ResourceParameters>
+      <VariableParameters />
+    </Network>
+    <Network Name="ETCP" SingleTextLine="" LocalNet="false" DistributedNet="true" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters />
+      <ConnectionParameters>
+        <Parameter Name="IPAddress" Format="String" Default="127.0.0.1" Access="UserDefined" SingleTextLine="IP address or Computer name" LocalNet="false" DistributedNet="true" />
+      </ConnectionParameters>
+      <ResourceParameters>
+        <Parameter Name="TimeOut" Format="Long" Default="10000" Access="UserDefined" SingleTextLine="Maximum allowed time (in ms) to transport a variable" LocalNet="false" DistributedNet="true" />
+      </ResourceParameters>
+      <VariableParameters />
+    </Network>
+    <Network Name="ISARSI" SingleTextLine="" LocalNet="false" DistributedNet="true" Comment="" UsedForBinding="true" BindingService="false" AllowWorkbenchCommunications="true">
+      <Parameters>
+        <Parameter Name="Port" Format="String" Default="COM6" Access="UserDefined" SingleTextLine="Workbench communication port" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="BaudRate" Format="Long" Default="115200" Access="UserDefined" SingleTextLine="Data transfer baud rate" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="Parity" Format="Character" Default="N" Access="UserDefined" SingleTextLine="N: None, E: Even, O: Odd" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="StopBit" Format="Word" Default="1" Access="UserDefined" SingleTextLine="1 or 2 Stop bits" LocalNet="false" DistributedNet="true" />
+        <Parameter Name="HardwareFlowControl" Format="Boolean" Default="FALSE" Access="UserDefined" SingleTextLine="TRUE when using hardware flow control" LocalNet="false" DistributedNet="true" />
+      </Parameters>
+      <ConnectionParameters />
+      <ResourceParameters />
+      <VariableParameters />
+    </Network>
+  </Networks>
+  <NetworkInstances>
+    <NetworkInstance NetworkName="ISARSI" Name="USB1" />
+  </NetworkInstances>
+  <Targets>
+    <Target Name="CAREL_PCO" />
+  </Targets>
+  <Configurations>
+    <Configuration Name="Device1" ElementGuid="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" />
+  </Configurations>
+</Project>

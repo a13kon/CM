@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Info ManifestVersion="1.1.0">
+    <Name>UNIVERSAL_CM</Name>
+    <Description>Программа для Холодильной машины в установках POOL и ICE.</Description>
+    <Version>0.1.2</Version>
+    <CreationDate>2020-02-20T07:46:49.2135307Z</CreationDate>
+    <Owner>TechnoGroup</Owner>
+    <StorageToolManaged>false</StorageToolManaged>
+    <CSuiteVersion>5.1.6</CSuiteVersion>
+    <TeamWorkingManaged>false</TeamWorkingManaged>
+  </Info>
+</Solution>

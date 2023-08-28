@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">pCO</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dcf9044b-b334-4884-b2f7-333e0cbcd8f0</ProjectGuid>
+    <RepositoryPath>..\..\..\Configurations\UNIVERSAL_CM\Device1.otr</RepositoryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>Bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>Bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Resources\2PixelLine_3_12x8.bmp" />
+    <Compile Include="Resources\alarm_pGD.bmp" />
+    <Compile Include="Resources\Analog_Input_12x16_1.bmp" />
+    <Compile Include="Resources\Analog_Input_12x16_black_1.bmp" />
+    <Compile Include="Resources\Analog_Output_12x16_1.bmp" />
+    <Compile Include="Resources\Analog_Output_12x16_black_1.bmp" />
+    <Compile Include="Resources\Black_.bmp" />
+    <Compile Include="Resources\Black_rows_120x16.bmp" />
+    <Compile Include="Resources\Black_rows_36x8_2.bmp" />
+    <Compile Include="Resources\Black_row_54x8_round_0.bmp" />
+    <Compile Include="Resources\Black_row_54x8_round_1.bmp" />
+    <Compile Include="Resources\BMS_OFF_18x16_1.bmp" />
+    <Compile Include="Resources\BMS_ON_18x16_1.bmp" />
+    <Compile Include="Resources\Clock_timer_dark_8x8_v.1.0.bmp" />
+    <Compile Include="Resources\Clock_timer_light_8x8_v.1.0.bmp" />
+    <Compile Include="Resources\Comp_Pause_4.bmp" />
+    <Compile Include="Resources\Comp_PlayPause_4.bmp" />
+    <Compile Include="Resources\Comp_Play_4.bmp" />
+    <Compile Include="Resources\Comp_Stop_4.bmp" />
+    <Compile Include="Resources\Config_12x16_1.bmp" />
+    <Compile Include="Resources\Config_12x16_black_1.bmp" />
+    <Compile Include="Resources\Controller_12x16_1.bmp" />
+    <Compile Include="Resources\Controller_12x16_black_1.bmp" />
+    <Compile Include="Resources\ControlMode_12x16_2.bmp" />
+    <Compile Include="Resources\ControlMode_12x16_black_2.bmp" />
+    <Compile Include="Resources\Cool_12x16_3.bmp" />
+    <Compile Include="Resources\Cool_12x16_black_3.bmp" />
+    <Compile Include="Resources\Cool_16x36.bmp" />
+    <Compile Include="Resources\Cool_16x36_C.bmp" />
+    <Compile Include="Resources\Correct_12x16_1.bmp" />
+    <Compile Include="Resources\Correct_12x16_black_1.bmp" />
+    <Compile Include="Resources\Data_Time.bmp" />
+    <Compile Include="Resources\Data_Time_black.bmp" />
+    <Compile Include="Resources\Digital_Input_12x16_1.bmp" />
+    <Compile Include="Resources\Digital_Input_12x16_black_1.bmp" />
+    <Compile Include="Resources\Digital_Output_12x16_1.bmp" />
+    <Compile Include="Resources\Digital_Output_12x16_black_1.bmp" />
+    <Compile Include="Resources\DOOR.bmp" />
+    <Compile Include="Resources\Down_Arrow_12x16_1.bmp" />
+    <Compile Include="Resources\Down_Arrow_12x16_empty_1.bmp" />
+    <Compile Include="Resources\Drop_1.bmp" />
+    <Compile Include="Resources\Empty_12x16_1.bmp" />
+    <Compile Include="Resources\EMPTY_18x16_1.bmp" />
+    <Compile Include="Resources\Empty_18x8.bmp" />
+    <Compile Include="Resources\Empty_3_18x24.bmp" />
+    <Compile Include="Resources\Empty_6x8.bmp" />
+    <Compile Include="Resources\Empty_8x16.bmp" />
+    <Compile Include="Resources\Fan.bmp" />
+    <Compile Include="Resources\FanBroke_4.bmp" />
+    <Compile Include="Resources\Fan_black.bmp" />
+    <Compile Include="Resources\Fifth_12x8_1.bmp" />
+    <Compile Include="Resources\First_12x8_1.bmp" />
+    <Compile Include="Resources\Fourth_12x8_1.bmp" />
+    <Compile Include="Resources\Global16x36.bmp" />
+    <Compile Include="Resources\Global16x36_C.bmp" />
+    <Compile Include="Resources\Heat_12x16_4.bmp" />
+    <Compile Include="Resources\Heat_12x16_black_4.bmp" />
+    <Compile Include="Resources\History.bmp" />
+    <Compile Include="Resources\History_black.bmp" />
+    <Compile Include="Resources\Home_12.2.bmp" />
+    <Compile Include="Resources\Hot_18x8_2.bmp" />
+    <Compile Include="Resources\Info_16x36.bmp" />
+    <Compile Include="Resources\Info_16x36_C.bmp" />
+    <Compile Include="Resources\IO_Reset_18x16_1.bmp" />
+    <Compile Include="Resources\IO_Reset_18x16_black_1.bmp" />
+    <Compile Include="Resources\Language_2.bmp" />
+    <Compile Include="Resources\Language_2_black.bmp" />
+    <Compile Include="Resources\Left_Arrow_8x6_1.bmp" />
+    <Compile Include="Resources\LogOut.bmp" />
+    <Compile Include="Resources\Logout_black.bmp" />
+    <Compile Include="Resources\logo_CM_132x64_1.bmp" />
+    <Compile Include="Resources\logo_CM_132x64_2.bmp" />
+    <Compile Include="Resources\logo_empty_132x64.bmp" />
+    <Compile Include="Resources\LostConnect_18x8.bmp" />
+    <Compile Include="Resources\Maint.bmp" />
+    <Compile Include="Resources\Maint_black.bmp" />
+    <Compile Include="Resources\Manuf.bmp" />
+    <Compile Include="Resources\Manuf_black.bmp" />
+    <Compile Include="Resources\MASTER_OFF_18x16_1.bmp" />
+    <Compile Include="Resources\MASTER_ON_18x16_1.bmp" />
+    <Compile Include="Resources\MHumidity_12x16_1.bmp" />
+    <Compile Include="Resources\MHumidity_12x16_black_1.bmp" />
+    <Compile Include="Resources\Microclimate_12x16_3.bmp" />
+    <Compile Include="Resources\Microclimate_12x16_black_3.bmp" />
+    <Compile Include="Resources\MTemperature_12x16_1.bmp" />
+    <Compile Include="Resources\MTemperature_12x16_black_1.bmp" />
+    <Compile Include="Resources\Net_12x16_2.bmp" />
+    <Compile Include="Resources\Net_12x16_black_2.bmp" />
+    <Compile Include="Resources\OnOff_16x36.bmp" />
+    <Compile Include="Resources\OnOff_16x36_C.bmp" />
+    <Compile Include="Resources\PauseBox_10.bmp" />
+    <Compile Include="Resources\PlayBox_10.bmp" />
+    <Compile Include="Resources\Pwd Change.bmp" />
+    <Compile Include="Resources\Pwd Change_black.bmp" />
+    <Compile Include="Resources\RC_OFF_18x16_1.bmp" />
+    <Compile Include="Resources\RC_ON_18x16_1.bmp" />
+    <Compile Include="Resources\Recuperator_12x16_3.bmp" />
+    <Compile Include="Resources\Recuperator_12x16_black_3.bmp" />
+    <Compile Include="Resources\Recycling_12x16_4.bmp" />
+    <Compile Include="Resources\Recycling_12x16_black_4.bmp" />
+    <Compile Include="Resources\Restore_12x16_1.bmp" />
+    <Compile Include="Resources\Restore_12x16_black_1.bmp" />
+    <Compile Include="Resources\Right_Arrow_8x6_1.bmp" />
+    <Compile Include="Resources\Schedule_12x16_3.bmp" />
+    <Compile Include="Resources\Schedule_12x16_black_3.bmp" />
+    <Compile Include="Resources\Schedule_OFF_18x16_1.bmp" />
+    <Compile Include="Resources\Schedule_ON_18x16_1.bmp" />
+    <Compile Include="Resources\Second_12x8_1.bmp" />
+    <Compile Include="Resources\Sequences_16x36_3.bmp" />
+    <Compile Include="Resources\Sequences_16x36_3_C.bmp" />
+    <Compile Include="Resources\Seq_Cool_Dis_6_18x24.bmp" />
+    <Compile Include="Resources\Seq_Cool_En_6_18x24.bmp" />
+    <Compile Include="Resources\Seq_Heat_Dis_6_18x24.bmp" />
+    <Compile Include="Resources\Seq_Heat_En_6_18x24.bmp" />
+    <Compile Include="Resources\Serial Port.bmp" />
+    <Compile Include="Resources\SerialPort_black.bmp" />
+    <Compile Include="Resources\SetTemp16x36.bmp" />
+    <Compile Include="Resources\SetTemp16x36_C.bmp" />
+    <Compile Include="Resources\SliderL9.bmp" />
+    <Compile Include="Resources\SliderR9.bmp" />
+    <Compile Include="Resources\StopBox_10.bmp" />
+    <Compile Include="Resources\Switcher_OFF_42x48_2.bmp" />
+    <Compile Include="Resources\Switcher_ON_42x48_2.bmp" />
+    <Compile Include="Resources\Third_12x8_1.bmp" />
+    <Compile Include="Resources\Tube_FanOff_4.bmp" />
+    <Compile Include="Resources\Tube_FanOnRev_4.bmp" />
+    <Compile Include="Resources\Tube_FanOn_4.bmp" />
+    <Compile Include="Resources\Tuning_12x16_1.bmp" />
+    <Compile Include="Resources\Tuning_12x16_black_1.bmp" />
+    <Compile Include="Resources\UpDown2.bmp" />
+    <Compile Include="Resources\Upgrade_12x16_1.bmp" />
+    <Compile Include="Resources\Upgrade_12x16_black_1.bmp" />
+    <Compile Include="Resources\Up_Arrow_12x16_1.bmp" />
+    <Compile Include="Resources\Up_Arrow_12x16_empty_1.bmp" />
+    <Compile Include="Resources\USB_12x16_2.bmp" />
+    <Compile Include="Resources\USB_Download_12x16_1.bmp" />
+    <Compile Include="Resources\USB_Download_12x16_black_1.bmp" />
+    <Compile Include="Resources\USB_Host_12x16_1.bmp" />
+    <Compile Include="Resources\USB_Host_12x16_black_1.bmp" />
+    <Compile Include="Resources\USB_Upload_12x16_1.bmp" />
+    <Compile Include="Resources\USB_Upload_12x16_black_1.bmp" />
+    <Compile Include="Resources\VortexDiffusor_12x16_3.bmp" />
+    <Compile Include="Resources\VortexDiffusor_12x16_black_3.bmp" />
+    <Compile Include="Resources\Warning_12x8_1.bmp" />
+    <Compile Include="Resources\White_rows_120x16.bmp" />
+    <Compile Include="Resources\Wizard_12x16_1.bmp" />
+    <Compile Include="Resources\Wizard_12x16_black_1.bmp" />
+    <Compile Include="Terminal1\Code.st" />
+    <Compile Include="Terminal1\Classes.otsf" />
+    <Compile Include="Terminal1\Layout.otwp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Terminal1\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\Carel.targets" />
+</Project>
